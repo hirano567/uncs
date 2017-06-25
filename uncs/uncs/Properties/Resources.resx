@@ -1,0 +1,3885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALSTR_AgnosticToMachineModule" xml:space="preserve">
+    <value>Agnostic assembly cannot have a processor specific module '{0}'</value>
+  </data>
+  <data name="ALSTR_AppNeedsMain" xml:space="preserve">
+    <value>Entry point required for executable applications</value>
+  </data>
+  <data name="ALSTR_AssemblyModuleImportError" xml:space="preserve">
+    <value>Error importing module '{1}' of assembly '{0}' -- {2}</value>
+  </data>
+  <data name="ALSTR_AutoResGen" xml:space="preserve">
+    <value>Error generating resources for '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_BadMainFound" xml:space="preserve">
+    <value>'{0}' cannot be the entry point because the signature or visibility is incorrect, or it is generic</value>
+  </data>
+  <data name="ALSTR_BadOptionValue" xml:space="preserve">
+    <value>'{1}' is not a valid setting for option '{0}'</value>
+  </data>
+  <data name="ALSTR_BadOptionValueHR" xml:space="preserve">
+    <value>Cannot set option '{0}' because '{1}'</value>
+  </data>
+  <data name="ALSTR_BadSwitch" xml:space="preserve">
+    <value>Unrecognized command-line option: '{0}'</value>
+  </data>
+  <data name="ALSTR_BANNER1" xml:space="preserve">
+    <value>Microsoft (R) Shared Source CLI Assembly Linker version </value>
+  </data>
+  <data name="ALSTR_BANNER1PART2" xml:space="preserve">
+    <value>for Microsoft (R) Shared Source CLI version </value>
+  </data>
+  <data name="ALSTR_BANNER2" xml:space="preserve">
+    <value>Copyright (C) Microsoft Corporation. All rights reserved.</value>
+  </data>
+  <data name="ALSTR_BinaryFile" xml:space="preserve">
+    <value>'{0}' is a binary file instead of a text file</value>
+  </data>
+  <data name="ALSTR_BUGREPORTWARN" xml:space="preserve">
+    <value>A file is being created with information needed to reproduce your compiler problem. This information includes: software versions, the pathnames and contents of source code files, referenced assemblies, and modules, compiler options, compiler output, and any additional information you provide in the following prompts.</value>
+  </data>
+  <data name="ALSTR_CantAddAssembly" xml:space="preserve">
+    <value>'{0}' is an assembly and cannot be added as a module</value>
+  </data>
+  <data name="ALSTR_CantAddExes" xml:space="preserve">
+    <value>'{0}': EXEs cannot be added modules</value>
+  </data>
+  <data name="ALSTR_CantEmbedResource" xml:space="preserve">
+    <value>Error embedding resource '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_CantOpenBinaryAsText" xml:space="preserve">
+    <value>File '{0}' is an executable file and cannot be opened as a text file</value>
+  </data>
+  <data name="ALSTR_CantOpenFileWrite" xml:space="preserve">
+    <value>Can't open '{0}' for writing</value>
+  </data>
+  <data name="ALSTR_CantReadIcon" xml:space="preserve">
+    <value>Error reading icon '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_CantReadResource" xml:space="preserve">
+    <value>Error reading embedded resource '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_CantRenameAssembly" xml:space="preserve">
+    <value>Assembly '{0}' cannot be copied or renamed.</value>
+  </data>
+  <data name="ALSTR_ComPlusInit" xml:space="preserve">
+    <value>Unexpected common language runtime initialization error -- '{0}'</value>
+  </data>
+  <data name="ALSTR_ConflictingMachineAssembly" xml:space="preserve">
+    <value>Referenced assembly '{0}' targets a different processor</value>
+  </data>
+  <data name="ALSTR_ConflictingMachineModule" xml:space="preserve">
+    <value>Assembly and module '{0}' cannot target different processors</value>
+  </data>
+  <data name="ALSTR_CryptoFailed" xml:space="preserve">
+    <value>The cryptographic service is not installed properly or does not have a suitable key provider</value>
+  </data>
+  <data name="ALSTR_CryptoFileFailed" xml:space="preserve">
+    <value>Error reading key file '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_CryptoHashFailed" xml:space="preserve">
+    <value>Cryptographic failure while creating hashes -- {0}</value>
+  </data>
+  <data name="ALSTR_CryptoNoKeyContainer" xml:space="preserve">
+    <value>The key container name '{0}' does not exist</value>
+  </data>
+  <data name="ALSTR_DelaySignWithNoKey" xml:space="preserve">
+    <value>Delay signing was requested, but no key was given</value>
+  </data>
+  <data name="ALSTR_DuplicateCA" xml:space="preserve">
+    <value>Assembly custom attribute '{0}' was specified multiple times with different values</value>
+  </data>
+  <data name="ALSTR_DuplicateExportedType" xml:space="preserve">
+    <value>Public type '{0}' is defined in multiple places in this assembly: '{1}' and '{2}'</value>
+  </data>
+  <data name="ALSTR_DuplicateModule" xml:space="preserve">
+    <value>Module '{0}' is already defined in this assembly. Each linked resource and module must have a unique filename.</value>
+  </data>
+  <data name="ALSTR_DuplicateResponseFile" xml:space="preserve">
+    <value>Response file '{0}' was already included</value>
+  </data>
+  <data name="ALSTR_DuplicateTypeForwarders" xml:space="preserve">
+    <value>Type '{0}' is forwarded to multiple assemblies: '{1}' and '{2}'</value>
+  </data>
+  <data name="ALSTR_DupResourceIdent" xml:space="preserve">
+    <value>Resource identifier '{0}' has already been used in this assembly</value>
+  </data>
+  <data name="ALSTR_EmitCAFailed" xml:space="preserve">
+    <value>Error emitting '{0}' attribute --'{1}'</value>
+  </data>
+  <data name="ALSTR_ENTERCORRECT" xml:space="preserve">
+    <value>Describe what you think should have happened (press Enter twice to finish):</value>
+  </data>
+  <data name="ALSTR_ENTERDESC" xml:space="preserve">
+    <value>Please describe the compiler problem (press Enter twice to finish):</value>
+  </data>
+  <data name="ALSTR_ExeHasCulture" xml:space="preserve">
+    <value>Executables cannot be satellite assemblies, Culture should always be empty</value>
+  </data>
+  <data name="ALSTR_FeatureDeprecated" xml:space="preserve">
+    <value>The feature you are using '{0}' is no longer supported; please use '{1}' instead</value>
+  </data>
+  <data name="ALSTR_FileNameTooLong" xml:space="preserve">
+    <value>Filename '{0}' is too long or invalid</value>
+  </data>
+  <data name="ALSTR_FileTooBig" xml:space="preserve">
+    <value>File '{0}' too big to open</value>
+  </data>
+  <data name="ALSTR_FusionInit" xml:space="preserve">
+    <value>Initialization of global assembly cache manager failed -- {0}</value>
+  </data>
+  <data name="ALSTR_FusionInstallFailed" xml:space="preserve">
+    <value>Failed to install assembly into cache -- {0}</value>
+  </data>
+  <data name="ALSTR_HELP10" xml:space="preserve">
+    <value>Usage: al [options] [sources]</value>
+  </data>
+  <data name="ALSTR_HELP20" xml:space="preserve">
+    <value>Options: ('/out' must be specified)</value>
+  </data>
+  <data name="ALSTR_HELP30" xml:space="preserve">
+    <value>Sources: (at least one source input is required)</value>
+  </data>
+  <data name="ALSTR_H_ALGID" xml:space="preserve">
+    <value>  /algid:&lt;id&gt;               Algorithm used to hash files (in hexadecimal)</value>
+  </data>
+  <data name="ALSTR_H_BASEADDRESS" xml:space="preserve">
+    <value>  /base[address]:&lt;addr&gt;     Base address for the library</value>
+  </data>
+  <data name="ALSTR_H_BUGREPORT" xml:space="preserve">
+    <value>  /bugreport:&lt;filename&gt;     Create a 'Bug Report' file</value>
+  </data>
+  <data name="ALSTR_H_COMPANY" xml:space="preserve">
+    <value>  /comp[any]:&lt;text&gt;         Company name</value>
+  </data>
+  <data name="ALSTR_H_CONFIG" xml:space="preserve">
+    <value>  /config[uration]:&lt;text&gt;   Configuration string</value>
+  </data>
+  <data name="ALSTR_H_COPYRIGHT" xml:space="preserve">
+    <value>  /copy[right]:&lt;text&gt;       Copyright message</value>
+  </data>
+  <data name="ALSTR_H_DELAYSIGN" xml:space="preserve">
+    <value>  /delay[sign][+|-]         Delay sign this assembly</value>
+  </data>
+  <data name="ALSTR_H_DESCR" xml:space="preserve">
+    <value>  /descr[iption]:&lt;text&gt;     Description</value>
+  </data>
+  <data name="ALSTR_H_EMBED1" xml:space="preserve">
+    <value>  /embed[resource]:&lt;filename&gt;[,&lt;name&gt;[,Private]]</value>
+  </data>
+  <data name="ALSTR_H_EMBED2" xml:space="preserve">
+    <value>                            embed the file as a resource in the assembly</value>
+  </data>
+  <data name="ALSTR_H_EVIDENCE" xml:space="preserve">
+    <value>  /e[vidence]:&lt;filename&gt;    Security evidence file to embed</value>
+  </data>
+  <data name="ALSTR_H_FILEVER" xml:space="preserve">
+    <value>  /fileversion:&lt;version&gt;    Optional Win32 version (overrides assembly version)</value>
+  </data>
+  <data name="ALSTR_H_FLAGS" xml:space="preserve">
+    <value>  /flags:&lt;flags&gt;            Assembly flags  (in hexadecimal)</value>
+  </data>
+  <data name="ALSTR_H_FULLPATHS" xml:space="preserve">
+    <value>  /fullpaths                Display files using fully-qualified filenames</value>
+  </data>
+  <data name="ALSTR_H_HELP" xml:space="preserve">
+    <value>  /? or /help               Display this usage message</value>
+  </data>
+  <data name="ALSTR_H_KEYFILE" xml:space="preserve">
+    <value>  /keyf[ile]:&lt;filename&gt;     File containing key to sign the assembly</value>
+  </data>
+  <data name="ALSTR_H_KEYNAME" xml:space="preserve">
+    <value>  /keyn[ame]:&lt;text&gt;         Key container name of key to sign assembly</value>
+  </data>
+  <data name="ALSTR_H_LINK1" xml:space="preserve">
+    <value>  /link[resource]:&lt;filename&gt;[,&lt;name&gt;[,&lt;targetfile&gt;[,Private]]]</value>
+  </data>
+  <data name="ALSTR_H_LINK2" xml:space="preserve">
+    <value>                            link the file as a resource to the assembly</value>
+  </data>
+  <data name="ALSTR_H_LOCALE" xml:space="preserve">
+    <value>  /c[ulture]:&lt;text&gt;         Supported culture</value>
+  </data>
+  <data name="ALSTR_H_MAIN" xml:space="preserve">
+    <value>  /main:&lt;method&gt;            Specifies the method name of the entry point</value>
+  </data>
+  <data name="ALSTR_H_NOLOGO" xml:space="preserve">
+    <value>  /nologo                   Suppress the startup banner and copyright message</value>
+  </data>
+  <data name="ALSTR_H_OUT" xml:space="preserve">
+    <value>  /out:&lt;filename&gt;           Output file name for the assembly manifest</value>
+  </data>
+  <data name="ALSTR_H_PLATFORM" xml:space="preserve">
+    <value>  /platform:&lt;text&gt;          Limit which platforms this code can run on; must be</value>
+  </data>
+  <data name="ALSTR_H_PLATFORM2" xml:space="preserve">
+    <value>                            one of x86, Itanium, x64, or anycpu (the default)</value>
+  </data>
+  <data name="ALSTR_H_PRODUCT" xml:space="preserve">
+    <value>  /prod[uct]:&lt;text&gt;         Product name</value>
+  </data>
+  <data name="ALSTR_H_PRODVER" xml:space="preserve">
+    <value>  /productv[ersion]:&lt;text&gt;  Product version</value>
+  </data>
+  <data name="ALSTR_H_RESPONSE" xml:space="preserve">
+    <value>  @&lt;filename&gt;               Read response file for more options</value>
+  </data>
+  <data name="ALSTR_H_SOURCEFILE" xml:space="preserve">
+    <value>  &lt;filename&gt;[,&lt;targetfile&gt;] add file to assembly</value>
+  </data>
+  <data name="ALSTR_H_TARGET" xml:space="preserve">
+    <value>  /t[arget]:lib[rary]       Create a library</value>
+  </data>
+  <data name="ALSTR_H_TARGET2" xml:space="preserve">
+    <value>  /t[arget]:exe             Create a console executable</value>
+  </data>
+  <data name="ALSTR_H_TARGET3" xml:space="preserve">
+    <value>  /t[arget]:win[exe]        Create a Windows executable</value>
+  </data>
+  <data name="ALSTR_H_TEMPLATE" xml:space="preserve">
+    <value>  /template:&lt;filename&gt;      Specifies an assembly to get default options from</value>
+  </data>
+  <data name="ALSTR_H_TITLE" xml:space="preserve">
+    <value>  /title:&lt;text&gt;             Title</value>
+  </data>
+  <data name="ALSTR_H_TRADEMARK" xml:space="preserve">
+    <value>  /trade[mark]:&lt;text&gt;       Trademark message</value>
+  </data>
+  <data name="ALSTR_H_VERSION" xml:space="preserve">
+    <value>  /v[ersion]:&lt;version&gt;      Version (use * to auto-generate remaining numbers)</value>
+  </data>
+  <data name="ALSTR_H_WIN32ICON" xml:space="preserve">
+    <value>  /win32icon:&lt;filename&gt;     Use this icon for the output</value>
+  </data>
+  <data name="ALSTR_H_WIN32RES" xml:space="preserve">
+    <value>  /win32res:&lt;filename&gt;      Specifies the Win32 resource file</value>
+  </data>
+  <data name="ALSTR_IgnoringAssembly" xml:space="preserve">
+    <value>Ignoring included assembly '{0}'</value>
+  </data>
+  <data name="ALSTR_IgnoringDuplicateSource" xml:space="preserve">
+    <value>Module '{0}' was specified multiple times; it will only be included once</value>
+  </data>
+  <data name="ALSTR_IllegalOptionChar" xml:space="preserve">
+    <value>Character '{0}' is not allowed on the command-line or in response files</value>
+  </data>
+  <data name="ALSTR_InitError" xml:space="preserve">
+    <value>Unexpected initialization error -- '{0}'</value>
+  </data>
+  <data name="ALSTR_InputFileNameTooLong" xml:space="preserve">
+    <value>File name '{0}' is too long or invalid</value>
+  </data>
+  <data name="ALSTR_InternalError" xml:space="preserve">
+    <value>Internal compiler error</value>
+  </data>
+  <data name="ALSTR_InvalidFileDefInComType" xml:space="preserve">
+    <value>ComType record '{0}' points to an invalid file record '{1}'</value>
+  </data>
+  <data name="ALSTR_InvalidOSString" xml:space="preserve">
+    <value>The operating system specified '{0}' is invalid</value>
+  </data>
+  <data name="ALSTR_InvalidTime" xml:space="preserve">
+    <value>Cannot auto-generate build and revision version numbers for dates previous to January 1, 2000</value>
+  </data>
+  <data name="ALSTR_InvalidVersionFormat" xml:space="preserve">
+    <value>The version '{1}' specified for the '{0}' is not in the normal 'major.minor.build.revision' format</value>
+  </data>
+  <data name="ALSTR_InvalidVersionString" xml:space="preserve">
+    <value>The version specified '{0}' is invalid</value>
+  </data>
+  <data name="ALSTR_MetaDataError" xml:space="preserve">
+    <value>Metadata failure while creating assembly -- {0}</value>
+  </data>
+  <data name="ALSTR_MissingOptionArg" xml:space="preserve">
+    <value>Compiler option '{0}' must be followed by an argument</value>
+  </data>
+  <data name="ALSTR_ModuleImportError" xml:space="preserve">
+    <value>Error importing file '{0}' -- {1}</value>
+  </data>
+  <data name="ALSTR_ModuleNameDifferent" xml:space="preserve">
+    <value>Module name '{1}' stored in '{0}' must match its filename</value>
+  </data>
+  <data name="ALSTR_NeedPrivateKey" xml:space="preserve">
+    <value>Key file '{0}' is missing the private key needed for signing</value>
+  </data>
+  <data name="ALSTR_NoFileSpec" xml:space="preserve">
+    <value>Missing file specification for '{0}' command-line option</value>
+  </data>
+  <data name="ALSTR_NoInputs" xml:space="preserve">
+    <value>No valid input files were specified</value>
+  </data>
+  <data name="ALSTR_NoMainFound" xml:space="preserve">
+    <value>Unable to find the entry point method '{0}'</value>
+  </data>
+  <data name="ALSTR_NoMainOnDLLs" xml:space="preserve">
+    <value>Libraries cannot have an entry point</value>
+  </data>
+  <data name="ALSTR_NoMemory" xml:space="preserve">
+    <value>Out of memory</value>
+  </data>
+  <data name="ALSTR_NoOutput" xml:space="preserve">
+    <value>No target filename was specified</value>
+  </data>
+  <data name="ALSTR_N_ALGID" xml:space="preserve">
+    <value>hash algorithm</value>
+  </data>
+  <data name="ALSTR_N_COMPANY" xml:space="preserve">
+    <value>company</value>
+  </data>
+  <data name="ALSTR_N_CONFIG" xml:space="preserve">
+    <value>configuration</value>
+  </data>
+  <data name="ALSTR_N_COPYRIGHT" xml:space="preserve">
+    <value>copyright</value>
+  </data>
+  <data name="ALSTR_N_DELAYSIGN" xml:space="preserve">
+    <value>delay sign</value>
+  </data>
+  <data name="ALSTR_N_DESCR" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="ALSTR_N_FILEVER" xml:space="preserve">
+    <value>file version</value>
+  </data>
+  <data name="ALSTR_N_FLAGS" xml:space="preserve">
+    <value>assembly flags</value>
+  </data>
+  <data name="ALSTR_N_FRIENDASSEM" xml:space="preserve">
+    <value>System.Runtime.CompilerServices.InternalIsVisibleToAttribute</value>
+  </data>
+  <data name="ALSTR_N_KEYFILE" xml:space="preserve">
+    <value>key file</value>
+  </data>
+  <data name="ALSTR_N_KEYNAME" xml:space="preserve">
+    <value>key container name</value>
+  </data>
+  <data name="ALSTR_N_LOCALE" xml:space="preserve">
+    <value>culture</value>
+  </data>
+  <data name="ALSTR_N_OS" xml:space="preserve">
+    <value>operating system</value>
+  </data>
+  <data name="ALSTR_N_PROC" xml:space="preserve">
+    <value>processor</value>
+  </data>
+  <data name="ALSTR_N_PRODUCT" xml:space="preserve">
+    <value>product name</value>
+  </data>
+  <data name="ALSTR_N_PRODVER" xml:space="preserve">
+    <value>product version</value>
+  </data>
+  <data name="ALSTR_N_SATELLITEVER" xml:space="preserve">
+    <value>System.Resources.SatelliteContractVersionAttribute</value>
+  </data>
+  <data name="ALSTR_N_TITLE" xml:space="preserve">
+    <value>title</value>
+  </data>
+  <data name="ALSTR_N_TRADEMARK" xml:space="preserve">
+    <value>trademark</value>
+  </data>
+  <data name="ALSTR_N_VERSION" xml:space="preserve">
+    <value>version</value>
+  </data>
+  <data name="ALSTR_OpenResponseFile" xml:space="preserve">
+    <value>Error opening response file '{0}' -- '{1}'</value>
+  </data>
+  <data name="ALSTR_OPTDSC_ARGORITHMID" xml:space="preserve">
+    <value>Specifies an algorithm to hash files in a multifile assembly</value>
+  </data>
+  <data name="ALSTR_OPTDSC_COMPANY" xml:space="preserve">
+    <value>Specifies a string for the Company field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_CONFIGURATION" xml:space="preserve">
+    <value>Specifies a string for the Configuration field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_COPYRIGHT" xml:space="preserve">
+    <value>Specifies a string for the Copyright field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_CULTURE" xml:space="preserve">
+    <value>Specifies the culture string to associate with the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_DESCRIPTION" xml:space="preserve">
+    <value>Specifies a string for the Description field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_EVIDENCE" xml:space="preserve">
+    <value>Embeds file in the assembly with the resource name of Security.Evidence.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_FILEVERSION" xml:space="preserve">
+    <value>Specifies a string for the File Version field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_FLAGS" xml:space="preserve">
+    <value>Specifies a value for the Flags field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_PRODUCT" xml:space="preserve">
+    <value>Specifies a string for the Product field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_PRODUCTVERSION" xml:space="preserve">
+    <value>Specifies a string for the Product Version field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_TEMPLATE" xml:space="preserve">
+    <value>Specifies the assembly from which to inherit assembly metadata</value>
+  </data>
+  <data name="ALSTR_OPTDSC_TITLE" xml:space="preserve">
+    <value>Specifies a string for the Title field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_TRADEMARK" xml:space="preserve">
+    <value>Specifies a string for the Trademark field in the assembly.</value>
+  </data>
+  <data name="ALSTR_OPTDSC_VERSION" xml:space="preserve">
+    <value>Specifies version information for this assembly.</value>
+  </data>
+  <data name="ALSTR_OPTGRP_OPTIONS" xml:space="preserve">
+    <value>- OPTIONS -</value>
+  </data>
+  <data name="ALSTR_OPTGRP_SOURCES" xml:space="preserve">
+    <value>- SOURCES -</value>
+  </data>
+  <data name="ALSTR_OptionConflicts" xml:space="preserve">
+    <value>'{0}' : overriding previous setting</value>
+  </data>
+  <data name="ALSTR_OPTSYN_ARGORITHMID" xml:space="preserve">
+    <value>/algid:&lt;algorithm ID&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_COMPANY" xml:space="preserve">
+    <value>/comp[any]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_CONFIGURATION" xml:space="preserve">
+    <value>/config[uration]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_COPYRIGHT" xml:space="preserve">
+    <value>/copy[right]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_CULTURE" xml:space="preserve">
+    <value>/c[ulture]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_DESCRIPTION" xml:space="preserve">
+    <value>/descr[iption]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_EVIDENCE" xml:space="preserve">
+    <value>/e[vidence]:&lt;file&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_FILEVERSION" xml:space="preserve">
+    <value>/fileversion:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_FLAGS" xml:space="preserve">
+    <value>/flags:&lt;int&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_PRODUCT" xml:space="preserve">
+    <value>/prod[uct]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_PRODUCTVERSION" xml:space="preserve">
+    <value>/productv[ersion]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_TEMPLATE" xml:space="preserve">
+    <value>/template:&lt;file&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_TITLE" xml:space="preserve">
+    <value>/title:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_TRADEMARK" xml:space="preserve">
+    <value>/trade[mark]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OPTSYN_VERSION" xml:space="preserve">
+    <value>/v[ersion]:&lt;string&gt;</value>
+  </data>
+  <data name="ALSTR_OutputFileExists" xml:space="preserve">
+    <value>Cannot create short filename '{0}' when a long filename with the same short filename already exists</value>
+  </data>
+  <data name="ALSTR_ParentNotAnAssembly" xml:space="preserve">
+    <value>File '{0}' is not an assembly</value>
+  </data>
+  <data name="ALSTR_RefHasCulture" xml:space="preserve">
+    <value>Referenced assembly '{0}' is a localized satellite assembly</value>
+  </data>
+  <data name="ALSTR_RefNotStrong" xml:space="preserve">
+    <value>Referenced assembly '{0}' does not have a strong name</value>
+  </data>
+  <data name="ALSTR_REPROBINFILE" xml:space="preserve">
+    <value>### Binary file: '{0}'</value>
+  </data>
+  <data name="ALSTR_REPROCOMMANDLINE" xml:space="preserve">
+    <value>### ALink command line</value>
+  </data>
+  <data name="ALSTR_REPROCORRECTBEHAVIOR" xml:space="preserve">
+    <value>### User suggested correct behavior</value>
+  </data>
+  <data name="ALSTR_REPRODESCRIPTION" xml:space="preserve">
+    <value>### User description</value>
+  </data>
+  <data name="ALSTR_REPRODIAGS" xml:space="preserve">
+    <value>### ALink output</value>
+  </data>
+  <data name="ALSTR_REPROLCID" xml:space="preserve">
+    <value>### Console and Defect Report Code Page: {0}</value>
+  </data>
+  <data name="ALSTR_REPROOS" xml:space="preserve">
+    <value>### Operating System: {0} {1}.{2}.{3}   {4}</value>
+  </data>
+  <data name="ALSTR_REPROSOURCEFILE" xml:space="preserve">
+    <value>### Source file: '{0}'</value>
+  </data>
+  <data name="ALSTR_REPROTITLE" xml:space="preserve">
+    <value>### Assembly Linker Defect Report, created {0}</value>
+  </data>
+  <data name="ALSTR_REPROURTVER" xml:space="preserve">
+    <value>### .NET Common Language Runtime version: {0}</value>
+  </data>
+  <data name="ALSTR_REPROVER" xml:space="preserve">
+    <value>### ALink version: {0}</value>
+  </data>
+  <data name="ALSTR_RequiredFileNotFound" xml:space="preserve">
+    <value>Required file '{0}' could not be loaded</value>
+  </data>
+  <data name="ALSTR_SameOutAndSource" xml:space="preserve">
+    <value>Manifest filename '{0}' cannot be the same as any modules</value>
+  </data>
+  <data name="ALSTR_SwitchNeedsString" xml:space="preserve">
+    <value>Command-line syntax error: Missing ':&lt;text&gt;' for '{0}' option</value>
+  </data>
+  <data name="ALSTR_TypeFwderMatchesDeclared" xml:space="preserve">
+    <value>Public type '{0}' is defined in '{1}' and forwarded to '{2}'</value>
+  </data>
+  <data name="ALSTR_UnknownError" xml:space="preserve">
+    <value>Unknown error ({0})</value>
+  </data>
+  <data name="CSCSTR_AbstractAndExtern" xml:space="preserve">
+    <value>'{0}' cannot be both extern and abstract</value>
+  </data>
+  <data name="CSCSTR_AbstractAndSealed" xml:space="preserve">
+    <value>'{0}' cannot be both abstract and sealed</value>
+  </data>
+  <data name="CSCSTR_AbstractAttributeClass" xml:space="preserve">
+    <value>Cannot apply attribute class '{0}' because it is abstract</value>
+  </data>
+  <data name="CSCSTR_AbstractBaseCall" xml:space="preserve">
+    <value>Cannot call an abstract base member: '{0}'</value>
+  </data>
+  <data name="CSCSTR_AbstractEventInitializer" xml:space="preserve">
+    <value>'{0}': abstract event cannot have initializer</value>
+  </data>
+  <data name="CSCSTR_AbstractField" xml:space="preserve">
+    <value>The modifier 'abstract' is not valid on fields. Try using a property instead.</value>
+  </data>
+  <data name="CSCSTR_AbstractHasBody" xml:space="preserve">
+    <value>'{0}' cannot declare a body because it is marked abstract</value>
+  </data>
+  <data name="CSCSTR_AbstractInConcreteClass" xml:space="preserve">
+    <value>'{0}' is abstract but it is contained in nonabstract class '{1}'</value>
+  </data>
+  <data name="CSCSTR_AbstractNotVirtual" xml:space="preserve">
+    <value>The abstract method '{0}' cannot be marked virtual</value>
+  </data>
+  <data name="CSCSTR_AbstractSealedStatic" xml:space="preserve">
+    <value>'{0}': an abstract class cannot be sealed or static</value>
+  </data>
+  <data name="CSCSTR_AccessModMissingAccessor" xml:space="preserve">
+    <value>'{0}': accessibility modifiers on accessors may only be used if the property or indexer has both a get and a set accessor</value>
+  </data>
+  <data name="CSCSTR_AccessorImplementingMethod" xml:space="preserve">
+    <value>Accessor '{0}' cannot implement interface member '{1}' for type '{2}'. Use an explicit interface implementation.</value>
+  </data>
+  <data name="CSCSTR_AddModuleAssembly" xml:space="preserve">
+    <value>'{0}' cannot be added to this assembly because it already is an assembly; use '/R' option instead</value>
+  </data>
+  <data name="CSCSTR_AddOrRemoveExpected" xml:space="preserve">
+    <value>An add or remove accessor expected</value>
+  </data>
+  <data name="CSCSTR_AddRemoveMustHaveBody" xml:space="preserve">
+    <value>An add or remove accessor must have a body</value>
+  </data>
+  <data name="CSCSTR_AddrOnReadOnlyLocal" xml:space="preserve">
+    <value>Cannot take the address of a read-only local variable</value>
+  </data>
+  <data name="CSCSTR_AK_CLASS" xml:space="preserve">
+    <value>class</value>
+  </data>
+  <data name="CSCSTR_AK_DELEGATE" xml:space="preserve">
+    <value>delegate</value>
+  </data>
+  <data name="CSCSTR_AK_ENUM" xml:space="preserve">
+    <value>enum</value>
+  </data>
+  <data name="CSCSTR_AK_INTERFACE" xml:space="preserve">
+    <value>interface</value>
+  </data>
+  <data name="CSCSTR_AK_STRUCT" xml:space="preserve">
+    <value>struct</value>
+  </data>
+  <data name="CSCSTR_AK_UNKNOWN" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="CSCSTR_AliasMissingFile" xml:space="preserve">
+    <value>Invalid reference alias option: '{0}=' -- missing filename</value>
+  </data>
+  <data name="CSCSTR_AliasNotFound" xml:space="preserve">
+    <value>Alias '{0}' not found</value>
+  </data>
+  <data name="CSCSTR_AliasQualAsExpression" xml:space="preserve">
+    <value>The namespace alias qualifier '::' always resolves to a type or namespace so is illegal here. Consider using '.' instead.</value>
+  </data>
+  <data name="CSCSTR_ALinkCloseFailed" xml:space="preserve">
+    <value>Assembly signing failed; output may not be signed -- {0}</value>
+  </data>
+  <data name="CSCSTR_ALinkFailed" xml:space="preserve">
+    <value>Assembly generation failed -- {0}</value>
+  </data>
+  <data name="CSCSTR_ALinkWarn" xml:space="preserve">
+    <value>Assembly generation -- {0}</value>
+  </data>
+  <data name="CSCSTR_AlwaysNull" xml:space="preserve">
+    <value>The result of the expression is always 'null' of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_AmbigBinaryOps" xml:space="preserve">
+    <value>Operator '{0}' is ambiguous on operands of type '{1}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_AmbigCall" xml:space="preserve">
+    <value>The call is ambiguous between the following methods or properties: '{0}' and '{1}'</value>
+  </data>
+  <data name="CSCSTR_AmbigContext" xml:space="preserve">
+    <value>'{0}' is an ambiguous reference between '{1}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_AmbigLookupMeth" xml:space="preserve">
+    <value>Ambiguity between method '{0}' and non-method '{1}'. Using method group.</value>
+  </data>
+  <data name="CSCSTR_AmbigMember" xml:space="preserve">
+    <value>Ambiguity between '{0}' and '{1}'</value>
+  </data>
+  <data name="CSCSTR_AmbigousAttribute" xml:space="preserve">
+    <value>'{0}' is ambiguous between '{1}' and '{2}'; use either '@{0}' or '{0}Attribute'</value>
+  </data>
+  <data name="CSCSTR_AmbigOverride" xml:space="preserve">
+    <value>The inherited members '{0}' and '{1}' have the same signature in type '{2}', so they cannot be overridden</value>
+  </data>
+  <data name="CSCSTR_AmbigQM" xml:space="preserve">
+    <value>Type of conditional expression cannot be determined because '{0}' and '{1}' implicitly convert to one another</value>
+  </data>
+  <data name="CSCSTR_AmbigUDConv" xml:space="preserve">
+    <value>Ambiguous user defined conversions '{0}' and '{1}' when converting from '{2}' to '{3}'</value>
+  </data>
+  <data name="CSCSTR_AmbigUnaryOp" xml:space="preserve">
+    <value>Operator '{0}' is ambiguous on an operand of type '{1}'</value>
+  </data>
+  <data name="CSCSTR_AmbiguousXMLReference" xml:space="preserve">
+    <value>Ambiguous reference in cref attribute: '{0}'. Assuming '{1}', but could have also matched other overloads including '{2}'.</value>
+  </data>
+  <data name="CSCSTR_AnonDelegateCantUse" xml:space="preserve">
+    <value>Cannot use ref or out parameter '{0}' inside an anonymous method block</value>
+  </data>
+  <data name="CSCSTR_AnonMethGrpInForEach" xml:space="preserve">
+    <value>Foreach cannot operate on a '{0}'. Did you intend to invoke the '{0}'?</value>
+  </data>
+  <data name="CSCSTR_AnonMethNotAllowed" xml:space="preserve">
+    <value>Expression cannot contain anonymous methods</value>
+  </data>
+  <data name="CSCSTR_AnonMethod" xml:space="preserve">
+    <value>anonymous method</value>
+  </data>
+  <data name="CSCSTR_AnonMethToNonDel" xml:space="preserve">
+    <value>Cannot convert {0} to type '{1}' because it is not a delegate type</value>
+  </data>
+  <data name="CSCSTR_AnonymousReturnExpected" xml:space="preserve">
+    <value>Anonymous method of type '{0}': not all code paths return a value</value>
+  </data>
+  <data name="CSCSTR_ArgsInvalid" xml:space="preserve">
+    <value>The __arglist construct is valid only within a variable argument method</value>
+  </data>
+  <data name="CSCSTR_ArrayElementCantBeRefAny" xml:space="preserve">
+    <value>Array elements cannot be of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_ArrayInitInBadPlace" xml:space="preserve">
+    <value>Array initializers can only be used in a variable or field initializer. Try using a new expression instead.</value>
+  </data>
+  <data name="CSCSTR_ArrayInitToNonArrayType" xml:space="preserve">
+    <value>Can only use array initializer expressions to assign to array types. Try using a new expression instead.</value>
+  </data>
+  <data name="CSCSTR_ArrayOfStaticClass" xml:space="preserve">
+    <value>'{0}': array elements cannot be of static type</value>
+  </data>
+  <data name="CSCSTR_ArraySizeInDeclaration" xml:space="preserve">
+    <value>Array size cannot be specified in a variable declaration (try initializing with a 'new' expression)</value>
+  </data>
+  <data name="CSCSTR_AsMustHaveReferenceType" xml:space="preserve">
+    <value>The as operator must be used with a reference type ('{0}' is a value type)</value>
+  </data>
+  <data name="CSCSTR_AssemblyMatchBadVersion" xml:space="preserve">
+    <value>Assembly '{0}' uses '{1}' which has a higher version than referenced assembly '{2}'</value>
+  </data>
+  <data name="CSCSTR_AssemblyNameOnNonModule" xml:space="preserve">
+    <value>The /moduleassemblyname option may only be specified when building a target type of 'module'</value>
+  </data>
+  <data name="CSCSTR_AssgLvalueExpected" xml:space="preserve">
+    <value>The left-hand side of an assignment must be a variable, property or indexer</value>
+  </data>
+  <data name="CSCSTR_AssgReadonly" xml:space="preserve">
+    <value>A readonly field cannot be assigned to (except in a constructor or a variable initializer)</value>
+  </data>
+  <data name="CSCSTR_AssgReadonly2" xml:space="preserve">
+    <value>Members of readonly field '{0}' cannot be modified (except in a constructor or a variable initializer)</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyLocal" xml:space="preserve">
+    <value>Cannot assign to '{0}' because it is read-only</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyLocal2" xml:space="preserve">
+    <value>Cannot modify members of '{0}' because it is read-only</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyLocal2Cause" xml:space="preserve">
+    <value>Cannot modify members of '{0}' because it is a '{1}'</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyLocalCause" xml:space="preserve">
+    <value>Cannot assign to '{0}' because it is a '{1}'</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyProp" xml:space="preserve">
+    <value>Property or indexer '{0}' cannot be assigned to -- it is read only</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyStatic" xml:space="preserve">
+    <value>A static readonly field cannot be assigned to (except in a static constructor or a variable initializer)</value>
+  </data>
+  <data name="CSCSTR_AssgReadonlyStatic2" xml:space="preserve">
+    <value>Fields of static readonly field '{0}' cannot be assigned to (except in a static constructor or a variable initializer)</value>
+  </data>
+  <data name="CSCSTR_AssignmentToLockOrDispose" xml:space="preserve">
+    <value>Possibly incorrect assignment to local '{0}' which is the argument to a using or lock statement. The Dispose call or unlocking will happen on the original value of the local.</value>
+  </data>
+  <data name="CSCSTR_AssignmentToSelf" xml:space="preserve">
+    <value>Assignment made to same variable; did you mean to assign something else?</value>
+  </data>
+  <data name="CSCSTR_AssumedMatchThis" xml:space="preserve">
+    <value>Circular assembly reference '{0}' does not match the output assembly name '{1}'. Try adding a reference to '{0}' or changing the output assembly name to match.</value>
+  </data>
+  <data name="CSCSTR_AsWithTypeVar" xml:space="preserve">
+    <value>The type parameter '{0}' cannot be used with the 'as' operator because it does not have a class type constraint nor a 'class' constraint</value>
+  </data>
+  <data name="CSCSTR_AttrArgWithTypeVars" xml:space="preserve">
+    <value>'{0}': an attribute argument cannot use type parameters</value>
+  </data>
+  <data name="CSCSTR_AttributeCantBeGeneric" xml:space="preserve">
+    <value>'&lt;' unexpected : attributes cannot be generic</value>
+  </data>
+  <data name="CSCSTR_AttributeLocationOnBadDeclaration" xml:space="preserve">
+    <value>'{0}' is not a valid attribute location for this declaration. Valid attribute locations for this declaration are '{1}'. All attributes in this block will be ignored.</value>
+  </data>
+  <data name="CSCSTR_AttributeNotOnAccessor" xml:space="preserve">
+    <value>Attribute '{0}' is not valid on property or event accessors. It is valid on '{1}' declarations only.</value>
+  </data>
+  <data name="CSCSTR_AttributeOnBadSymbolType" xml:space="preserve">
+    <value>Attribute '{0}' is not valid on this declaration type. It is valid on '{1}' declarations only.</value>
+  </data>
+  <data name="CSCSTR_AttributeUsageOnNonAttributeClass" xml:space="preserve">
+    <value>Attribute '{0}' is only valid on classes derived from System.Attribute</value>
+  </data>
+  <data name="CSCSTR_AttrOnTypeArg" xml:space="preserve">
+    <value>Attributes cannot be used on type arguments, only on type parameters</value>
+  </data>
+  <data name="CSCSTR_AutoResGen" xml:space="preserve">
+    <value>Error generating Win32 resource: {0}</value>
+  </data>
+  <data name="CSCSTR_BadAccess" xml:space="preserve">
+    <value>'{0}' is inaccessible due to its protection level</value>
+  </data>
+  <data name="CSCSTR_BadArgCount" xml:space="preserve">
+    <value>No overload for method '{0}' takes '{1}' arguments</value>
+  </data>
+  <data name="CSCSTR_BadArgExtraRef" xml:space="preserve">
+    <value>Argument '{0}' should not be passed with the '{1}' keyword</value>
+  </data>
+  <data name="CSCSTR_BadArgRef" xml:space="preserve">
+    <value>Argument '{0}' must be passed with the '{1}' keyword</value>
+  </data>
+  <data name="CSCSTR_BadArgType" xml:space="preserve">
+    <value>Argument '{0}': cannot convert from '{1}' to '{2}'</value>
+  </data>
+  <data name="CSCSTR_BadArgTypes" xml:space="preserve">
+    <value>The best overloaded method match for '{0}' has some invalid arguments</value>
+  </data>
+  <data name="CSCSTR_BadArgumentToAttribute" xml:space="preserve">
+    <value>The argument to the '{0}' attribute must be a valid identifier</value>
+  </data>
+  <data name="CSCSTR_BadArity" xml:space="preserve">
+    <value>Using the generic {1} '{0}' requires '{2}' type arguments</value>
+  </data>
+  <data name="CSCSTR_BadArraySyntax" xml:space="preserve">
+    <value>Array type specifier, [], must appear before parameter name</value>
+  </data>
+  <data name="CSCSTR_BadAttributeParam" xml:space="preserve">
+    <value>An attribute argument must be a constant expression, typeof expression or array creation expression</value>
+  </data>
+  <data name="CSCSTR_BADBASENUMBER" xml:space="preserve">
+    <value>Invalid image base number '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadBaseType" xml:space="preserve">
+    <value>Invalid base type</value>
+  </data>
+  <data name="CSCSTR_BadBinaryOperatorSignature" xml:space="preserve">
+    <value>One of the parameters of a binary operator must be the containing type</value>
+  </data>
+  <data name="CSCSTR_BadBinaryOps" xml:space="preserve">
+    <value>Operator '{0}' cannot be applied to operands of type '{1}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_BadBinOpArgs" xml:space="preserve">
+    <value>Overloaded binary operator '{0}' takes two parameters</value>
+  </data>
+  <data name="CSCSTR_BadBoolOp" xml:space="preserve">
+    <value>In order to be applicable as a short circuit operator a user-defined logical operator ('{0}') must have the same return type as the type of its 2 parameters</value>
+  </data>
+  <data name="CSCSTR_BadBoundType" xml:space="preserve">
+    <value>'{0}' is not a valid constraint. A type used as a constraint must be an interface, a non-sealed class or a type parameter.</value>
+  </data>
+  <data name="CSCSTR_BadCastInFixed" xml:space="preserve">
+    <value>The right hand side of a fixed statement assignment may not be a cast expression</value>
+  </data>
+  <data name="CSCSTR_BadCoClassSig" xml:space="preserve">
+    <value>The managed coclass wrapper class signature '{0}' for interface '{1}' is not a valid class name signature</value>
+  </data>
+  <data name="CSCSTR_BADCODEPAGE" xml:space="preserve">
+    <value>Code page '{0}' is invalid or not installed</value>
+  </data>
+  <data name="CSCSTR_BadCompatMode" xml:space="preserve">
+    <value>Invalid option '{0}' for /langversion; must be ISO-1 or Default</value>
+  </data>
+  <data name="CSCSTR_BadConstraintType" xml:space="preserve">
+    <value>Invalid constraint type. A type used as a constraint must be an interface, a non-sealed class or a type parameter.</value>
+  </data>
+  <data name="CSCSTR_BadConstType" xml:space="preserve">
+    <value>The type '{0}' cannot be declared const</value>
+  </data>
+  <data name="CSCSTR_BadDebugType" xml:space="preserve">
+    <value>Invalid option '{0}' for /debug; must be full or pdbonly</value>
+  </data>
+  <data name="CSCSTR_BadDelArgCount" xml:space="preserve">
+    <value>Delegate '{0}' does not take '{1}' arguments</value>
+  </data>
+  <data name="CSCSTR_BadDelArgTypes" xml:space="preserve">
+    <value>Delegate '{0}' has some invalid arguments</value>
+  </data>
+  <data name="CSCSTR_BadDelegateConstructor" xml:space="preserve">
+    <value>The delegate '{0}' does not have a valid constructor</value>
+  </data>
+  <data name="CSCSTR_BadDelegateLeave" xml:space="preserve">
+    <value>Control cannot leave the body of an anonymous method</value>
+  </data>
+  <data name="CSCSTR_BadDestructorName" xml:space="preserve">
+    <value>Name of destructor must match name of class</value>
+  </data>
+  <data name="CSCSTR_BadDirectivePlacement" xml:space="preserve">
+    <value>Preprocessor directives must appear as the first non-whitespace character on a line</value>
+  </data>
+  <data name="CSCSTR_BadEmbeddedStmt" xml:space="preserve">
+    <value>Embedded statement cannot be a declaration or labeled statement</value>
+  </data>
+  <data name="CSCSTR_BadEmptyThrow" xml:space="preserve">
+    <value>A throw statement with no arguments is not allowed outside of a catch clause</value>
+  </data>
+  <data name="CSCSTR_BadEmptyThrowInFinally" xml:space="preserve">
+    <value>A throw statement with no arguments is not allowed inside of a finally clause nested inside of the innermost catch clause</value>
+  </data>
+  <data name="CSCSTR_BadEventUsage" xml:space="preserve">
+    <value>The event '{0}' can only appear on the left hand side of += or -= (except when used from within the type '{1}')</value>
+  </data>
+  <data name="CSCSTR_BadEventUsageNoField" xml:space="preserve">
+    <value>The event '{0}' can only appear on the left hand side of += or -=</value>
+  </data>
+  <data name="CSCSTR_BadExceptionType" xml:space="preserve">
+    <value>The type caught or thrown must be derived from System.Exception</value>
+  </data>
+  <data name="CSCSTR_BadExternAlias" xml:space="preserve">
+    <value>The extern alias '{0}' was not specified in a /reference option</value>
+  </data>
+  <data name="CSCSTR_BadExternIdentifier" xml:space="preserve">
+    <value>Invalid extern alias for '/reference'; '{0}' is not a valid identifier</value>
+  </data>
+  <data name="CSCSTR_BadFileAlignment" xml:space="preserve">
+    <value>Invalid file section alignment number '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadFinallyLeave" xml:space="preserve">
+    <value>Control cannot leave the body of a finally clause</value>
+  </data>
+  <data name="CSCSTR_BadFixedInitType" xml:space="preserve">
+    <value>The type of locals declared in a fixed statement must be a pointer type</value>
+  </data>
+  <data name="CSCSTR_BadForeachDecl" xml:space="preserve">
+    <value>Type and identifier are both required in a foreach statement</value>
+  </data>
+  <data name="CSCSTR_BadGetEnumerator" xml:space="preserve">
+    <value>foreach requires that the return type '{0}' of '{1}' must have a suitable public MoveNext method and public Current property</value>
+  </data>
+  <data name="CSCSTR_BadIncDecRetType" xml:space="preserve">
+    <value>The return type for ++ or -- operator must be the containing type or derived from the containing type</value>
+  </data>
+  <data name="CSCSTR_BadIncDecsignature" xml:space="preserve">
+    <value>The parameter type for ++ or -- operator must be the containing type</value>
+  </data>
+  <data name="CSCSTR_BadIndexCount" xml:space="preserve">
+    <value>Wrong number of indices inside [], expected '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadIndexerNameAttr" xml:space="preserve">
+    <value>The '{0}' attribute is valid only on an indexer that is not an explicit interface member declaration</value>
+  </data>
+  <data name="CSCSTR_BadIndexLHS" xml:space="preserve">
+    <value>Cannot apply indexing with [] to an expression of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadIteratorArgType" xml:space="preserve">
+    <value>Iterators cannot have ref or out parameters</value>
+  </data>
+  <data name="CSCSTR_BadIteratorReturn" xml:space="preserve">
+    <value>The body of '{0}' cannot be an iterator block because '{1}' is not an iterator interface type</value>
+  </data>
+  <data name="CSCSTR_BadMemberFlag" xml:space="preserve">
+    <value>The modifier '{0}' is not valid for this item</value>
+  </data>
+  <data name="CSCSTR_BadMemberProtection" xml:space="preserve">
+    <value>More than one protection modifier</value>
+  </data>
+  <data name="CSCSTR_BadModifierForPartialMethod" xml:space="preserve">
+    <value>A partial method cannot have access modifiers or the virtual, abstract, override, new, sealed, or extern modifiers.</value>
+  </data>
+  <data name="CSCSTR_BadModifierLocation" xml:space="preserve">
+    <value>Member modifier '{0}' must precede the member type and name</value>
+  </data>
+  <data name="CSCSTR_BadModifiersOnNamespace" xml:space="preserve">
+    <value>A namespace declaration cannot have modifiers or attributes</value>
+  </data>
+  <data name="CSCSTR_BadNamedAttributeArgument" xml:space="preserve">
+    <value>'{0}' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.</value>
+  </data>
+  <data name="CSCSTR_BadNamedAttributeArgumentType" xml:space="preserve">
+    <value>'{0}' is not a valid named attribute argument because it is not a valid attribute parameter type</value>
+  </data>
+  <data name="CSCSTR_BadNewExpr" xml:space="preserve">
+    <value>A new expression requires () or [] after type</value>
+  </data>
+  <data name="CSCSTR_BadOperatorSyntax" xml:space="preserve">
+    <value>Declaration is not valid; use '{0} operator &lt;dest-type&gt; (...' instead</value>
+  </data>
+  <data name="CSCSTR_BadOperatorSyntax2" xml:space="preserve">
+    <value>Declaration is not valid; use '&lt;type&gt; operator {0} (...' instead</value>
+  </data>
+  <data name="CSCSTR_BadParamExtraRef" xml:space="preserve">
+    <value>Parameter '{0}' should not be declared with the '{1}' keyword</value>
+  </data>
+  <data name="CSCSTR_BadParamRef" xml:space="preserve">
+    <value>Parameter '{0}' must be declared with the '{1}' keyword</value>
+  </data>
+  <data name="CSCSTR_BadParamType" xml:space="preserve">
+    <value>Parameter '{0}' is declared as type '{1}' but should be '{2}'</value>
+  </data>
+  <data name="CSCSTR_BadPDBFormat" xml:space="preserve">
+    <value>PDB file '{0}' has an incorrect or out-of-date format. Delete it and rebuild.</value>
+  </data>
+  <data name="CSCSTR_BadPlatformType" xml:space="preserve">
+    <value>Invalid option '{0}' for /platform; must be anycpu, x86, Itanium or x64</value>
+  </data>
+  <data name="CSCSTR_BadProtectedAccess" xml:space="preserve">
+    <value>Cannot access protected member '{0}' via a qualifier of type '{1}'; the qualifier must be of type '{2}' (or derived from it)</value>
+  </data>
+  <data name="CSCSTR_BadRefCompareLeft" xml:space="preserve">
+    <value>Possible unintended reference comparison; to get a value comparison, cast the left hand side to type '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadRefCompareRight" xml:space="preserve">
+    <value>Possible unintended reference comparison; to get a value comparison, cast the right hand side to type '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadResourceVis" xml:space="preserve">
+    <value>Invalid option '{0}'; Resource visibility must be either 'public' or 'private'</value>
+  </data>
+  <data name="CSCSTR_BadRestoreNumber" xml:space="preserve">
+    <value>Cannot restore warning 'CS{0}' because it was disabled globally</value>
+  </data>
+  <data name="CSCSTR_BadRetType" xml:space="preserve">
+    <value>'{1} {0}' has the wrong return type</value>
+  </data>
+  <data name="CSCSTR_BADSECONDTARGET" xml:space="preserve">
+    <value>Only the first set of input files can build a target other than 'module'</value>
+  </data>
+  <data name="CSCSTR_BadShiftOperatorSignature" xml:space="preserve">
+    <value>Overloaded shift operator must have the type of the first operand be the containing type, and the type of the second operand must be int</value>
+  </data>
+  <data name="CSCSTR_BadSKknown" xml:space="preserve">
+    <value>'{0}' is a '{1}' but is used like a '{2}'</value>
+  </data>
+  <data name="CSCSTR_BadSKunknown" xml:space="preserve">
+    <value>'{0}' is a '{1}', which is not valid in the given context</value>
+  </data>
+  <data name="CSCSTR_BadStackAllocExpr" xml:space="preserve">
+    <value>A stackalloc expression requires [] after type</value>
+  </data>
+  <data name="CSCSTR_BADSWITCH" xml:space="preserve">
+    <value>Unrecognized option: '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadTokenInType" xml:space="preserve">
+    <value>Expected class, delegate, enum, interface, or struct</value>
+  </data>
+  <data name="CSCSTR_BadTypeArgument" xml:space="preserve">
+    <value>The type '{0}' may not be used as a type argument</value>
+  </data>
+  <data name="CSCSTR_BadTypeReference" xml:space="preserve">
+    <value>'{0}': cannot reference a type through an expression; try '{1}' instead</value>
+  </data>
+  <data name="CSCSTR_BadUnaryOp" xml:space="preserve">
+    <value>Operator '{0}' cannot be applied to operand of type '{1}'</value>
+  </data>
+  <data name="CSCSTR_BadUnaryOperatorSignature" xml:space="preserve">
+    <value>The parameter of a unary operator must be the containing type</value>
+  </data>
+  <data name="CSCSTR_BadUnOpArgs" xml:space="preserve">
+    <value>Overloaded unary operator '{0}' takes one parameter</value>
+  </data>
+  <data name="CSCSTR_BadUsingNamespace" xml:space="preserve">
+    <value>A using namespace directive can only be applied to namespaces; '{0}' is a type not a namespace</value>
+  </data>
+  <data name="CSCSTR_BadVarargs" xml:space="preserve">
+    <value>A method with vararg cannot be generic, be in a generic type, or have a params parameter</value>
+  </data>
+  <data name="CSCSTR_BadVarDecl" xml:space="preserve">
+    <value>Expected ; or = (cannot specify constructor arguments in declaration)</value>
+  </data>
+  <data name="CSCSTR_BadVisBaseClass" xml:space="preserve">
+    <value>Inconsistent accessibility: base class '{1}' is less accessible than class '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisBaseInterface" xml:space="preserve">
+    <value>Inconsistent accessibility: base interface '{1}' is less accessible than interface '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisBound" xml:space="preserve">
+    <value>Inconsistent accessibility: constraint type '{1}' is less accessible than '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisDelegateParam" xml:space="preserve">
+    <value>Inconsistent accessibility: parameter type '{1}' is less accessible than delegate '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisDelegateReturn" xml:space="preserve">
+    <value>Inconsistent accessibility: return type '{1}' is less accessible than delegate '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisFieldType" xml:space="preserve">
+    <value>Inconsistent accessibility: field type '{1}' is less accessible than field '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisIndexerParam" xml:space="preserve">
+    <value>Inconsistent accessibility: parameter type '{1}' is less accessible than indexer '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisIndexerReturn" xml:space="preserve">
+    <value>Inconsistent accessibility: indexer return type '{1}' is less accessible than indexer '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisOpParam" xml:space="preserve">
+    <value>Inconsistent accessibility: parameter type '{1}' is less accessible than operator '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisOpReturn" xml:space="preserve">
+    <value>Inconsistent accessibility: return type '{1}' is less accessible than operator '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisParamType" xml:space="preserve">
+    <value>Inconsistent accessibility: parameter type '{1}' is less accessible than method '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisPropertyType" xml:space="preserve">
+    <value>Inconsistent accessibility: property type '{1}' is less accessible than property '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadVisReturnType" xml:space="preserve">
+    <value>Inconsistent accessibility: return type '{1}' is less accessible than method '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadWarningLevel" xml:space="preserve">
+    <value>Warning level must be in the range 0-4</value>
+  </data>
+  <data name="CSCSTR_BadWarningNumber" xml:space="preserve">
+    <value>'{0}' is not a valid warning number</value>
+  </data>
+  <data name="CSCSTR_BadWatsonMode" xml:space="preserve">
+    <value>Invalid option '{0}' for /errorreport; must be prompt, send, queue, or none</value>
+  </data>
+  <data name="CSCSTR_BadWin32Res" xml:space="preserve">
+    <value>'{0}' is not a valid Win32 resource file</value>
+  </data>
+  <data name="CSCSTR_BadXMLRef" xml:space="preserve">
+    <value>XML comment on '{1}' has cref attribute '{0}' that could not be resolved</value>
+  </data>
+  <data name="CSCSTR_BadXMLRefParamType" xml:space="preserve">
+    <value>Invalid type for parameter '{0}' in XML comment cref attribute: '{1}'</value>
+  </data>
+  <data name="CSCSTR_BadXMLRefReturnType" xml:space="preserve">
+    <value>Invalid return type in XML comment cref attribute</value>
+  </data>
+  <data name="CSCSTR_BadXMLRefSyntax" xml:space="preserve">
+    <value>XML comment on '{1}' has syntactically incorrect cref attribute '{0}'</value>
+  </data>
+  <data name="CSCSTR_BadXMLRefTypeVar" xml:space="preserve">
+    <value>XML comment on '{1}' has cref attribute '{0}' that refers to a type parameter</value>
+  </data>
+  <data name="CSCSTR_BadYieldInCatch" xml:space="preserve">
+    <value>Cannot yield a value in the body of a catch clause</value>
+  </data>
+  <data name="CSCSTR_BadYieldInFinally" xml:space="preserve">
+    <value>Cannot yield in the body of a finally clause</value>
+  </data>
+  <data name="CSCSTR_BadYieldInTryOfCatch" xml:space="preserve">
+    <value>Cannot yield a value in the body of a try block with a catch clause</value>
+  </data>
+  <data name="CSCSTR_BANNER1" xml:space="preserve">
+    <value>Microsoft (R) Shared Source CLI C# Compiler version </value>
+  </data>
+  <data name="CSCSTR_BANNER1PART2" xml:space="preserve">
+    <value>for Microsoft (R) Shared Source CLI version </value>
+  </data>
+  <data name="CSCSTR_BANNER2" xml:space="preserve">
+    <value>Copyright (C) Microsoft Corporation. All rights reserved.</value>
+  </data>
+  <data name="CSCSTR_BaseClassMustBeFirst" xml:space="preserve">
+    <value>Base class '{0}' must come before any interfaces</value>
+  </data>
+  <data name="CSCSTR_BaseConstraintConflict" xml:space="preserve">
+    <value>Type parameter '{0}' inherits conflicting constraints '{1}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_BaseIllegal" xml:space="preserve">
+    <value>Use of keyword 'base' is not valid in this context</value>
+  </data>
+  <data name="CSCSTR_BaseInBadContext" xml:space="preserve">
+    <value>Keyword 'base' is not available in the current context</value>
+  </data>
+  <data name="CSCSTR_BaseInStaticMeth" xml:space="preserve">
+    <value>Keyword 'base' is not available in a static method</value>
+  </data>
+  <data name="CSCSTR_BINARYFILE" xml:space="preserve">
+    <value>'{0}' is a binary file instead of a text file</value>
+  </data>
+  <data name="CSCSTR_BindToBogus" xml:space="preserve">
+    <value>'{0}' is not supported by the language</value>
+  </data>
+  <data name="CSCSTR_BindToBogusProp1" xml:space="preserve">
+    <value>Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor method '{1}'</value>
+  </data>
+  <data name="CSCSTR_BindToBogusProp2" xml:space="preserve">
+    <value>Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor methods '{1}' or '{2}'</value>
+  </data>
+  <data name="CSCSTR_BitwiseOrSignExtend" xml:space="preserve">
+    <value>Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first</value>
+  </data>
+  <data name="CSCSTR_BogusExplicitImpl" xml:space="preserve">
+    <value>'{0}' cannot implement '{1}' because it is not supported by the language</value>
+  </data>
+  <data name="CSCSTR_BogusType" xml:space="preserve">
+    <value>'{0}' is a type not supported by the language</value>
+  </data>
+  <data name="CSCSTR_BUGREPORTWARN" xml:space="preserve">
+    <value>A file is being created with information needed to reproduce your compiler problem. This information includes software versions, the pathnames and contents of source code files, referenced assemblies and modules, compiler options, compiler output, and any additional information you provide in the following prompts. This file will not include the contents of any keyfiles.</value>
+  </data>
+  <data name="CSCSTR_ByRefNonAgileField" xml:space="preserve">
+    <value>Passing '{0}' as ref or out or taking its address may cause a runtime exception because it is a field of a marshal-by-reference class</value>
+  </data>
+  <data name="CSCSTR_CallingBaseFinalizeDeprecated" xml:space="preserve">
+    <value>Do not directly call your base class Finalize method. It is called automatically from your destructor.</value>
+  </data>
+  <data name="CSCSTR_CallingFinalizeDepracated" xml:space="preserve">
+    <value>Destructors and object.Finalize cannot be called directly. Consider calling IDisposable.Dispose if available.</value>
+  </data>
+  <data name="CSCSTR_CallOnNonAgileField" xml:space="preserve">
+    <value>Accessing a member on '{0}' may cause a runtime exception because it is a field of a marshal-by-reference class</value>
+  </data>
+  <data name="CSCSTR_CannotAssignToImplicitType" xml:space="preserve">
+    <value>Cannot assign '{0}' to an implicitly typed local</value>
+  </data>
+  <data name="CSCSTR_CannotConvertToExprTree" xml:space="preserve">
+    <value>A lambda expression must have an expression body to be converted to an expression tree.</value>
+  </data>
+  <data name="CSCSTR_CantCallSpecialMethod" xml:space="preserve">
+    <value>'{0}': cannot explicitly call operator or accessor</value>
+  </data>
+  <data name="CSCSTR_CantChangeAccessOnOverride" xml:space="preserve">
+    <value>'{0}': cannot change access modifiers when overriding '{1}' inherited member '{2}'</value>
+  </data>
+  <data name="CSCSTR_CantChangeReturnTypeOnOverride" xml:space="preserve">
+    <value>'{0}': return type must be '{2}' to match overridden member '{1}'</value>
+  </data>
+  <data name="CSCSTR_CantChangeTypeOnOverride" xml:space="preserve">
+    <value>'{0}': type must be '{2}' to match overridden member '{1}'</value>
+  </data>
+  <data name="CSCSTR_CantConvAnonMethNoParams" xml:space="preserve">
+    <value>Cannot convert anonymous method block without a parameter list to delegate type '{0}' because it has one or more out parameters</value>
+  </data>
+  <data name="CSCSTR_CantConvAnonMethParams" xml:space="preserve">
+    <value>Cannot convert anonymous method block to delegate type '{0}' because the specified block's parameter types do not match the delegate parameter types</value>
+  </data>
+  <data name="CSCSTR_CantConvAnonMethReturns" xml:space="preserve">
+    <value>Cannot convert {0} to delegate type '{1}' because some of the return types in the block are not implicitly convertible to the delegate return type</value>
+  </data>
+  <data name="CSCSTR_CantDeriveFromSealedType" xml:space="preserve">
+    <value>'{0}': cannot derive from sealed type '{1}'</value>
+  </data>
+  <data name="CSCSTR_CantGetCORSystemDir" xml:space="preserve">
+    <value>Cannot determine common language runtime directory -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_CantHaveWin32ResAndIcon" xml:space="preserve">
+    <value>Conflicting options specified: Win32 resource file; Win32 icon</value>
+  </data>
+  <data name="CSCSTR_CantImportBase" xml:space="preserve">
+    <value>The base class or interface '{1}' in assembly '{2}' referenced by type '{0}' could not be resolved</value>
+  </data>
+  <data name="CSCSTR_CantIncludeDirectory" xml:space="preserve">
+    <value>Invalid reference option: '{0}' -- cannot reference directories</value>
+  </data>
+  <data name="CSCSTR_CantInferMethTypeArgs" xml:space="preserve">
+    <value>The type arguments for method '{0}' cannot be inferred from the usage. Try specifying the type arguments explicitly.</value>
+  </data>
+  <data name="CSCSTR_CantMakeTempFile" xml:space="preserve">
+    <value>Cannot create temporary file '{1}' -- {0}</value>
+  </data>
+  <data name="CSCSTR_CANTOPENFILEWRITE" xml:space="preserve">
+    <value>Cannot open '{0}' for writing</value>
+  </data>
+  <data name="CSCSTR_CantOpenWin32Res" xml:space="preserve">
+    <value>Error reading Win32 resource file '{0}' -- '{1}'</value>
+  </data>
+  <data name="CSCSTR_CantOverrideBogusMethod" xml:space="preserve">
+    <value>'{0}': cannot override '{1}' because it is not supported by the language</value>
+  </data>
+  <data name="CSCSTR_CantOverrideNonEvent" xml:space="preserve">
+    <value>'{0}': cannot override; '{1}' is not an event</value>
+  </data>
+  <data name="CSCSTR_CantOverrideNonFunction" xml:space="preserve">
+    <value>'{0}': cannot override because '{1}' is not a function</value>
+  </data>
+  <data name="CSCSTR_CantOverrideNonProperty" xml:space="preserve">
+    <value>'{0}': cannot override because '{1}' is not a property</value>
+  </data>
+  <data name="CSCSTR_CantOverrideNonVirtual" xml:space="preserve">
+    <value>'{0}': cannot override inherited member '{1}' because it is not marked virtual, abstract, or override</value>
+  </data>
+  <data name="CSCSTR_CantOverrideSealed" xml:space="preserve">
+    <value>'{0}': cannot override inherited member '{1}' because it is sealed</value>
+  </data>
+  <data name="CSCSTR_CantReadResource" xml:space="preserve">
+    <value>Error reading resource file '{0}' -- '{1}'</value>
+  </data>
+  <data name="CSCSTR_CantRefResource" xml:space="preserve">
+    <value>Cannot link resource file '{0}' when building a module</value>
+  </data>
+  <data name="CSCSTR_CantUseRequiredAttribute" xml:space="preserve">
+    <value>The Required attribute is not permitted on C# types</value>
+  </data>
+  <data name="CSCSTR_CheckedOverflow" xml:space="preserve">
+    <value>The operation overflows at compile time in checked mode</value>
+  </data>
+  <data name="CSCSTR_CHILD" xml:space="preserve">
+    <value>child</value>
+  </data>
+  <data name="CSCSTR_CircConstValue" xml:space="preserve">
+    <value>The evaluation of the constant value for '{0}' involves a circular definition</value>
+  </data>
+  <data name="CSCSTR_CircularBase" xml:space="preserve">
+    <value>Circular base class dependency involving '{0}' and '{1}'</value>
+  </data>
+  <data name="CSCSTR_CircularConstraint" xml:space="preserve">
+    <value>Circular constraint dependency involving '{0}' and '{1}'</value>
+  </data>
+  <data name="CSCSTR_ClassBoundNotFirst" xml:space="preserve">
+    <value>The class type constraint '{0}' must come before any other constraints</value>
+  </data>
+  <data name="CSCSTR_ClassDoesntImplementInterface" xml:space="preserve">
+    <value>'{0}': containing type does not implement interface '{1}'</value>
+  </data>
+  <data name="CSCSTR_ClassNameTooLong" xml:space="preserve">
+    <value>The name of type '{0}' is too long</value>
+  </data>
+  <data name="CSCSTR_ClassTypeExpected" xml:space="preserve">
+    <value>An object, string, or class type expected</value>
+  </data>
+  <data name="CSCSTR_CLB_ERROR_FIRST" xml:space="preserve">
+    <value>Error occurred during a read</value>
+  </data>
+  <data name="CSCSTR_CloseParenExpected" xml:space="preserve">
+    <value>) expected</value>
+  </data>
+  <data name="CSCSTR_CloseUnimplementedInterfaceMember" xml:space="preserve">
+    <value>'{0}' does not implement interface member '{1}'. '{2}' is either static, not public, or has the wrong return type.</value>
+  </data>
+  <data name="CSCSTR_CLS_ArrayArgumentToAttribute" xml:space="preserve">
+    <value>Arrays as attribute arguments is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_AssemblyNotCLS" xml:space="preserve">
+    <value>'{0}' cannot be marked as CLS-compliant because the assembly does not have a CLSCompliant attribute</value>
+  </data>
+  <data name="CSCSTR_CLS_AssemblyNotCLS2" xml:space="preserve">
+    <value>'{0}' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute</value>
+  </data>
+  <data name="CSCSTR_CLS_BadArgType" xml:space="preserve">
+    <value>Argument type '{0}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadAttributeType" xml:space="preserve">
+    <value>'{0}' has no accessible constructors which use only CLS-compliant types</value>
+  </data>
+  <data name="CSCSTR_CLS_BadBase" xml:space="preserve">
+    <value>'{0}': base type '{1}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadFieldPropType" xml:space="preserve">
+    <value>Type of '{0}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadIdentifier" xml:space="preserve">
+    <value>Identifier '{0}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadIdentifierCase" xml:space="preserve">
+    <value>Identifier '{0}' differing only in case is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadInterface" xml:space="preserve">
+    <value>'{0}' is not CLS-compliant because base interface '{1}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadInterfacemember" xml:space="preserve">
+    <value>'{0}': CLS-compliant interfaces must have only CLS-compliant members</value>
+  </data>
+  <data name="CSCSTR_CLS_BadReturnType" xml:space="preserve">
+    <value>Return type of '{0}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadTypeVar" xml:space="preserve">
+    <value>Constraint type '{0}' is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_BadUnicode" xml:space="preserve">
+    <value>Mixed and decomposed Unicode characters are not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_IllegalTrueInFalse" xml:space="preserve">
+    <value>'{0}' cannot be marked as CLS-compliant because it is a member of non CLS-compliant type '{1}'</value>
+  </data>
+  <data name="CSCSTR_CLS_MeaninglessOnParam" xml:space="preserve">
+    <value>CLSCompliant attribute has no meaning when applied to parameters. Try putting it on the method instead.</value>
+  </data>
+  <data name="CSCSTR_CLS_MeaninglessOnPrivateType" xml:space="preserve">
+    <value>CLS compliance checking will not be performed on '{0}' because it is not visible from outside this assembly.</value>
+  </data>
+  <data name="CSCSTR_CLS_MeaninglessOnReturn" xml:space="preserve">
+    <value>CLSCompliant attribute has no meaning when applied to return types. Try putting it on the method instead.</value>
+  </data>
+  <data name="CSCSTR_CLS_ModuleMissingCLS" xml:space="preserve">
+    <value>Added modules must be marked with the CLSCompliant attribute to match the assembly</value>
+  </data>
+  <data name="CSCSTR_CLS_NoAbstractMembers" xml:space="preserve">
+    <value>'{0}': only CLS-compliant members can be abstract</value>
+  </data>
+  <data name="CSCSTR_CLS_NotOnModules" xml:space="preserve">
+    <value>You must specify the CLSCompliant attribute on the assembly, not the module, to enable CLS compliance checking</value>
+  </data>
+  <data name="CSCSTR_CLS_NotOnModules2" xml:space="preserve">
+    <value>You cannot specify the CLSCompliant attribute on a module that differs from the CLSCompliant attribute on the assembly</value>
+  </data>
+  <data name="CSCSTR_CLS_NoVarArgs" xml:space="preserve">
+    <value>Methods with variable arguments are not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_OverloadRefOut" xml:space="preserve">
+    <value>Overloaded method '{0}' differing only in ref or out, or in array rank, is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_OverloadUnnamed" xml:space="preserve">
+    <value>Overloaded method '{0}' differing only by unnamed array types is not CLS-compliant</value>
+  </data>
+  <data name="CSCSTR_CLS_VolatileField" xml:space="preserve">
+    <value>CLS-compliant field '{0}' cannot be volatile</value>
+  </data>
+  <data name="CSCSTR_CmdOptionConflictsSource" xml:space="preserve">
+    <value>Option '{0}' overrides attribute '{1}' given in a source file or added module</value>
+  </data>
+  <data name="CSCSTR_CmpAlwaysFalse" xml:space="preserve">
+    <value>Comparing with null of type '{0}' always produces 'false'</value>
+  </data>
+  <data name="CSCSTR_CoClassWithoutComImport" xml:space="preserve">
+    <value>'{0}' interface marked with 'CoClassAttribute' not marked with 'ComImportAttribute'</value>
+  </data>
+  <data name="CSCSTR_ColColWithTypeAlias" xml:space="preserve">
+    <value>Cannot use alias '{0}' with '::' since the alias references a type. Use '.' instead.</value>
+  </data>
+  <data name="CSCSTR_CollectInitRequiresIEnumerable" xml:space="preserve">
+    <value>Collection initializer requires its type '{0}' to implement System.Collections.IEnumerable</value>
+  </data>
+  <data name="CSCSTR_Collection" xml:space="preserve">
+    <value>collection</value>
+  </data>
+  <data name="CSCSTR_ComImportWithBase" xml:space="preserve">
+    <value>'{0}': a class with the ComImport attribute cannot specify a base class</value>
+  </data>
+  <data name="CSCSTR_ComImportWithImpl" xml:space="preserve">
+    <value>Since '{1}' has the ComImport attribute, '{0}' must be extern or abstract</value>
+  </data>
+  <data name="CSCSTR_ComImportWithoutUuidAttribute" xml:space="preserve">
+    <value>The Guid attribute must be specified with the ComImport attribute</value>
+  </data>
+  <data name="CSCSTR_ComImportWithUserCtor" xml:space="preserve">
+    <value>A class with the ComImport attribute cannot have a user-defined constructor</value>
+  </data>
+  <data name="CSCSTR_ComparisonToSelf" xml:space="preserve">
+    <value>Comparison made to same variable; did you mean to compare something else?</value>
+  </data>
+  <data name="CSCSTR_CompileCancelled" xml:space="preserve">
+    <value>Compilation cancelled by user</value>
+  </data>
+  <data name="CSCSTR_ComPlusInit" xml:space="preserve">
+    <value>Unexpected common language runtime initialization error -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_ConcreteMissingBody" xml:space="preserve">
+    <value>'{0}' must declare a body because it is not marked abstract or extern</value>
+  </data>
+  <data name="CSCSTR_ConditionalMustReturnVoid" xml:space="preserve">
+    <value>The Conditional attribute is not valid on '{0}' because its return type is not void</value>
+  </data>
+  <data name="CSCSTR_ConditionalOnInterfaceMethod" xml:space="preserve">
+    <value>The Conditional attribute is not valid on interface members</value>
+  </data>
+  <data name="CSCSTR_ConditionalOnNonAttributeClass" xml:space="preserve">
+    <value>Attribute '{0}' is only valid on methods or attribute classes</value>
+  </data>
+  <data name="CSCSTR_ConditionalOnOverride" xml:space="preserve">
+    <value>The Conditional attribute is not valid on '{0}' because it is an override method</value>
+  </data>
+  <data name="CSCSTR_ConditionalOnSpecialMethod" xml:space="preserve">
+    <value>The Conditional attribute is not valid on '{0}' because it is a constructor, destructor, operator, or explicit interface implementation</value>
+  </data>
+  <data name="CSCSTR_ConditionalWithOutParam" xml:space="preserve">
+    <value>Conditional member '{0}' cannot have an out parameter</value>
+  </data>
+  <data name="CSCSTR_ConflictAliasAndMember" xml:space="preserve">
+    <value>Namespace '{1}' contains a definition conflicting with alias '{0}'</value>
+  </data>
+  <data name="CSCSTR_ConflictingChecksum" xml:space="preserve">
+    <value>Different checksum values given for '{0}'</value>
+  </data>
+  <data name="CSCSTR_ConstantExpected" xml:space="preserve">
+    <value>A constant value is expected</value>
+  </data>
+  <data name="CSCSTR_ConstOutOfRange" xml:space="preserve">
+    <value>Constant value '{0}' cannot be converted to a '{1}'</value>
+  </data>
+  <data name="CSCSTR_ConstOutOfRangeChecked" xml:space="preserve">
+    <value>Constant value '{0}' cannot be converted to a '{1}' (use 'unchecked' syntax to override)</value>
+  </data>
+  <data name="CSCSTR_ConstraintIsStaticClass" xml:space="preserve">
+    <value>'{0}': static classes cannot be used as constraints</value>
+  </data>
+  <data name="CSCSTR_ConstraintOnlyAllowedOnGenericDecl" xml:space="preserve">
+    <value>Constraints are not allowed on non-generic declarations</value>
+  </data>
+  <data name="CSCSTR_ConstructorInStaticClass" xml:space="preserve">
+    <value>Static classes cannot have instance constructors</value>
+  </data>
+  <data name="CSCSTR_ConstValueRequired" xml:space="preserve">
+    <value>A const field requires a value to be provided</value>
+  </data>
+  <data name="CSCSTR_ConversionNotInvolvingContainedType" xml:space="preserve">
+    <value>User-defined conversion must convert to or from the enclosing type</value>
+  </data>
+  <data name="CSCSTR_ConversionWithBase" xml:space="preserve">
+    <value>'{0}': user-defined conversion to/from base class</value>
+  </data>
+  <data name="CSCSTR_ConversionWithDerived" xml:space="preserve">
+    <value>'{0}': user-defined conversion to/from derived class</value>
+  </data>
+  <data name="CSCSTR_ConversionWithInterface" xml:space="preserve">
+    <value>'{0}': user-defined conversion to/from interface</value>
+  </data>
+  <data name="CSCSTR_ConvertToStaticClass" xml:space="preserve">
+    <value>Cannot convert to static type '{0}'</value>
+  </data>
+  <data name="CSCSTR_ConWithValCon" xml:space="preserve">
+    <value>Type parameter '{1}' has the 'struct' constraint so '{1}' cannot be used as a constraint for '{0}'</value>
+  </data>
+  <data name="CSCSTR_CryptoFailed" xml:space="preserve">
+    <value>Cryptographic failure while signing assembly '{1}' -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_CryptoNotFound" xml:space="preserve">
+    <value>Appropriate cryptographic service not found</value>
+  </data>
+  <data name="CSCSTR_CStyleArray" xml:space="preserve">
+    <value>Syntax error, bad array declarator. To declare a managed array the rank specifier precedes the variable's identifier. To declare a fixed size buffer field, use the fixed keyword before the field type.</value>
+  </data>
+  <data name="CSCSTR_CustomAttributeError" xml:space="preserve">
+    <value>Error emitting '{1}' attribute -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_CycleInInterfaceInheritance" xml:space="preserve">
+    <value>Inherited interface '{1}' causes a cycle in the interface hierarchy of '{0}'</value>
+  </data>
+  <data name="CSCSTR_CycleInTypeForwarder" xml:space="preserve">
+    <value>The type forwarder for type '{0}' in assembly '{1}' causes a cycle</value>
+  </data>
+  <data name="CSCSTR_DebugEmitFailure" xml:space="preserve">
+    <value>Unexpected error writing debug information to file '{1}' -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_DebugInit" xml:space="preserve">
+    <value>Unexpected debug information initialization error -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_DebugInitFile" xml:space="preserve">
+    <value>Unexpected error creating debug information file '{0}' -- '{1}'</value>
+  </data>
+  <data name="CSCSTR_DEBUG_CONFLICT" xml:space="preserve">
+    <value>The {0} compiler cannot be used with a {1} IDE. This is usually caused by installing different flavors of VS and NDP, and not specifying the VS flavor for the /CompilerSourcePath and /NonNdpSourcePath options when running NdpSetup.</value>
+  </data>
+  <data name="CSCSTR_DecConstError" xml:space="preserve">
+    <value>Evaluation of the decimal constant expression failed with error: '{0}'</value>
+  </data>
+  <data name="CSCSTR_DefaultMemberOnIndexedType" xml:space="preserve">
+    <value>Cannot specify the DefaultMember attribute on a type containing an indexer</value>
+  </data>
+  <data name="CSCSTR_DefaultValueBadParamType" xml:space="preserve">
+    <value>The DefaultValue attribute is not applicable on parameters of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_DefaultValueBadValueType" xml:space="preserve">
+    <value>Argument of type '{0}' is not applicable for the DefaultValue attribute</value>
+  </data>
+  <data name="CSCSTR_DefaultValueTypeMustMatch" xml:space="preserve">
+    <value>The type of the argument to the DefaultValue attribute must match the parameter type</value>
+  </data>
+  <data name="CSCSTR_DefineIdentifierRequired" xml:space="preserve">
+    <value>Invalid value for '/define'; '{0}' is not a valid identifier</value>
+  </data>
+  <data name="CSCSTR_DelegateNewMethBind" xml:space="preserve">
+    <value>Delegate '{0}' bound to '{1}' instead of '{2}' because of new language rules</value>
+  </data>
+  <data name="CSCSTR_DelegateOnConditional" xml:space="preserve">
+    <value>Cannot create delegate with '{0}' because it has a Conditional attribute</value>
+  </data>
+  <data name="CSCSTR_DelegateOnNullable" xml:space="preserve">
+    <value>Cannot bind delegate to '{0}' because it is a member of 'System.Nullable&lt;T&gt;'</value>
+  </data>
+  <data name="CSCSTR_DeleteAutoResFailed" xml:space="preserve">
+    <value>Unable to delete temporary file '{0}' used for default Win32 resource -- {1}</value>
+  </data>
+  <data name="CSCSTR_DeprecatedSymbol" xml:space="preserve">
+    <value>'{0}' is obsolete</value>
+  </data>
+  <data name="CSCSTR_DeprecatedSymbolStr" xml:space="preserve">
+    <value>'{0}' is obsolete: '{1}'</value>
+  </data>
+  <data name="CSCSTR_DeriveFromEnumOrValueType" xml:space="preserve">
+    <value>'{0}' cannot derive from special class '{1}'</value>
+  </data>
+  <data name="CSCSTR_DerivingFromATyVar" xml:space="preserve">
+    <value>Cannot derive from '{0}' because it is a type parameter</value>
+  </data>
+  <data name="CSCSTR_DestructorInStaticClass" xml:space="preserve">
+    <value>Static classes cannot contain destructors</value>
+  </data>
+  <data name="CSCSTR_DllImportOnInvalidMethod" xml:space="preserve">
+    <value>The DllImport attribute must be specified on a method marked 'static' and 'extern'</value>
+  </data>
+  <data name="CSCSTR_DocFileGen" xml:space="preserve">
+    <value>Error generating XML documentation file '{0}' ('{1}')</value>
+  </data>
+  <data name="CSCSTR_DoNotUseFixedBufferAttr" xml:space="preserve">
+    <value>Do not use 'System.Runtime.CompilerServices.FixedBuffer' attribute. Use the 'fixed' field modifier instead.</value>
+  </data>
+  <data name="CSCSTR_DontUseInvoke" xml:space="preserve">
+    <value>Invoke cannot be called directly on a delegate</value>
+  </data>
+  <data name="CSCSTR_DotOnDefault" xml:space="preserve">
+    <value>Expression will always cause a System.NullReferenceException because the default value of '{0}' is null</value>
+  </data>
+  <data name="CSCSTR_DottedTypeNameNotFoundInAgg" xml:space="preserve">
+    <value>The type name '{0}' does not exist in the type '{1}'</value>
+  </data>
+  <data name="CSCSTR_DottedTypeNameNotFoundInNS" xml:space="preserve">
+    <value>The type or namespace name '{0}' does not exist in the namespace '{1}' (are you missing an assembly reference?)</value>
+  </data>
+  <data name="CSCSTR_DuplicateAccessor" xml:space="preserve">
+    <value>Property accessor already defined</value>
+  </data>
+  <data name="CSCSTR_DuplicateAlias" xml:space="preserve">
+    <value>The using alias '{0}' appeared previously in this namespace</value>
+  </data>
+  <data name="CSCSTR_DuplicateAttribute" xml:space="preserve">
+    <value>Duplicate '{0}' attribute</value>
+  </data>
+  <data name="CSCSTR_DuplicateBound" xml:space="preserve">
+    <value>Duplicate constraint '{0}' for type parameter '{1}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateCaseLabel" xml:space="preserve">
+    <value>The label '{0}' already occurs in this switch statement</value>
+  </data>
+  <data name="CSCSTR_DuplicateConstraintClause" xml:space="preserve">
+    <value>A constraint clause has already been specified for type parameter '{0}'. All of the constraints for a type parameter must be specified in a single where clause.</value>
+  </data>
+  <data name="CSCSTR_DuplicateConversionInClass" xml:space="preserve">
+    <value>Duplicate user-defined conversion in type '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateImport" xml:space="preserve">
+    <value>An assembly with the same identity '{0}' has already been imported. Try removing one of the duplicate references.</value>
+  </data>
+  <data name="CSCSTR_DuplicateImportSimple" xml:space="preserve">
+    <value>An assembly with the same simple name '{0} has already been imported. Try removing one of the references or sign them to enable side-by-side.</value>
+  </data>
+  <data name="CSCSTR_DuplicateInterfaceInBaseList" xml:space="preserve">
+    <value>'{0}' is already listed in interface list</value>
+  </data>
+  <data name="CSCSTR_DuplicateLabel" xml:space="preserve">
+    <value>The label '{0}' is a duplicate</value>
+  </data>
+  <data name="CSCSTR_DuplicateModifier" xml:space="preserve">
+    <value>Duplicate '{0}' modifier</value>
+  </data>
+  <data name="CSCSTR_DuplicateNamedAttributeArgument" xml:space="preserve">
+    <value>'{0}' duplicate named attribute argument</value>
+  </data>
+  <data name="CSCSTR_DuplicateNameInClass" xml:space="preserve">
+    <value>The type '{1}' already contains a definition for '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateNameInNS" xml:space="preserve">
+    <value>The namespace '{1}' already contains a definition for '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateParamName" xml:space="preserve">
+    <value>The parameter name '{0}' is a duplicate</value>
+  </data>
+  <data name="CSCSTR_DuplicateParamTag" xml:space="preserve">
+    <value>XML comment on '{1}' has a duplicate param tag for '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicatePropertyAccessMods" xml:space="preserve">
+    <value>Cannot specify accessibility modifiers for both accessors of the property or indexer '{0}'</value>
+  </data>
+  <data name="CSCSTR_DUPLICATERESPONSEFILE" xml:space="preserve">
+    <value>Response file '{0}' included multiple times</value>
+  </data>
+  <data name="CSCSTR_DuplicateTypeParameter" xml:space="preserve">
+    <value>Duplicate type parameter '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateTypeParamTag" xml:space="preserve">
+    <value>XML comment on '{1}' has a duplicate typeparam tag for '{0}'</value>
+  </data>
+  <data name="CSCSTR_DuplicateUsing" xml:space="preserve">
+    <value>The using directive for '{0}' appeared previously in this namespace</value>
+  </data>
+  <data name="CSCSTR_EmptyCharConst" xml:space="preserve">
+    <value>Empty character literal</value>
+  </data>
+  <data name="CSCSTR_EmptyFileName" xml:space="preserve">
+    <value>Filename specified for preprocessor directive is empty</value>
+  </data>
+  <data name="CSCSTR_EmptySwitch" xml:space="preserve">
+    <value>Empty switch block</value>
+  </data>
+  <data name="CSCSTR_EmptyYield" xml:space="preserve">
+    <value>Expression expected after yield return</value>
+  </data>
+  <data name="CSCSTR_EndifDirectiveExpected" xml:space="preserve">
+    <value>#endif directive expected</value>
+  </data>
+  <data name="CSCSTR_EndOfPPLineExpected" xml:space="preserve">
+    <value>Single-line comment or end-of-line expected</value>
+  </data>
+  <data name="CSCSTR_EndRegionDirectiveExpected" xml:space="preserve">
+    <value>#endregion directive expected</value>
+  </data>
+  <data name="CSCSTR_ENTERCORRECT" xml:space="preserve">
+    <value>Describe what you think should have happened (press Enter twice to finish):</value>
+  </data>
+  <data name="CSCSTR_ENTERDESC" xml:space="preserve">
+    <value>Please describe the compiler problem (press Enter twice to finish):</value>
+  </data>
+  <data name="CSCSTR_EnumeratorOverflow" xml:space="preserve">
+    <value>'{0}': the enumerator value is too large to fit in its type</value>
+  </data>
+  <data name="CSCSTR_EOFExpected" xml:space="preserve">
+    <value>Type or namespace definition, or end-of-file expected</value>
+  </data>
+  <data name="CSCSTR_EqualityOpWithoutEquals" xml:space="preserve">
+    <value>'{0}' defines operator == or operator != but does not override Object.Equals(object o)</value>
+  </data>
+  <data name="CSCSTR_EqualityOpWithoutGetHashCode" xml:space="preserve">
+    <value>'{0}' defines operator == or operator != but does not override Object.GetHashCode()</value>
+  </data>
+  <data name="CSCSTR_EqualsWithoutGetHashCode" xml:space="preserve">
+    <value>'{0}' overrides Object.Equals(object o) but does not override Object.GetHashCode()</value>
+  </data>
+  <data name="CSCSTR_ErrorDirective" xml:space="preserve">
+    <value>#error: '{0}'</value>
+  </data>
+  <data name="CSCSTR_ErrorOverride" xml:space="preserve">
+    <value>{0}. See also error CS{1}.</value>
+  </data>
+  <data name="CSCSTR_ERRORSYM" xml:space="preserve">
+    <value>&lt;error&gt;</value>
+  </data>
+  <data name="CSCSTR_EventNeedsBothAccessors" xml:space="preserve">
+    <value>'{0}': event property must have both add and remove accessors</value>
+  </data>
+  <data name="CSCSTR_EventNotDelegate" xml:space="preserve">
+    <value>'{0}': event must be of a delegate type</value>
+  </data>
+  <data name="CSCSTR_EventPropertyInInterface" xml:space="preserve">
+    <value>An event in an interface cannot have add or remove accessors</value>
+  </data>
+  <data name="CSCSTR_ExpectContextualKeyword" xml:space="preserve">
+    <value>Expected contextual keyword '{0}'</value>
+  </data>
+  <data name="CSCSTR_ExpectedDotOrParen" xml:space="preserve">
+    <value>( or . expected</value>
+  </data>
+  <data name="CSCSTR_ExpectedEndTry" xml:space="preserve">
+    <value>Expected catch or finally</value>
+  </data>
+  <data name="CSCSTR_ExpectedVerbatimLiteral" xml:space="preserve">
+    <value>Keyword, identifier, or string expected after verbatim specifier: @</value>
+  </data>
+  <data name="CSCSTR_ExplicitEventFieldImpl" xml:space="preserve">
+    <value>An explicit interface implementation of an event must use property syntax</value>
+  </data>
+  <data name="CSCSTR_ExplicitImplParams" xml:space="preserve">
+    <value>'{0}' should not have a params parameter since '{1}' does not</value>
+  </data>
+  <data name="CSCSTR_ExplicitInterfaceImplementationInNonClassOrStruct" xml:space="preserve">
+    <value>'{0}': explicit interface declaration can only be declared in a class or struct</value>
+  </data>
+  <data name="CSCSTR_ExplicitInterfaceImplementationNotInterface" xml:space="preserve">
+    <value>'{0}' in explicit interface declaration is not an interface</value>
+  </data>
+  <data name="CSCSTR_ExplicitMethodImplAccessor" xml:space="preserve">
+    <value>'{0}' explicit method implementation cannot implement '{1}' because it is an accessor</value>
+  </data>
+  <data name="CSCSTR_ExplicitParamArray" xml:space="preserve">
+    <value>Do not use 'System.ParamArrayAttribute'. Use the 'params' keyword instead.</value>
+  </data>
+  <data name="CSCSTR_ExplicitPropertyAddingAccessor" xml:space="preserve">
+    <value>'{0}' adds an accessor not found in interface member '{1}'</value>
+  </data>
+  <data name="CSCSTR_ExplicitPropertyMissingAccessor" xml:space="preserve">
+    <value>Explicit interface implementation '{0}' is missing accessor '{1}'</value>
+  </data>
+  <data name="CSCSTR_ExprTreeContainsAssignment" xml:space="preserve">
+    <value>An expression tree may not contain an assignment operator.</value>
+  </data>
+  <data name="CSCSTR_ExtensionMethodInImproperClass" xml:space="preserve">
+    <value>Extension methods must be defined in a non generic static class</value>
+  </data>
+  <data name="CSCSTR_ExtensionMethodInNestedClass" xml:space="preserve">
+    <value>Extension Methods must be defined on top level static classes, '{0}' is a nested class</value>
+  </data>
+  <data name="CSCSTR_ExternAfterElements" xml:space="preserve">
+    <value>An extern alias declaration must precede all other namespace elements</value>
+  </data>
+  <data name="CSCSTR_ExternHasBody" xml:space="preserve">
+    <value>'{0}' cannot be extern and declare a body</value>
+  </data>
+  <data name="CSCSTR_ExternMethodNoImplementation" xml:space="preserve">
+    <value>Method, operator, or accessor '{0}' is marked external and has no attributes on it. Consider adding a DllImport attribute to specify the external implementation.</value>
+  </data>
+  <data name="CSCSTR_FailedInclude" xml:space="preserve">
+    <value>Unable to include XML fragment '{1}' of file '{0}' -- {2}</value>
+  </data>
+  <data name="CSCSTR_FeatureAnonDelegates" xml:space="preserve">
+    <value>anonymous methods</value>
+  </data>
+  <data name="CSCSTR_FeatureDefault" xml:space="preserve">
+    <value>default operator</value>
+  </data>
+  <data name="CSCSTR_FeatureDeprecated" xml:space="preserve">
+    <value>The feature '{0}' is deprecated. Please use '{1}' instead'.</value>
+  </data>
+  <data name="CSCSTR_FeatureExternAlias" xml:space="preserve">
+    <value>extern alias</value>
+  </data>
+  <data name="CSCSTR_FeatureFixedBuffer" xml:space="preserve">
+    <value>fixed size buffers</value>
+  </data>
+  <data name="CSCSTR_FeatureGenerics" xml:space="preserve">
+    <value>generics</value>
+  </data>
+  <data name="CSCSTR_FeatureGlobalNamespace" xml:space="preserve">
+    <value>namespace alias qualifier</value>
+  </data>
+  <data name="CSCSTR_FeatureIterators" xml:space="preserve">
+    <value>iterators</value>
+  </data>
+  <data name="CSCSTR_FeatureModuleAttrLoc" xml:space="preserve">
+    <value>module as an attribute target specifier</value>
+  </data>
+  <data name="CSCSTR_FeatureNullable" xml:space="preserve">
+    <value>nullable types</value>
+  </data>
+  <data name="CSCSTR_FeatureNYI" xml:space="preserve">
+    <value>The feature you are attempting to use, '{0}', has not been implemented. Please refrain from using it until a later time.</value>
+  </data>
+  <data name="CSCSTR_FeatureNYI2" xml:space="preserve">
+    <value>The feature you are attempting to use, '{0}', may not be fully implemented by the compiler and/or runtime. Proceed at your own risk.</value>
+  </data>
+  <data name="CSCSTR_FeaturePartialTypes" xml:space="preserve">
+    <value>partial types</value>
+  </data>
+  <data name="CSCSTR_FeaturePragma" xml:space="preserve">
+    <value>#pragma</value>
+  </data>
+  <data name="CSCSTR_FeaturePropertyAccessorMods" xml:space="preserve">
+    <value>access modifiers on properties</value>
+  </data>
+  <data name="CSCSTR_FeatureStaticClasses" xml:space="preserve">
+    <value>static classes</value>
+  </data>
+  <data name="CSCSTR_FeatureSwitchOnBool" xml:space="preserve">
+    <value>switch on boolean type</value>
+  </data>
+  <data name="CSCSTR_FieldCantBeRefAny" xml:space="preserve">
+    <value>Field or property cannot be of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_FieldCantHaveVoidType" xml:space="preserve">
+    <value>Field cannot have void type</value>
+  </data>
+  <data name="CSCSTR_FieldInitializerInStruct" xml:space="preserve">
+    <value>'{0}': cannot have instance field initializers in structs</value>
+  </data>
+  <data name="CSCSTR_FieldInitRefNonstatic" xml:space="preserve">
+    <value>A field initializer cannot reference the nonstatic field, method, or property '{0}'</value>
+  </data>
+  <data name="CSCSTR_FILEALREADYINCLUDED" xml:space="preserve">
+    <value>Source file '{0}' specified multiple times</value>
+  </data>
+  <data name="CSCSTR_FileNameTooLong" xml:space="preserve">
+    <value>Invalid filename specified for preprocessor directive. Filename is too long or not a valid filename.</value>
+  </data>
+  <data name="CSCSTR_FILENOTFOUND" xml:space="preserve">
+    <value>Source file '{0}' could not be found</value>
+  </data>
+  <data name="CSCSTR_FinalizeMethod" xml:space="preserve">
+    <value>Introducing a 'Finalize' method can interfere with destructor invocation. Did you intend to declare a destructor?</value>
+  </data>
+  <data name="CSCSTR_FixedBufferNotFixed" xml:space="preserve">
+    <value>You cannot use fixed size buffers contained in unfixed expressions. Try using the fixed statement.</value>
+  </data>
+  <data name="CSCSTR_FixedDimsRequired" xml:space="preserve">
+    <value>A fixed size buffer field must have the array size specifier after the field name</value>
+  </data>
+  <data name="CSCSTR_FIXEDLOCAL" xml:space="preserve">
+    <value>fixed variable</value>
+  </data>
+  <data name="CSCSTR_FixedMustInit" xml:space="preserve">
+    <value>You must provide an initializer in a fixed or using statement declaration</value>
+  </data>
+  <data name="CSCSTR_FixedNeeded" xml:space="preserve">
+    <value>You can only take the address of an unfixed expression inside of a fixed statement initializer</value>
+  </data>
+  <data name="CSCSTR_FixedNeedsLvalue" xml:space="preserve">
+    <value>Fixed size buffers can only be accessed through locals or fields</value>
+  </data>
+  <data name="CSCSTR_FixedNotInStruct" xml:space="preserve">
+    <value>Fixed size buffer fields may only be members of structs</value>
+  </data>
+  <data name="CSCSTR_FixedNotNeeded" xml:space="preserve">
+    <value>You cannot use the fixed statement to take the address of an already fixed expression</value>
+  </data>
+  <data name="CSCSTR_FixedOverflow" xml:space="preserve">
+    <value>Fixed size buffer of length '{0}' and type '{1}' is too big</value>
+  </data>
+  <data name="CSCSTR_FloatOverflow" xml:space="preserve">
+    <value>Floating-point constant is outside the range of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_FOREACHLOCAL" xml:space="preserve">
+    <value>foreach iteration variable</value>
+  </data>
+  <data name="CSCSTR_ForEachMissingMember" xml:space="preserve">
+    <value>foreach statement cannot operate on variables of type '{0}' because '{1}' does not contain a public definition for '{2}'</value>
+  </data>
+  <data name="CSCSTR_ForwardedTypeInThisAssembly" xml:space="preserve">
+    <value>Type '{0}' is defined in this assembly, but a type forwarder is specified for it</value>
+  </data>
+  <data name="CSCSTR_ForwardedTypeIsNested" xml:space="preserve">
+    <value>Cannot forward type '{0}' because it is a nested type of '{1}'</value>
+  </data>
+  <data name="CSCSTR_FriendAssemblyBadArgs" xml:space="preserve">
+    <value>Friend assembly reference '{0}' is invalid. InternalsVisibleTo declarations cannot have a version, culture, public key token, or processor architecture specified.</value>
+  </data>
+  <data name="CSCSTR_FriendAssemblySNReq" xml:space="preserve">
+    <value>Friend assembly reference '{0}' is invalid. Strong-name signed assemblies must specify a public key in their InternalsVisibleTo declarations.</value>
+  </data>
+  <data name="CSCSTR_FriendRefNotEqualToThis" xml:space="preserve">
+    <value>Friend access was granted to '{0}', but the output assembly is named '{1}'. Try adding a reference to '{0}' or changing the output assembly name to match.</value>
+  </data>
+  <data name="CSCSTR_FwdedGeneric" xml:space="preserve">
+    <value>Cannot forward generic type, '{0}'</value>
+  </data>
+  <data name="CSCSTR_GenericArgIsStaticClass" xml:space="preserve">
+    <value>'{0}': static types cannot be used as generic arguments</value>
+  </data>
+  <data name="CSCSTR_GenericConstraintNotSatisfied" xml:space="preserve">
+    <value>The type '{3}' must be convertible to '{1}' in order to use it as parameter '{2}' in the generic type or method '{0}'</value>
+  </data>
+  <data name="CSCSTR_GenericDerivingFromAttribute" xml:space="preserve">
+    <value>A generic type cannot derive from '{0}' because it is an attribute class</value>
+  </data>
+  <data name="CSCSTR_GetOrSetExpected" xml:space="preserve">
+    <value>A get or set accessor expected</value>
+  </data>
+  <data name="CSCSTR_GlobalAliasDefn" xml:space="preserve">
+    <value>Defining an alias named 'global' is ill-advised since 'global::' always references the global namespace and not an alias</value>
+  </data>
+  <data name="CSCSTR_GlobalExternAlias" xml:space="preserve">
+    <value>You cannot redefine the global extern alias</value>
+  </data>
+  <data name="CSCSTR_GlobalNamespace" xml:space="preserve">
+    <value>&lt;global namespace&gt;</value>
+  </data>
+  <data name="CSCSTR_GlobalSingleTypeNameNotFound" xml:space="preserve">
+    <value>The type or namespace name '{0}' could not be found in the global namespace (are you missing an assembly reference?)</value>
+  </data>
+  <data name="CSCSTR_GotoCaseShouldConvert" xml:space="preserve">
+    <value>The 'goto case' value is not implicitly convertible to type '{0}'</value>
+  </data>
+  <data name="CSCSTR_HasNoTypeVars" xml:space="preserve">
+    <value>The non-generic {1} '{0}' cannot be used with type arguments</value>
+  </data>
+  <data name="CSCSTR_HELP10" xml:space="preserve">
+    <value>Visual C# 2005 Compiler Options</value>
+  </data>
+  <data name="CSCSTR_HidingAbstractMethod" xml:space="preserve">
+    <value>'{0}' hides inherited abstract member '{1}'</value>
+  </data>
+  <data name="CSCSTR_ICE_Culprit" xml:space="preserve">
+    <value>Internal Compiler Error (0x{0} at address {2}): likely culprit is '{1}'.\n\nAn internal error has occurred in the compiler. To work around this problem, try simplifying or changing the program near the locations listed below. Locations at the top of the list are closer to the point at which the internal error occurred. Errors such as this can be reported to Microsoft by using the /errorreport option.\n </value>
+  </data>
+  <data name="CSCSTR_ICE_File" xml:space="preserve">
+    <value>Internal Compiler Error: stage '{0}'</value>
+  </data>
+  <data name="CSCSTR_ICE_Lexer" xml:space="preserve">
+    <value>Internal Compiler Error: stage 'LEX'</value>
+  </data>
+  <data name="CSCSTR_ICE_Node" xml:space="preserve">
+    <value>Internal Compiler Error: stage '{0}'</value>
+  </data>
+  <data name="CSCSTR_ICE_Parser" xml:space="preserve">
+    <value>Internal Compiler Error: stage 'PARSE'</value>
+  </data>
+  <data name="CSCSTR_ICE_Stage" xml:space="preserve">
+    <value>Internal Compiler Error: stage '{0}'</value>
+  </data>
+  <data name="CSCSTR_ICE_Symbol" xml:space="preserve">
+    <value>Internal Compiler Error: stage '{1}' symbol '{0}'</value>
+  </data>
+  <data name="CSCSTR_IdentifierExpected" xml:space="preserve">
+    <value>Identifier expected</value>
+  </data>
+  <data name="CSCSTR_IdentifierExpectedKW" xml:space="preserve">
+    <value>Identifier expected, '{1}' is a keyword</value>
+  </data>
+  <data name="CSCSTR_IdentifierTooLong" xml:space="preserve">
+    <value>Identifier too long</value>
+  </data>
+  <data name="CSCSTR_IdentityConversion" xml:space="preserve">
+    <value>User-defined operator cannot take an object of the enclosing type and convert to an object of the enclosing type</value>
+  </data>
+  <data name="CSCSTR_IllegalArglist" xml:space="preserve">
+    <value>An __arglist expression may only appear inside of a call or new expression</value>
+  </data>
+  <data name="CSCSTR_IllegalEscape" xml:space="preserve">
+    <value>Unrecognized escape sequence</value>
+  </data>
+  <data name="CSCSTR_IllegalFixedType" xml:space="preserve">
+    <value>Fixed size buffer type must be one of the following: bool, byte, short, int, long, char, sbyte, ushort, uint, ulong, float or double</value>
+  </data>
+  <data name="CSCSTR_IllegalInnerUnsafe" xml:space="preserve">
+    <value>Unsafe code may not appear in iterators</value>
+  </data>
+  <data name="CSCSTR_IllegalOptionChar" xml:space="preserve">
+    <value>Character '{0}' is not allowed on the command-line or in response files</value>
+  </data>
+  <data name="CSCSTR_IllegalParams" xml:space="preserve">
+    <value>params is not valid in this context</value>
+  </data>
+  <data name="CSCSTR_IllegalPPChecksum" xml:space="preserve">
+    <value>Invalid #pragma checksum syntax; should be #pragma checksum "filename" "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}" "XXXX..."</value>
+  </data>
+  <data name="CSCSTR_IllegalPPWarning" xml:space="preserve">
+    <value>Expected disable or restore</value>
+  </data>
+  <data name="CSCSTR_IllegalPragma" xml:space="preserve">
+    <value>Unrecognized #pragma directive</value>
+  </data>
+  <data name="CSCSTR_IllegalRefParam" xml:space="preserve">
+    <value>ref and out are not valid in this context</value>
+  </data>
+  <data name="CSCSTR_IllegalStatement" xml:space="preserve">
+    <value>Only assignment, call, increment, decrement, and new object expressions can be used as a statement</value>
+  </data>
+  <data name="CSCSTR_IllegalUnsafe" xml:space="preserve">
+    <value>Unsafe code may only appear if compiling with /unsafe</value>
+  </data>
+  <data name="CSCSTR_IllegalVarArgs" xml:space="preserve">
+    <value>__arglist is not valid in this context</value>
+  </data>
+  <data name="CSCSTR_ImplBadConstraints" xml:space="preserve">
+    <value>The constraints for type parameter '{0}' of method '{1}' must match the constraints for type parameter '{2}' of interface method '{3}'. Consider using an explicit interface implementation instead.</value>
+  </data>
+  <data name="CSCSTR_ImplicitTypeMultipleDeclarators" xml:space="preserve">
+    <value>Implicitly typed locals cannot have multiple declarators</value>
+  </data>
+  <data name="CSCSTR_ImplicitTypeNotInitialized" xml:space="preserve">
+    <value>Implicitly typed locals must be initialized</value>
+  </data>
+  <data name="CSCSTR_ImportBadBase" xml:space="preserve">
+    <value>The base class or interface of '{0}' could not be resolved or is invalid</value>
+  </data>
+  <data name="CSCSTR_ImportedCircularBase" xml:space="preserve">
+    <value>Imported type '{0}' is invalid. It contains a circular base class dependency.</value>
+  </data>
+  <data name="CSCSTR_ImportNonAssembly" xml:space="preserve">
+    <value>Referenced file '{0}' is not an assembly; use '/addmodule' option instead</value>
+  </data>
+  <data name="CSCSTR_InaccessibleGetter" xml:space="preserve">
+    <value>The property or indexer '{0}' cannot be used in this context because the get accessor is inaccessible</value>
+  </data>
+  <data name="CSCSTR_InaccessibleSetter" xml:space="preserve">
+    <value>The property or indexer '{0}' cannot be used in this context because the set accessor is inaccessible</value>
+  </data>
+  <data name="CSCSTR_InAttrOnOutParam" xml:space="preserve">
+    <value>An out parameter cannot have the In attribute</value>
+  </data>
+  <data name="CSCSTR_InconsistantIndexerNames" xml:space="preserve">
+    <value>Two indexers have different names; the IndexerName attribute must be used with the same name on every indexer within a type</value>
+  </data>
+  <data name="CSCSTR_InconsistentLambdaParameters" xml:space="preserve">
+    <value>Inconsistent lambda parameter usage; all parameter types must either be explicit or implicit</value>
+  </data>
+  <data name="CSCSTR_IncorrectBooleanAssg" xml:space="preserve">
+    <value>Assignment in conditional expression is always constant; did you mean to use == instead of = ?</value>
+  </data>
+  <data name="CSCSTR_IncrSwitchObsolete" xml:space="preserve">
+    <value>The /incremental option is no longer supported</value>
+  </data>
+  <data name="CSCSTR_IndexerCantHaveVoidType" xml:space="preserve">
+    <value>Indexers cannot have void type</value>
+  </data>
+  <data name="CSCSTR_IndexerInStaticClass" xml:space="preserve">
+    <value>'{0}': cannot declare indexers in a static class</value>
+  </data>
+  <data name="CSCSTR_IndexerNeedsParam" xml:space="preserve">
+    <value>Indexers must have at least one parameter</value>
+  </data>
+  <data name="CSCSTR_InExpected" xml:space="preserve">
+    <value>'in' expected</value>
+  </data>
+  <data name="CSCSTR_INITERROR" xml:space="preserve">
+    <value>Compiler initialization failed unexpectedly -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_InputFileNameTooLong" xml:space="preserve">
+    <value>File name '{0}' is too long or invalid</value>
+  </data>
+  <data name="CSCSTR_InstanceMemberInStaticClass" xml:space="preserve">
+    <value>'{0}': cannot declare instance members in a static class</value>
+  </data>
+  <data name="CSCSTR_InstantiatingStaticClass" xml:space="preserve">
+    <value>Cannot create an instance of the static class '{0}'</value>
+  </data>
+  <data name="CSCSTR_IntDivByZero" xml:space="preserve">
+    <value>Division by constant zero</value>
+  </data>
+  <data name="CSCSTR_IntegralTypeExpected" xml:space="preserve">
+    <value>Type byte, sbyte, short, ushort, int, uint, long, or ulong expected</value>
+  </data>
+  <data name="CSCSTR_IntegralTypeValueExpected" xml:space="preserve">
+    <value>A value of an integral type expected</value>
+  </data>
+  <data name="CSCSTR_InterfaceEventInitializer" xml:space="preserve">
+    <value>'{0}': event in interface cannot have initializer</value>
+  </data>
+  <data name="CSCSTR_InterfaceImplementedByConditional" xml:space="preserve">
+    <value>Conditional member '{0}' cannot implement interface member '{1}' in type '{2}'</value>
+  </data>
+  <data name="CSCSTR_InterfaceMemberHasBody" xml:space="preserve">
+    <value>'{0}': interface members cannot have a definition</value>
+  </data>
+  <data name="CSCSTR_InterfaceMemberNotFound" xml:space="preserve">
+    <value>'{0}' in explicit interface declaration is not a member of interface</value>
+  </data>
+  <data name="CSCSTR_InterfacesCannotContainTypes" xml:space="preserve">
+    <value>'{0}': interfaces cannot declare types</value>
+  </data>
+  <data name="CSCSTR_InterfacesCantContainConstructors" xml:space="preserve">
+    <value>Interfaces cannot contain constructors</value>
+  </data>
+  <data name="CSCSTR_InterfacesCantContainFields" xml:space="preserve">
+    <value>Interfaces cannot contain fields</value>
+  </data>
+  <data name="CSCSTR_InterfacesCantContainOperators" xml:space="preserve">
+    <value>Interfaces cannot contain operators</value>
+  </data>
+  <data name="CSCSTR_InternalError" xml:space="preserve">
+    <value>Internal compiler error ({0})</value>
+  </data>
+  <data name="CSCSTR_InternalVirtual" xml:space="preserve">
+    <value>Other languages may permit the internal virtual member '{0}' to be overridden</value>
+  </data>
+  <data name="CSCSTR_IntOverflow" xml:space="preserve">
+    <value>Integral constant is too large</value>
+  </data>
+  <data name="CSCSTR_InvalidAddrOp" xml:space="preserve">
+    <value>Cannot take the address of the given expression</value>
+  </data>
+  <data name="CSCSTR_InvalidAnonTypeMemberDeclarator" xml:space="preserve">
+    <value>Invalid anonymous type member declarator. Anonymous type members must be declared with a member assignment, simple name or member access</value>
+  </data>
+  <data name="CSCSTR_InvalidArray" xml:space="preserve">
+    <value>Invalid rank specifier: expected ',' or ']'</value>
+  </data>
+  <data name="CSCSTR_InvalidAssemblyName" xml:space="preserve">
+    <value>Assembly reference '{0}' is invalid and cannot be resolved</value>
+  </data>
+  <data name="CSCSTR_InvalidAttributeArgument" xml:space="preserve">
+    <value>Invalid value for argument to '{0}' attribute</value>
+  </data>
+  <data name="CSCSTR_InvalidAttributeLocation" xml:space="preserve">
+    <value>'{0}' is not a recognized attribute location. All attributes in this block will be ignored.</value>
+  </data>
+  <data name="CSCSTR_InvalidDefaultCharSetValue" xml:space="preserve">
+    <value>Value specified for the argument to 'System.Runtime.InteropServices.DefaultCharSetAttribute' is not valid</value>
+  </data>
+  <data name="CSCSTR_InvalidExprTerm" xml:space="preserve">
+    <value>Invalid expression term '{0}'</value>
+  </data>
+  <data name="CSCSTR_InvalidFixedArraySize" xml:space="preserve">
+    <value>Fixed size buffers must have a length greater than zero</value>
+  </data>
+  <data name="CSCSTR_InvalidFwdType" xml:space="preserve">
+    <value>Invalid type specified as an argument for TypeForwardedTo attribute</value>
+  </data>
+  <data name="CSCSTR_InvalidGenericEnum" xml:space="preserve">
+    <value>Enums cannot have type parameters</value>
+  </data>
+  <data name="CSCSTR_InvalidGotoCase" xml:space="preserve">
+    <value>A goto case is only valid inside a switch statement</value>
+  </data>
+  <data name="CSCSTR_InvalidInclude" xml:space="preserve">
+    <value>Invalid XML include element -- {0}</value>
+  </data>
+  <data name="CSCSTR_InvalidInitializerDeclarator" xml:space="preserve">
+    <value>Invalid initializer member declarator</value>
+  </data>
+  <data name="CSCSTR_InvalidLineNumber" xml:space="preserve">
+    <value>The line number specified for #line directive is missing or invalid</value>
+  </data>
+  <data name="CSCSTR_InvalidMainSig" xml:space="preserve">
+    <value>'{0}' has the wrong signature to be an entry point</value>
+  </data>
+  <data name="CSCSTR_InvalidMemberDecl" xml:space="preserve">
+    <value>Invalid token '{0}' in class, struct, or interface member declaration</value>
+  </data>
+  <data name="CSCSTR_InvalidNamedArgument" xml:space="preserve">
+    <value>Invalid value for named attribute argument '{0}'</value>
+  </data>
+  <data name="CSCSTR_InvalidNumber" xml:space="preserve">
+    <value>Invalid number</value>
+  </data>
+  <data name="CSCSTR_InvalidPreprocExpr" xml:space="preserve">
+    <value>Invalid preprocessor expression</value>
+  </data>
+  <data name="CSCSTR_InvalidPropertyAccessMod" xml:space="preserve">
+    <value>The accessibility modifier of the '{0}' accessor must be more restrictive than the property or indexer '{1}'</value>
+  </data>
+  <data name="CSCSTR_InvalidQM" xml:space="preserve">
+    <value>Type of conditional expression cannot be determined because there is no implicit conversion between '{0}' and '{1}'</value>
+  </data>
+  <data name="CSCSTR_InvalidSearchPathDir" xml:space="preserve">
+    <value>Invalid search path '{0}' specified in '{1}' -- '{2}'</value>
+  </data>
+  <data name="CSCSTR_InvalidSourceMap" xml:space="preserve">
+    <value>Sourcemap file is invalid; there was an error on line {0}</value>
+  </data>
+  <data name="CSCSTR_INVALIDTARGET" xml:space="preserve">
+    <value>Invalid target type for /target: must specify 'exe', 'winexe', 'library', or 'module'</value>
+  </data>
+  <data name="CSCSTR_IsAlwaysFalse" xml:space="preserve">
+    <value>The given expression is never of the provided ('{0}') type</value>
+  </data>
+  <data name="CSCSTR_IsAlwaysTrue" xml:space="preserve">
+    <value>The given expression is always of the provided ('{0}') type</value>
+  </data>
+  <data name="CSCSTR_LabelNotFound" xml:space="preserve">
+    <value>No such label '{0}' within the scope of the goto statement</value>
+  </data>
+  <data name="CSCSTR_LabelShadow" xml:space="preserve">
+    <value>The label '{0}' shadows another label by the same name in a contained scope</value>
+  </data>
+  <data name="CSCSTR_LambdaExpression" xml:space="preserve">
+    <value>lambda expression</value>
+  </data>
+  <data name="CSCSTR_LbraceExpected" xml:space="preserve">
+    <value>{ expected</value>
+  </data>
+  <data name="CSCSTR_LIB_ENV" xml:space="preserve">
+    <value>LIB environment variable</value>
+  </data>
+  <data name="CSCSTR_LIB_OPTION" xml:space="preserve">
+    <value>/LIB option</value>
+  </data>
+  <data name="CSCSTR_LineTooLong" xml:space="preserve">
+    <value>Compiler limit exceeded: Line cannot exceed {0} characters</value>
+  </data>
+  <data name="CSCSTR_LinkDemandOnOverride" xml:space="preserve">
+    <value>'{0}' has a link demand, but overrides or implements '{1}' which does not have a link demand. A security hole may exist.</value>
+  </data>
+  <data name="CSCSTR_LiteralDoubleCast" xml:space="preserve">
+    <value>Literal of type double cannot be implicitly converted to type '{1}'; use an '{0}' suffix to create a literal of this type</value>
+  </data>
+  <data name="CSCSTR_LocalCantBeFixedAndHoisted" xml:space="preserve">
+    <value>Local '{0}' or its members cannot have their address taken and be used inside an anonymous method block</value>
+  </data>
+  <data name="CSCSTR_LocalDuplicate" xml:space="preserve">
+    <value>A local variable named '{0}' is already defined in this scope</value>
+  </data>
+  <data name="CSCSTR_LocalIllegallyOverrides" xml:space="preserve">
+    <value>A local variable named '{0}' cannot be declared in this scope because it would give a different meaning to '{0}', which is already used in a '{1}' scope to denote something else</value>
+  </data>
+  <data name="CSCSTR_LocalSameNameAsTypeParam" xml:space="preserve">
+    <value>'{0}': a parameter or local variable cannot have the same name as a method type parameter</value>
+  </data>
+  <data name="CSCSTR_LockNeedsReference" xml:space="preserve">
+    <value>'{0}' is not a reference type as required by the lock statement</value>
+  </data>
+  <data name="CSCSTR_LookupInTypeVariable" xml:space="preserve">
+    <value>Cannot do member lookup in '{0}' because it is a type parameter</value>
+  </data>
+  <data name="CSCSTR_LowercaseEllSuffix" xml:space="preserve">
+    <value>The 'l' suffix is easily confused with the digit '1' -- use 'L' for clarity</value>
+  </data>
+  <data name="CSCSTR_MainCantBeGeneric" xml:space="preserve">
+    <value>'{0}': an entry point cannot be generic or in a generic type</value>
+  </data>
+  <data name="CSCSTR_MainClassIsImport" xml:space="preserve">
+    <value>Cannot use '{0}' for Main method because it is imported</value>
+  </data>
+  <data name="CSCSTR_MainClassNotClass" xml:space="preserve">
+    <value>'{0}' specified for Main method must be a valid class or struct</value>
+  </data>
+  <data name="CSCSTR_MainClassNotFound" xml:space="preserve">
+    <value>Could not find '{0}' specified for Main method</value>
+  </data>
+  <data name="CSCSTR_MainClassWrongFile" xml:space="preserve">
+    <value>Cannot use '{0}' for Main method because it is in a different output file</value>
+  </data>
+  <data name="CSCSTR_MalformedMetadata" xml:space="preserve">
+    <value>Input file '{0}' contains invalid metadata.</value>
+  </data>
+  <data name="CSCSTR_ManagedAddr" xml:space="preserve">
+    <value>Cannot take the address of, get the size of, or declare a pointer to a managed type ('{0}')</value>
+  </data>
+  <data name="CSCSTR_MemberAbstractSealed" xml:space="preserve">
+    <value>'{0}' cannot be both abstract and sealed</value>
+  </data>
+  <data name="CSCSTR_MemberAlreadyExists" xml:space="preserve">
+    <value>Type '{1}' already defines a member called '{0}' with the same parameter types</value>
+  </data>
+  <data name="CSCSTR_MemberNameSameAsType" xml:space="preserve">
+    <value>'{0}': member names cannot be the same as their enclosing type</value>
+  </data>
+  <data name="CSCSTR_MemberNeedsType" xml:space="preserve">
+    <value>Class, struct, or interface method must have a return type</value>
+  </data>
+  <data name="CSCSTR_MetadataCantOpenFile" xml:space="preserve">
+    <value>Metadata file '{1}' could not be opened -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_MetadataEmitFailure" xml:space="preserve">
+    <value>Unexpected error writing metadata to file '{1}' -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_MetadataImportFailure" xml:space="preserve">
+    <value>Unexpected error reading metadata from file '{1}' -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_MethDelegateMismatch" xml:space="preserve">
+    <value>No overload for '{0}' matches delegate '{1}'</value>
+  </data>
+  <data name="CSCSTR_MethGrpToNonDel" xml:space="preserve">
+    <value>Cannot convert method group '{0}' to non-delegate type '{1}'. Did you intend to invoke the method?</value>
+  </data>
+  <data name="CSCSTR_MethodArgCantBeRefAny" xml:space="preserve">
+    <value>Method or delegate parameter cannot be of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_MethodGroup" xml:space="preserve">
+    <value>method group</value>
+  </data>
+  <data name="CSCSTR_MethodImplementingAccessor" xml:space="preserve">
+    <value>Method '{0}' cannot implement interface accessor '{1}' for type '{2}'. Use an explicit interface implementation.</value>
+  </data>
+  <data name="CSCSTR_MethodNameExpected" xml:space="preserve">
+    <value>Method name expected</value>
+  </data>
+  <data name="CSCSTR_MethodReturnCantBeRefAny" xml:space="preserve">
+    <value>Method or delegate cannot return type '{0}'</value>
+  </data>
+  <data name="CSCSTR_MissingArraySize" xml:space="preserve">
+    <value>Array creation must have array size or array initializer</value>
+  </data>
+  <data name="CSCSTR_MissingCoClass" xml:space="preserve">
+    <value>The managed coclass wrapper class '{0}' for interface '{1}' cannot be found (are you missing an assembly reference?)</value>
+  </data>
+  <data name="CSCSTR_MissingComTypeOrMarshaller" xml:space="preserve">
+    <value>'{0}': System.Interop.UnmanagedType.CustomMarshaller requires named arguments ComType and Marshal</value>
+  </data>
+  <data name="CSCSTR_MissingOptionArg" xml:space="preserve">
+    <value>Compiler option '{0}' must be followed by an argument</value>
+  </data>
+  <data name="CSCSTR_MissingParamTag" xml:space="preserve">
+    <value>Parameter '{0}' has no matching param tag in the XML comment for '{1}' (but other parameters do)</value>
+  </data>
+  <data name="CSCSTR_MissingPartial" xml:space="preserve">
+    <value>Missing partial modifier on declaration of type '{0}'; another partial declaration of this type exists</value>
+  </data>
+  <data name="CSCSTR_MissingPPFile" xml:space="preserve">
+    <value>Filename, single-line comment or end-of-line expected</value>
+  </data>
+  <data name="CSCSTR_MissingPredefinedMember" xml:space="preserve">
+    <value>Missing compiler required member '{0}.{1}'</value>
+  </data>
+  <data name="CSCSTR_MissingStructOffset" xml:space="preserve">
+    <value>'{0}': instance field types marked with StructLayout(LayoutKind.Explicit) must have a FieldOffset attribute</value>
+  </data>
+  <data name="CSCSTR_MissingTypeInAssembly" xml:space="preserve">
+    <value>Reference to type '{0}' claims it is defined in '{1}', but it could not be found</value>
+  </data>
+  <data name="CSCSTR_MissingTypeInSource" xml:space="preserve">
+    <value>Reference to type '{0}' claims it is defined in this assembly, but it is not defined in source or any added modules</value>
+  </data>
+  <data name="CSCSTR_MissingTypeNested" xml:space="preserve">
+    <value>Reference to type '{0}' claims it is nested within '{1}', but it could not be found</value>
+  </data>
+  <data name="CSCSTR_MissingTypeParamTag" xml:space="preserve">
+    <value>Type parameter '{0}' has no matching typeparam tag in the XML comment on '{1}' (but other type parameters do)</value>
+  </data>
+  <data name="CSCSTR_MissingXMLComment" xml:space="preserve">
+    <value>Missing XML comment for publicly visible type or member '{0}'</value>
+  </data>
+  <data name="CSCSTR_ModuleNotAdded" xml:space="preserve">
+    <value>Added module '{1}' references module '{0}' which was not added</value>
+  </data>
+  <data name="CSCSTR_ModuleNotScoped" xml:space="preserve">
+    <value>Added module '{0}' has unresolved reference to type '{1}'</value>
+  </data>
+  <data name="CSCSTR_MultipleEntryPoints" xml:space="preserve">
+    <value>Program '{1}' has more than one entry point defined: '{0}'</value>
+  </data>
+  <data name="CSCSTR_MultipleIEnumOfT" xml:space="preserve">
+    <value>foreach statement cannot operate on variables of type '{0}' because it implements multiple instantiations of '{1}', try casting to a specific interface instantiation</value>
+  </data>
+  <data name="CSCSTR_MultiplePartialMethodImplementation" xml:space="preserve">
+    <value>A partial method may not have multiple implementing declarations.</value>
+  </data>
+  <data name="CSCSTR_MultiplePredefTypes" xml:space="preserve">
+    <value>The predefined type '{0}' is defined in multiple assemblies in the global alias; using definition from '{1}'</value>
+  </data>
+  <data name="CSCSTR_MultiTypeInDeclaration" xml:space="preserve">
+    <value>Cannot use more than one type in a for, using, fixed, or declaration statement</value>
+  </data>
+  <data name="CSCSTR_MustHaveOpTF" xml:space="preserve">
+    <value>The type ('{0}') must contain declarations of operator true and operator false</value>
+  </data>
+  <data name="CSCSTR_NameAttributeOnOverride" xml:space="preserve">
+    <value>Cannot set the IndexerName attribute on an indexer marked override</value>
+  </data>
+  <data name="CSCSTR_NamedArgumentExpected" xml:space="preserve">
+    <value>Named attribute argument expected</value>
+  </data>
+  <data name="CSCSTR_NameIllegallyOverrides" xml:space="preserve">
+    <value>'{1}' conflicts with the declaration '{0}'</value>
+  </data>
+  <data name="CSCSTR_NameNotInContext" xml:space="preserve">
+    <value>The name '{0}' does not exist in the current context</value>
+  </data>
+  <data name="CSCSTR_NamespaceUnexpected" xml:space="preserve">
+    <value>A namespace does not directly contain members such as fields or methods</value>
+  </data>
+  <data name="CSCSTR_NegativeArrayIndex" xml:space="preserve">
+    <value>Indexing an array with a negative index (array indices always start at zero)</value>
+  </data>
+  <data name="CSCSTR_NegativeArraySize" xml:space="preserve">
+    <value>Cannot create an array with a negative size</value>
+  </data>
+  <data name="CSCSTR_NegativeStackAllocSize" xml:space="preserve">
+    <value>Cannot use a negative size with stackalloc</value>
+  </data>
+  <data name="CSCSTR_NewBoundMustBeLast" xml:space="preserve">
+    <value>The new() constraint must be the last constraint specified</value>
+  </data>
+  <data name="CSCSTR_NewBoundWithVal" xml:space="preserve">
+    <value>The 'new()' constraint cannot be used with the 'struct' constraint</value>
+  </data>
+  <data name="CSCSTR_NewConstraintNotSatisfied" xml:space="preserve">
+    <value>The type '{2}' must have a public parameterless constructor in order to use it as parameter '{1}' in the generic type or method '{0}'</value>
+  </data>
+  <data name="CSCSTR_NewlineInConst" xml:space="preserve">
+    <value>Newline in constant</value>
+  </data>
+  <data name="CSCSTR_NewNotRequired" xml:space="preserve">
+    <value>The member '{0}' does not hide an inherited member. The new keyword is not required.</value>
+  </data>
+  <data name="CSCSTR_NewOrOverrideExpected" xml:space="preserve">
+    <value>'{0}' hides inherited member '{1}'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.</value>
+  </data>
+  <data name="CSCSTR_NewRequired" xml:space="preserve">
+    <value>'{0}' hides inherited member '{1}'. Use the new keyword if hiding was intended.</value>
+  </data>
+  <data name="CSCSTR_NewTyvarWithArgs" xml:space="preserve">
+    <value>'{0}': cannot provide arguments when creating an instance of a variable type</value>
+  </data>
+  <data name="CSCSTR_NewVirtualInSealed" xml:space="preserve">
+    <value>'{0}' is a new virtual member in sealed class '{1}'</value>
+  </data>
+  <data name="CSCSTR_NoAccessibleMember" xml:space="preserve">
+    <value>'{0}' does not contain a definition for '{1}', or it is not accessible</value>
+  </data>
+  <data name="CSCSTR_NoBaseClass" xml:space="preserve">
+    <value>A base class is required for a 'base' reference</value>
+  </data>
+  <data name="CSCSTR_NoBestTypeForArray" xml:space="preserve">
+    <value>No best type found for implicitly typed array</value>
+  </data>
+  <data name="CSCSTR_NoBreakOrCont" xml:space="preserve">
+    <value>No enclosing loop out of which to break or continue</value>
+  </data>
+  <data name="CSCSTR_NoConfigNotOnCommandLine" xml:space="preserve">
+    <value>Ignoring /noconfig option because it was specified in a response file</value>
+  </data>
+  <data name="CSCSTR_NoConstructors" xml:space="preserve">
+    <value>The type '{0}' has no constructors defined</value>
+  </data>
+  <data name="CSCSTR_NoConvToIDisp" xml:space="preserve">
+    <value>'{0}': type used in a using statement must be implicitly convertible to 'System.IDisposable'</value>
+  </data>
+  <data name="CSCSTR_NoDebugSwitchSourceMap" xml:space="preserve">
+    <value>Must emit debug info with /sourcemap. Are you missing '/debug'?</value>
+  </data>
+  <data name="CSCSTR_NoDefaultArgs" xml:space="preserve">
+    <value>Default parameter specifiers are not permitted</value>
+  </data>
+  <data name="CSCSTR_NoEntryPoint" xml:space="preserve">
+    <value>Program '{0}' does not contain a static 'Main' method suitable for an entry point</value>
+  </data>
+  <data name="CSCSTR_NoExplicitBuiltinConv" xml:space="preserve">
+    <value>Cannot convert type '{0}' to '{1}' via a built-in conversion</value>
+  </data>
+  <data name="CSCSTR_NoExplicitConv" xml:space="preserve">
+    <value>Cannot convert type '{0}' to '{1}'</value>
+  </data>
+  <data name="CSCSTR_NOFILESPEC" xml:space="preserve">
+    <value>Missing file specification for '{0}' option</value>
+  </data>
+  <data name="CSCSTR_NoGetToOverride" xml:space="preserve">
+    <value>'{0}': cannot override because '{1}' does not have an overridable get accessor</value>
+  </data>
+  <data name="CSCSTR_NoImplicitConv" xml:space="preserve">
+    <value>Cannot implicitly convert type '{0}' to '{1}'</value>
+  </data>
+  <data name="CSCSTR_NoImplicitConvCast" xml:space="preserve">
+    <value>Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?)</value>
+  </data>
+  <data name="CSCSTR_NoInvoke" xml:space="preserve">
+    <value>The delegate '{0}' is missing the Invoke method</value>
+  </data>
+  <data name="CSCSTR_NoMainInClass" xml:space="preserve">
+    <value>'{0}' does not have a suitable static Main method</value>
+  </data>
+  <data name="CSCSTR_NOMAINONDLL" xml:space="preserve">
+    <value>Cannot specify /main if building a module or library</value>
+  </data>
+  <data name="CSCSTR_NoMemory" xml:space="preserve">
+    <value>Out of memory</value>
+  </data>
+  <data name="CSCSTR_NoMetadataFile" xml:space="preserve">
+    <value>Metadata file '{0}' could not be found</value>
+  </data>
+  <data name="CSCSTR_NoModifiersOnAccessor" xml:space="preserve">
+    <value>Modifiers cannot be placed on event accessor declarations</value>
+  </data>
+  <data name="CSCSTR_NoMultipleInheritance" xml:space="preserve">
+    <value>Class '{0}' cannot have multiple base classes: '{1}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_NoNamespacePrivate" xml:space="preserve">
+    <value>Namespace elements cannot be explicitly declared as private, protected, or protected internal</value>
+  </data>
+  <data name="CSCSTR_NonECMAFeature" xml:space="preserve">
+    <value>Feature '{0}' cannot be used because it is not part of the standardized ISO C# language specification</value>
+  </data>
+  <data name="CSCSTR_NonECMAFeatureOK" xml:space="preserve">
+    <value>Feature '{0}' is not part of the standardized ISO C# language specification, and may not be accepted by other compilers</value>
+  </data>
+  <data name="CSCSTR_NoNewAbstract" xml:space="preserve">
+    <value>Cannot create an instance of the abstract class or interface '{0}'</value>
+  </data>
+  <data name="CSCSTR_NoNewOnNamespaceElement" xml:space="preserve">
+    <value>Keyword new not allowed on namespace elements</value>
+  </data>
+  <data name="CSCSTR_NoNewTyvar" xml:space="preserve">
+    <value>Cannot create an instance of the variable type '{0}' because it does not have the new() constraint</value>
+  </data>
+  <data name="CSCSTR_NonInterfaceInInterfaceList" xml:space="preserve">
+    <value>Type '{0}' in interface list is not an interface</value>
+  </data>
+  <data name="CSCSTR_NonObsoleteOverridingObsolete" xml:space="preserve">
+    <value>Member '{0}' overrides obsolete member '{1}'. Add the Obsolete attribute to '{0}'.</value>
+  </data>
+  <data name="CSCSTR_NonStaticExtensionMethod" xml:space="preserve">
+    <value>Extension methods must be static</value>
+  </data>
+  <data name="CSCSTR_NonVirtualCallFromClosure" xml:space="preserve">
+    <value>Access to member '{0}' through a 'base' keyword from an anonymous method or iterator results in unverifiable code. Consider moving the access into a helper method on the containing type.</value>
+  </data>
+  <data name="CSCSTR_NORESPONSEFILE" xml:space="preserve">
+    <value>Error opening response file '{0}' -- '{1}'</value>
+  </data>
+  <data name="CSCSTR_NoSetToOverride" xml:space="preserve">
+    <value>'{0}': cannot override because '{1}' does not have an overridable set accessor</value>
+  </data>
+  <data name="CSCSTR_NoSourceFile" xml:space="preserve">
+    <value>Source file '{0}' could not be opened ('{1}')</value>
+  </data>
+  <data name="CSCSTR_NoSourceMapFile" xml:space="preserve">
+    <value>Unable to open source map file '{0}'</value>
+  </data>
+  <data name="CSCSTR_NOSOURCES" xml:space="preserve">
+    <value>No inputs specified</value>
+  </data>
+  <data name="CSCSTR_NoSourcesInLastInputSet" xml:space="preserve">
+    <value>Options '/out' and '/target' must appear before source file names</value>
+  </data>
+  <data name="CSCSTR_NoStdLib" xml:space="preserve">
+    <value>Standard library file '{0}' could not be found</value>
+  </data>
+  <data name="CSCSTR_NoSuchMember" xml:space="preserve">
+    <value>'{0}' does not contain a definition for '{1}'</value>
+  </data>
+  <data name="CSCSTR_NotAnAttributeClass" xml:space="preserve">
+    <value>'{0}' is not an attribute class</value>
+  </data>
+  <data name="CSCSTR_NotConstantExpression" xml:space="preserve">
+    <value>The expression being assigned to '{0}' must be constant</value>
+  </data>
+  <data name="CSCSTR_NotNullConstRefField" xml:space="preserve">
+    <value>'{0}' is of type '{1}.' A const of reference type other than string can only be initialized with null</value>
+  </data>
+  <data name="CSCSTR_NoTypeDef" xml:space="preserve">
+    <value>The type '{0}' is defined in an assembly that is not referenced. You must add a reference to assembly '{1}'.</value>
+  </data>
+  <data name="CSCSTR_NoVoidHere" xml:space="preserve">
+    <value>Keyword 'void' cannot be used in this context</value>
+  </data>
+  <data name="CSCSTR_NoVoidParameter" xml:space="preserve">
+    <value>Invalid parameter type 'void'</value>
+  </data>
+  <data name="CSCSTR_NubExprIsConstBool" xml:space="preserve">
+    <value>The result of the expression is always '{0}' since a value of type '{1}' is never equal to 'null' of type '{2}'</value>
+  </data>
+  <data name="CSCSTR_NULL" xml:space="preserve">
+    <value>&lt;null&gt;</value>
+  </data>
+  <data name="CSCSTR_NullNotValid" xml:space="preserve">
+    <value>Use of null is not valid in this context</value>
+  </data>
+  <data name="CSCSTR_ObjectCallingBaseConstructor" xml:space="preserve">
+    <value>'{0}' has no base class and cannot call a base constructor</value>
+  </data>
+  <data name="CSCSTR_ObjectCantHaveBases" xml:space="preserve">
+    <value>The class System.Object cannot have a base class or implement an interface</value>
+  </data>
+  <data name="CSCSTR_ObjectProhibited" xml:space="preserve">
+    <value>Static member '{0}' cannot be accessed with an instance reference; qualify it with a type name instead</value>
+  </data>
+  <data name="CSCSTR_ObjectRequired" xml:space="preserve">
+    <value>An object reference is required for the nonstatic field, method, or property '{0}'</value>
+  </data>
+  <data name="CSCSTR_OD_ALIAS" xml:space="preserve">
+    <value>Reference metadata from the specified assembly file using the given alias</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_ADDR" xml:space="preserve">
+    <value>&lt;address&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_ALIAS" xml:space="preserve">
+    <value>&lt;alias&gt;=&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_DEBUGTYPE" xml:space="preserve">
+    <value>{full|pdbonly}</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_FILE" xml:space="preserve">
+    <value>&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_FILELIST" xml:space="preserve">
+    <value>&lt;file list&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_NUMBER" xml:space="preserve">
+    <value>&lt;n&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_RESINFO" xml:space="preserve">
+    <value>&lt;resinfo&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_STRING" xml:space="preserve">
+    <value>&lt;string&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_SYMLIST" xml:space="preserve">
+    <value>&lt;symbol list&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_TYPE" xml:space="preserve">
+    <value>&lt;type&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_WARNLIST" xml:space="preserve">
+    <value>&lt;warn list&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_ARG_WILDCARD" xml:space="preserve">
+    <value>&lt;wildcard&gt;</value>
+  </data>
+  <data name="CSCSTR_OD_BUG" xml:space="preserve">
+    <value>Create a 'Bug Report' file.</value>
+  </data>
+  <data name="CSCSTR_OD_EMITDEBUGINFO" xml:space="preserve">
+    <value>Emit debugging information</value>
+  </data>
+  <data name="CSCSTR_OD_INCBUILD" xml:space="preserve">
+    <value>Enable incremental compilation</value>
+  </data>
+  <data name="CSCSTR_OD_MODULEASSEMBLY" xml:space="preserve">
+    <value>Name of the assembly which this module will be a part of.</value>
+  </data>
+  <data name="CSCSTR_OD_NOCODEGEN" xml:space="preserve">
+    <value>Only check code for errors; do not emit executable</value>
+  </data>
+  <data name="CSCSTR_OD_TIMING" xml:space="preserve">
+    <value>Output mini-profile (timings of important code sections)</value>
+  </data>
+  <data name="CSCSTR_OD_WATSONMODE" xml:space="preserve">
+    <value>Specify how to handle internal compiler errors: prompt, send, queue, or none. The default is queue.</value>
+  </data>
+  <data name="CSCSTR_OneAliasPerRefernce" xml:space="preserve">
+    <value>A /reference option that declares an extern alias can only have one filename. To specify multiple aliases or filenames, use multiple /reference options.</value>
+  </data>
+  <data name="CSCSTR_OnlyClassesCanContainDestructors" xml:space="preserve">
+    <value>Only class types can contain destructors</value>
+  </data>
+  <data name="CSCSTR_OnlyValidOnCustomMarshaller" xml:space="preserve">
+    <value>'{0}': argument only valid for marshal of type System.Interop.UnmanagedType.CustomMarshaller</value>
+  </data>
+  <data name="CSCSTR_OpenEndedComment" xml:space="preserve">
+    <value>End-of-file found, '*/' expected</value>
+  </data>
+  <data name="CSCSTR_OperatorCantReturnVoid" xml:space="preserve">
+    <value>User-defined operators cannot return void</value>
+  </data>
+  <data name="CSCSTR_OperatorInStaticClass" xml:space="preserve">
+    <value>'{0}': static classes cannot contain user-defined operators</value>
+  </data>
+  <data name="CSCSTR_OperatorNeedsMatch" xml:space="preserve">
+    <value>The operator '{0}' requires a matching operator '{1}' to also be defined</value>
+  </data>
+  <data name="CSCSTR_OperatorsMustBeStatic" xml:space="preserve">
+    <value>User-defined operator '{0}' must be declared static and public</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_ADDMODULE" xml:space="preserve">
+    <value>Link the specified modules into this assembly</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_ALIGN" xml:space="preserve">
+    <value>Specify the alignment used for output file sections</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_ANALYZER" xml:space="preserve">
+    <value>Run the analyzers from this assembly.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_APPCONFIGR" xml:space="preserve">
+    <value>Specifies the location of app.config at assembly binding time.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_BASEADDRESS" xml:space="preserve">
+    <value>Base address for the library to be built</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_BUGREPORT" xml:space="preserve">
+    <value>Specifies the file which the debug information should be placed.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_CHECKED" xml:space="preserve">
+    <value>Generate overflow checks</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_CHECKSUMALGORITHM" xml:space="preserve">
+    <value>Specify the algorithm for calculating the source file checksum stored in PDB.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_CODEPAGE" xml:space="preserve">
+    <value>Specify the codepage to use when opening source files</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_COMPATIBILITY" xml:space="preserve">
+    <value>Specify language version mode: ISO-1 or Default</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_DEBUG" xml:space="preserve">
+    <value>Specifies whether the debugging information should be placed in the program.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_DEBUGTYPE" xml:space="preserve">
+    <value>Specify debugging type ('full' is default, and enables attaching a debugger to a running program)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_DEFINECCSYMBOLS" xml:space="preserve">
+    <value>Define conditional compilation symbol(s)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_DELAYSIGN" xml:space="preserve">
+    <value>Delay-sign the assembly using only the public portion of the strong name key</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_EMBEDRESOURCE" xml:space="preserve">
+    <value>Embed the specified resource</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_ERRORREPORT" xml:space="preserve">
+    <value>Specifies how to handle internal compiler errors.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_FULLPATH" xml:space="preserve">
+    <value>Compiler generates fully qualified paths</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_HELP" xml:space="preserve">
+    <value>Display this usage message</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_HIGHENTROPYVA" xml:space="preserve">
+    <value>Specifies that high entropy ASLR is supported.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_KEYCONTAINER" xml:space="preserve">
+    <value>Specify a strong name key container</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_KEYFILE" xml:space="preserve">
+    <value>Specify a strong name key file</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_LIBPATH" xml:space="preserve">
+    <value>Specify additional directories to search in for references</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_LINK" xml:space="preserve">
+    <value>Makes COM type information in specified assemblies.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_LINKRESOURCE" xml:space="preserve">
+    <value>Link the specified resource to this assembly</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_MAIN" xml:space="preserve">
+    <value>Specify the type that contains the entry point (ignore all other possible entry points)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_MODULEASSEMBLYNAME" xml:space="preserve">
+    <value>Specifies an assembly whose non-public types a .netmodule can access.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_MODULENAME" xml:space="preserve">
+    <value>Specify the name of the source module.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_NOCONFIG" xml:space="preserve">
+    <value>Do not auto include CSC.RSP file</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_NOLOGO" xml:space="preserve">
+    <value>Suppress compiler copyright message</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_NOSTDLIB" xml:space="preserve">
+    <value>Do not reference standard library (mscorlib.dll)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_NOWARNLIST" xml:space="preserve">
+    <value>Disable specific warning messages</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_NOWIN32MANIFEST" xml:space="preserve">
+    <value>Instructs the compiler not to embed an application manifest in the executable file.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_OPTIMIZATIONS" xml:space="preserve">
+    <value>Enable optimizations</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_OUTPUTFILENAME" xml:space="preserve">
+    <value>Specify output file name (default: base name of file with main class or first file)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_PARALLEL" xml:space="preserve">
+    <value>Specifies whether to use concurrent build .</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_PDBFILENAME" xml:space="preserve">
+    <value>Specify debug information file name (default: output file name with .pdb extension)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_PLATFORM" xml:space="preserve">
+    <value>Limit which platforms this code can run on: x86, Itanium, x64, or anycpu. The default is anycpu.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_PREFERREDUILANG" xml:space="preserve">
+    <value>Specifies the language to be used for compiler output.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_RECURSE" xml:space="preserve">
+    <value>Include all files in the current directory and subdirectories according to the wildcard specifications</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_REFERENCE" xml:space="preserve">
+    <value>Reference metadata from the specified assembly files</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_RESPONSEFILE" xml:space="preserve">
+    <value>Read response file for more options</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_RULESET" xml:space="preserve">
+    <value>Specify a ruleset file.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_SUBSYSTEMVERSION" xml:space="preserve">
+    <value>Specifies the minimum version of the subsystem that the executable file can use.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_TARGET" xml:space="preserve">
+    <value>Specifies the format of the output file .</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_TARGET_DLL" xml:space="preserve">
+    <value>Build a library</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_TARGET_EXE" xml:space="preserve">
+    <value>Build a console executable (default)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_TARGET_MODULE" xml:space="preserve">
+    <value>Build a module that can be added to another assembly</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_TARGET_WINEXE" xml:space="preserve">
+    <value>Build a Windows executable</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_UNSAFE" xml:space="preserve">
+    <value>Allow 'unsafe' code</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_UTF8OUTPUT" xml:space="preserve">
+    <value>Output compiler messages in UTF-8 encoding</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WARNASERRORLIST" xml:space="preserve">
+    <value>Report specific warnings as errors</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WARNINGLEVEL" xml:space="preserve">
+    <value>Set warning level (0-4)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WARNINGSAREERRORS" xml:space="preserve">
+    <value>Report all warnings as errors</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WIN32ICON" xml:space="preserve">
+    <value>Use this icon for the output</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WIN32MANIFEST" xml:space="preserve">
+    <value>Specifies a custom win32 manifest file.</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_WIN32RESOURCE" xml:space="preserve">
+    <value>Specify a Win32 resource file (.res)</value>
+  </data>
+  <data name="CSCSTR_OPTDSC_XML_DOCFILE" xml:space="preserve">
+    <value>XML Documentation file to generate</value>
+  </data>
+  <data name="CSCSTR_OpTFRetType" xml:space="preserve">
+    <value>The return type of operator True or False must be bool</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_ADVANCED" xml:space="preserve">
+    <value>- ADVANCED -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_ASSEMBLIES" xml:space="preserve">
+    <value>- .NET FRAMEWORK ASSEMBLIES -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_CODEGENERATION" xml:space="preserve">
+    <value>- CODE GENERATION -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_DEBUGGING" xml:space="preserve">
+    <value>- DEBUGGING / ERROR CHECKING -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_ERRORS" xml:space="preserve">
+    <value>- ERRORS AND WARNINGS -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_HELP" xml:space="preserve">
+    <value>- HELP -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_INPUT" xml:space="preserve">
+    <value>- INPUT FILES -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_LANGUAGE" xml:space="preserve">
+    <value>- LANGUAGE -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_MISC" xml:space="preserve">
+    <value>- MISCELLANEOUS -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_OBSOLETE" xml:space="preserve">
+    <value>- OBSOLETE -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_OPTIMIZATION" xml:space="preserve">
+    <value>- OPTIMIZATION -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_OUTPUT" xml:space="preserve">
+    <value>- OUTPUT FILES -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_PROPRCESSOR" xml:space="preserve">
+    <value>- PROPRCESSOR -</value>
+  </data>
+  <data name="CSCSTR_OPTGRP_RESOURCES" xml:space="preserve">
+    <value>- RESOURCES -</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_ADDITIONALFILE" xml:space="preserve">
+    <value>/additionalfile</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_ADDMODULE" xml:space="preserve">
+    <value>/addmodule:&lt;file&gt;[;&lt;file2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_ANALYZER" xml:space="preserve">
+    <value>/analyzer</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_APPCONFIG" xml:space="preserve">
+    <value>/appconfig:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_BASEADDRESS" xml:space="preserve">
+    <value>/base[address]:&lt;address&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_BUGREPORT" xml:space="preserve">
+    <value>/bugreport:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_CHECKED" xml:space="preserve">
+    <value>/checked[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_CHECKSUMALGORITHM" xml:space="preserve">
+    <value>/checksumalgorithm:&lt;algorithm ID&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_CODEPAGE" xml:space="preserve">
+    <value>/codepage:&lt;codepage ID&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_DEBUG" xml:space="preserve">
+    <value>/debug[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_DEBUGTYPE" xml:space="preserve">
+    <value>/debug:{full|pdbonly}</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_DEFINECCSYMBOLS" xml:space="preserve">
+    <value>/define:&lt;string&gt;[,&lt;string2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_DELAYSIGN" xml:space="preserve">
+    <value>/delay[sign][+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_EMBEDRESOURCE" xml:space="preserve">
+    <value>/resource:&lt;file&gt;[,&lt;name&gt;[,&lt;accessibility&gt;]]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_ERRORREPORT" xml:space="preserve">
+    <value>/errorreport:{none|prompt|queue|send}</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_FILEALIGN" xml:space="preserve">
+    <value>/filealign:&lt;size&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_FULLPATHS" xml:space="preserve">
+    <value>/fullpaths</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_HELP" xml:space="preserve">
+    <value>/help or /?</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_HIGHENTROPYVA" xml:space="preserve">
+    <value>/highentropyva[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_KEYCONTAINER" xml:space="preserve">
+    <value>/keycontainer:&lt;name&gt; or /keyn[ame]:&lt;name&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_KEYFILE" xml:space="preserve">
+    <value>/keyf[ile]:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_LANGVERSION" xml:space="preserve">
+    <value>/langversion:&lt;string&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_LIBPATH" xml:space="preserve">
+    <value>/lib:&lt;dir&gt;[,&lt;dir2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_LINK" xml:space="preserve">
+    <value>/lib:&lt;file&gt;,[&lt;file2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_LINKRESOURCE" xml:space="preserve">
+    <value>/linkresource:&lt;file&gt;[,&lt;name&gt;[,&lt;accessibility&gt;]]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_MAIN" xml:space="preserve">
+    <value>/main:&lt;class&gt;.&lt;method&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_MODULEASSEMBLYNAME" xml:space="preserve">
+    <value>/moduleassemblyname:&lt;name&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_MODULENAME" xml:space="preserve">
+    <value>/modulename:&lt;name&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_NOCONFIG" xml:space="preserve">
+    <value>/noconfig</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_NOLOGO" xml:space="preserve">
+    <value>/nologo</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_NOSTDLIB" xml:space="preserve">
+    <value>/nostdlib[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_NOWARNLIST" xml:space="preserve">
+    <value>/nowarn:&lt;number&gt;[,&lt;number2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_NOWIN32MANIFEST" xml:space="preserve">
+    <value>/nowin32manifest</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_OPTIMIZE" xml:space="preserve">
+    <value>/optimize[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_OUTPUTFILENAME" xml:space="preserve">
+    <value>/out:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_PARALLEL" xml:space="preserve">
+    <value>/parallel[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_PDBFILENAME" xml:space="preserve">
+    <value>/pdb:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_PLATFORM" xml:space="preserve">
+    <value>/platform:&lt;string&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_PREFERREDUILANG" xml:space="preserve">
+    <value>/preferreduilang:&lt;language name&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_RECURSE" xml:space="preserve">
+    <value>/recurse:[dir\]file</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_REFERENCE" xml:space="preserve">
+    <value>/reference:[&lt;alias&gt;=]&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_RESPONSEFILE" xml:space="preserve">
+    <value>@&lt;response file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_RULESET" xml:space="preserve">
+    <value>/ruleset:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_SUBSYSTEMVERSION" xml:space="preserve">
+    <value>/subsystemversion:&lt;major&gt;.&lt;minor&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_TARGET" xml:space="preserve">
+    <value>/t[arget]:&lt;string&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_UNSAFE" xml:space="preserve">
+    <value>/unsafe</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_UTF8OUTPUT" xml:space="preserve">
+    <value>/utf8output</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WARNASERRORLIST" xml:space="preserve">
+    <value>/warnaserror:&lt;number&gt;[,&lt;number2&gt;...]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WARNINGLEVEL" xml:space="preserve">
+    <value>/warn:&lt;level&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WARNINGSASERRORS" xml:space="preserve">
+    <value>/warnaserror[+|-]</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WIN32ICON" xml:space="preserve">
+    <value>/win32icon:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WIN32MANIFEST" xml:space="preserve">
+    <value>/win32manifest:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_WIN32RESOURCE" xml:space="preserve">
+    <value>/win32res:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPTSYN_XMLDOCFILE" xml:space="preserve">
+    <value>/doc:&lt;file&gt;</value>
+  </data>
+  <data name="CSCSTR_OPT_NOTIMPLEMENTED" xml:space="preserve">
+    <value>Option {0} is not implemented.</value>
+  </data>
+  <data name="CSCSTR_OutAttrOnRefParam" xml:space="preserve">
+    <value>'{0}' cannot specify only Out attribute on a ref parameter. Use both In and Out attributes, or neither.</value>
+  </data>
+  <data name="CSCSTR_OutputFileExists" xml:space="preserve">
+    <value>Cannot create short filename '{0}' when a long filename with the same short filename already exists</value>
+  </data>
+  <data name="CSCSTR_OutputFileNameTooLong" xml:space="preserve">
+    <value>Output filename is too long or invalid</value>
+  </data>
+  <data name="CSCSTR_OutputNeedsInput" xml:space="preserve">
+    <value>Output '{0}' does not have any source files</value>
+  </data>
+  <data name="CSCSTR_OutputNeedsName" xml:space="preserve">
+    <value>Outputs without source must have the /out option specified</value>
+  </data>
+  <data name="CSCSTR_OutputWriteFailed" xml:space="preserve">
+    <value>Could not write to output file '{1}' -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_OverloadRefOut" xml:space="preserve">
+    <value>'{0}' cannot define overloaded methods that differ only on ref and out</value>
+  </data>
+  <data name="CSCSTR_OverrideFinalizeDeprecated" xml:space="preserve">
+    <value>Do not override object.Finalize. Instead, provide a destructor.</value>
+  </data>
+  <data name="CSCSTR_OverrideNotExpected" xml:space="preserve">
+    <value>'{0}': no suitable method found to override</value>
+  </data>
+  <data name="CSCSTR_OverrideNotNew" xml:space="preserve">
+    <value>A member '{0}' marked as override cannot be marked as new or virtual</value>
+  </data>
+  <data name="CSCSTR_OverrideWithConstraints" xml:space="preserve">
+    <value>Constraints for override and explicit interface implementation methods are inherited from the base method, so they cannot be specified directly</value>
+  </data>
+  <data name="CSCSTR_OvlBinaryOperatorExpected" xml:space="preserve">
+    <value>Overloadable binary operator expected</value>
+  </data>
+  <data name="CSCSTR_OvlOperatorExpected" xml:space="preserve">
+    <value>Overloadable operator expected</value>
+  </data>
+  <data name="CSCSTR_OvlUnaryOperatorExpected" xml:space="preserve">
+    <value>Overloadable unary operator expected</value>
+  </data>
+  <data name="CSCSTR_ParameterIsStaticClass" xml:space="preserve">
+    <value>'{0}': static types cannot be used as parameters</value>
+  </data>
+  <data name="CSCSTR_ParamsCantBeRefOut" xml:space="preserve">
+    <value>The params parameter cannot be declared as ref or out</value>
+  </data>
+  <data name="CSCSTR_ParamsLast" xml:space="preserve">
+    <value>A params parameter must be the last parameter in a formal parameter list</value>
+  </data>
+  <data name="CSCSTR_ParamsMustBeArray" xml:space="preserve">
+    <value>The params parameter must be a single dimensional array</value>
+  </data>
+  <data name="CSCSTR_ParamUnassigned" xml:space="preserve">
+    <value>The out parameter '{0}' must be assigned to before control leaves the current method</value>
+  </data>
+  <data name="CSCSTR_PARENT" xml:space="preserve">
+    <value>parent or current</value>
+  </data>
+  <data name="CSCSTR_PartialMethodHasOutParameter" xml:space="preserve">
+    <value>A partial method cannot have out parameters.</value>
+  </data>
+  <data name="CSCSTR_PartialMisplaced" xml:space="preserve">
+    <value>The partial modifier can only appear immediately before 'class', 'struct', 'interface' or 'void'</value>
+  </data>
+  <data name="CSCSTR_PartialModifierConflict" xml:space="preserve">
+    <value>Partial declarations of '{0}' have conflicting accessibility modifiers</value>
+  </data>
+  <data name="CSCSTR_PartialMultipleBases" xml:space="preserve">
+    <value>Partial declarations of '{0}' must not specify different base classes</value>
+  </data>
+  <data name="CSCSTR_PartialTypeKindConflict" xml:space="preserve">
+    <value>Partial declarations of '{0}' must be all classes, all structs, or all interfaces</value>
+  </data>
+  <data name="CSCSTR_PartialWrongConstraints" xml:space="preserve">
+    <value>Partial declarations of '{0}' have inconsistent constraints for type parameter '{1}'</value>
+  </data>
+  <data name="CSCSTR_PartialWrongTypeParams" xml:space="preserve">
+    <value>Partial declarations of '{0}' must have the same type parameter names in the same order</value>
+  </data>
+  <data name="CSCSTR_PatternBadSignature" xml:space="preserve">
+    <value>'{0}' does not implement the '{1}' pattern. '{2}' has the wrong signature.</value>
+  </data>
+  <data name="CSCSTR_PatternIsAmbiguous" xml:space="preserve">
+    <value>'{0}' does not implement the '{1}' pattern. '{2}' is ambiguous with '{3}'.</value>
+  </data>
+  <data name="CSCSTR_PatternStaticOrInaccessible" xml:space="preserve">
+    <value>'{0}' does not implement the '{1}' pattern. '{2}' is either static or not public.</value>
+  </data>
+  <data name="CSCSTR_PointerInAsOrIs" xml:space="preserve">
+    <value>Neither "is" nor "as" are valid on pointer types</value>
+  </data>
+  <data name="CSCSTR_PossibleBadNegCast" xml:space="preserve">
+    <value>To cast a negative value, you must enclose the value in parentheses</value>
+  </data>
+  <data name="CSCSTR_PossibleMistakenNullStatement" xml:space="preserve">
+    <value>Possible mistaken empty statement</value>
+  </data>
+  <data name="CSCSTR_PPDefFollowsToken" xml:space="preserve">
+    <value>Cannot define/undefine preprocessor symbols after first token in file</value>
+  </data>
+  <data name="CSCSTR_PPDirectiveExpected" xml:space="preserve">
+    <value>Preprocessor directive expected</value>
+  </data>
+  <data name="CSCSTR_PredefinedTypeBadType" xml:space="preserve">
+    <value>Predefined type '{0}' is declared incorrectly</value>
+  </data>
+  <data name="CSCSTR_PredefinedTypeNotFound" xml:space="preserve">
+    <value>Predefined type '{0}' is not defined or imported</value>
+  </data>
+  <data name="CSCSTR_PrivateAbstractAccessor" xml:space="preserve">
+    <value>'{0}': abstract properties cannot have private accessors</value>
+  </data>
+  <data name="CSCSTR_PropertyAccessModInInterface" xml:space="preserve">
+    <value>'{0}': accessibility modifiers may not be used on accessors in an interface</value>
+  </data>
+  <data name="CSCSTR_PropertyAccessorHasNoBody" xml:space="preserve">
+    <value>'{0}' must declare a body because it is not marked abstract or extern. Automatically implemented properties must define both get and set accessors.</value>
+  </data>
+  <data name="CSCSTR_PropertyCantHaveVoidType" xml:space="preserve">
+    <value>'{0}': property or indexer cannot have void type</value>
+  </data>
+  <data name="CSCSTR_PropertyLacksGet" xml:space="preserve">
+    <value>The property or indexer '{0}' cannot be used in this context because it lacks the get accessor</value>
+  </data>
+  <data name="CSCSTR_PropertyWithNoAccessors" xml:space="preserve">
+    <value>'{0}': property or indexer must have at least one accessor</value>
+  </data>
+  <data name="CSCSTR_ProtectedInSealed" xml:space="preserve">
+    <value>'{0}': new protected member declared in sealed class</value>
+  </data>
+  <data name="CSCSTR_ProtectedInStatic" xml:space="preserve">
+    <value>'{0}': static classes cannot contain protected members</value>
+  </data>
+  <data name="CSCSTR_ProtectedInStruct" xml:space="preserve">
+    <value>'{0}': new protected member declared in struct</value>
+  </data>
+  <data name="CSCSTR_PtrExpected" xml:space="preserve">
+    <value>The * or -&gt; operator must be applied to a pointer</value>
+  </data>
+  <data name="CSCSTR_PtrIndexSingle" xml:space="preserve">
+    <value>A pointer must be indexed by only one value</value>
+  </data>
+  <data name="CSCSTR_QueryBodyHasNoSelectOrGroup" xml:space="preserve">
+    <value>A query body must end with a select clause or a group clause</value>
+  </data>
+  <data name="CSCSTR_QueryPatternNotImplemented" xml:space="preserve">
+    <value>Could not find an implementation of the query pattern for source type '{0}'. '{1}' not found</value>
+  </data>
+  <data name="CSCSTR_QueryTypeInferenceFailed" xml:space="preserve">
+    <value>The type of one of the expressions in the 'clause' clause is incorrect. Type inference failed in the call to '{0}'</value>
+  </data>
+  <data name="CSCSTR_RbraceExpected" xml:space="preserve">
+    <value>} expected</value>
+  </data>
+  <data name="CSCSTR_RecursiveConstructorCall" xml:space="preserve">
+    <value>Constructor '{0}' cannot call itself</value>
+  </data>
+  <data name="CSCSTR_RefConstraintNotSatisfied" xml:space="preserve">
+    <value>The type '{2}' must be a reference type in order to use it as parameter '{1}' in the generic type or method '{0}'</value>
+  </data>
+  <data name="CSCSTR_RefLvalueExpected" xml:space="preserve">
+    <value>A ref or out argument must be an assignable variable</value>
+  </data>
+  <data name="CSCSTR_RefProperty" xml:space="preserve">
+    <value>A property or indexer may not be passed as an out or ref parameter</value>
+  </data>
+  <data name="CSCSTR_RefReadonly" xml:space="preserve">
+    <value>A readonly field cannot be passed ref or out (except in a constructor)</value>
+  </data>
+  <data name="CSCSTR_RefReadonly2" xml:space="preserve">
+    <value>Members of readonly field '{0}' cannot be passed ref or out (except in a constructor)</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyLocal" xml:space="preserve">
+    <value>Cannot pass '{0}' as a ref or out argument because it is read-only</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyLocal2" xml:space="preserve">
+    <value>Cannot pass fields of '{0}' as a ref or out argument because it is read-only</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyLocal2Cause" xml:space="preserve">
+    <value>Cannot pass fields of '{0}' as a ref or out argument because it is a '{1}'</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyLocalCause" xml:space="preserve">
+    <value>Cannot pass '{0}' as a ref or out argument because it is a '{1}'</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyStatic" xml:space="preserve">
+    <value>A static readonly field cannot be passed ref or out (except in a static constructor)</value>
+  </data>
+  <data name="CSCSTR_RefReadonlyStatic2" xml:space="preserve">
+    <value>Fields of static readonly field '{0}' cannot be passed ref or out (except in a static constructor)</value>
+  </data>
+  <data name="CSCSTR_RefValBoundMustBeFirst" xml:space="preserve">
+    <value>The 'class' or 'struct' constraint must come before any other constraints</value>
+  </data>
+  <data name="CSCSTR_RefValBoundWithClass" xml:space="preserve">
+    <value>'{0}': cannot specify both a constraint class and the 'class' or 'struct' constraint</value>
+  </data>
+  <data name="CSCSTR_RELATEDERROR" xml:space="preserve">
+    <value>(Location of symbol related to previous error)</value>
+  </data>
+  <data name="CSCSTR_RELATEDWARNING" xml:space="preserve">
+    <value>(Location of symbol related to previous warning)</value>
+  </data>
+  <data name="CSCSTR_REPROBINFILE" xml:space="preserve">
+    <value>### Binary file: '{0}'</value>
+  </data>
+  <data name="CSCSTR_REPROCOMMANDLINE" xml:space="preserve">
+    <value>### Compiler command line</value>
+  </data>
+  <data name="CSCSTR_REPROCORRECTBEHAVIOR" xml:space="preserve">
+    <value>### User suggested correct behavior</value>
+  </data>
+  <data name="CSCSTR_REPRODESCRIPTION" xml:space="preserve">
+    <value>### User description</value>
+  </data>
+  <data name="CSCSTR_REPRODIAGS" xml:space="preserve">
+    <value>### Compiler output</value>
+  </data>
+  <data name="CSCSTR_REPROLCID" xml:space="preserve">
+    <value>### Console and Defect Report Code Page: {0}</value>
+  </data>
+  <data name="CSCSTR_REPROOS" xml:space="preserve">
+    <value>### Operating System: {0} {1}.{2}.{3}   {4}</value>
+  </data>
+  <data name="CSCSTR_REPROSOURCEFILE" xml:space="preserve">
+    <value>### Source file: '{0}'</value>
+  </data>
+  <data name="CSCSTR_REPROTITLE" xml:space="preserve">
+    <value>### Visual C# 2005 Compiler Defect Report, created {0}</value>
+  </data>
+  <data name="CSCSTR_REPROURTVER" xml:space="preserve">
+    <value>### .NET common language runtime version: {0}</value>
+  </data>
+  <data name="CSCSTR_REPROVER" xml:space="preserve">
+    <value>### Compiler version: {0}</value>
+  </data>
+  <data name="CSCSTR_RequiredFileNotFound" xml:space="preserve">
+    <value>Required file '{0}' could not be found</value>
+  </data>
+  <data name="CSCSTR_ReservedEnumerator" xml:space="preserve">
+    <value>The enumerator name '{0}' is reserved and cannot be used</value>
+  </data>
+  <data name="CSCSTR_ReservedIdentifier2" xml:space="preserve">
+    <value>'{0}' is a reserved identifier and cannot be used when ISO language version mode is used</value>
+  </data>
+  <data name="CSCSTR_RESINFO_DESCRIPTION" xml:space="preserve">
+    <value>Where the resinfo format is &lt;file&gt;[,&lt;string name&gt;[,public|private]]</value>
+  </data>
+  <data name="CSCSTR_ResourceNotUnique" xml:space="preserve">
+    <value>Resource identifier '{0}' has already been used in this assembly</value>
+  </data>
+  <data name="CSCSTR_RetNoObjectRequired" xml:space="preserve">
+    <value>Since '{0}' returns void, a return keyword must not be followed by an object expression</value>
+  </data>
+  <data name="CSCSTR_RetObjectRequired" xml:space="preserve">
+    <value>An object of a type convertible to '{0}' is required</value>
+  </data>
+  <data name="CSCSTR_ReturnExpected" xml:space="preserve">
+    <value>'{0}': not all code paths return a value</value>
+  </data>
+  <data name="CSCSTR_ReturnInIterator" xml:space="preserve">
+    <value>Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration.</value>
+  </data>
+  <data name="CSCSTR_ReturnNotLValue" xml:space="preserve">
+    <value>Cannot modify the return value of '{0}' because it is not a variable</value>
+  </data>
+  <data name="CSCSTR_ReturnTypeIsStaticClass" xml:space="preserve">
+    <value>'{0}': static types cannot be used as return types</value>
+  </data>
+  <data name="CSCSTR_SameFullNameAggAgg" xml:space="preserve">
+    <value>The type '{1}' exists in both '{0}' and '{2}'</value>
+  </data>
+  <data name="CSCSTR_SameFullNameNsAgg" xml:space="preserve">
+    <value>The namespace '{1}' in '{0}' conflicts with the type '{3}' in '{2}'</value>
+  </data>
+  <data name="CSCSTR_SameFullNameThisAggAgg" xml:space="preserve">
+    <value>The type '{1}' in '{0}' conflicts with the imported type '{3}' in '{2}'. Using the one in '{0}'.</value>
+  </data>
+  <data name="CSCSTR_SameFullNameThisAggNs" xml:space="preserve">
+    <value>The type '{1}' in '{0}' conflicts with the imported namespace '{3}' in '{2}'. Using the type.</value>
+  </data>
+  <data name="CSCSTR_SameFullNameThisAggThisAgg" xml:space="preserve">
+    <value>Ambiguity between {0} '{1}' and {2} '{3}'</value>
+  </data>
+  <data name="CSCSTR_SameFullNameThisAggThisNs" xml:space="preserve">
+    <value>The type '{1}' in '{0}' conflicts with the namespace '{3}' in '{2}'.</value>
+  </data>
+  <data name="CSCSTR_SameFullNameThisNsAgg" xml:space="preserve">
+    <value>The namespace '{1}' in '{0}' conflicts with the imported type '{3}' in '{2}'. Using the namespace.</value>
+  </data>
+  <data name="CSCSTR_SealedNonOverride" xml:space="preserve">
+    <value>'{0}' cannot be sealed because it is not an override</value>
+  </data>
+  <data name="CSCSTR_SealedStaticClass" xml:space="preserve">
+    <value>'{0}': a class cannot be both static and sealed</value>
+  </data>
+  <data name="CSCSTR_SemicolonExpected" xml:space="preserve">
+    <value>; expected</value>
+  </data>
+  <data name="CSCSTR_SemiOrLBraceExpected" xml:space="preserve">
+    <value>{ or ; expected</value>
+  </data>
+  <data name="CSCSTR_SequentialOnPartialClass" xml:space="preserve">
+    <value>There is no defined ordering between fields in multiple declarations of partial class or struct '{0}'. To specify an ordering, all instance fields must be in the same declaration.</value>
+  </data>
+  <data name="CSCSTR_SHORTFORM" xml:space="preserve">
+    <value>Short form</value>
+  </data>
+  <data name="CSCSTR_SingleTypeNameNotFound" xml:space="preserve">
+    <value>The type or namespace name '{0}' could not be found (are you missing a using directive or an assembly reference?)</value>
+  </data>
+  <data name="CSCSTR_SizeofUnsafe" xml:space="preserve">
+    <value>'{0}' does not have a predefined size, therefore sizeof can only be used in an unsafe context (consider using System.Runtime.InteropServices.Marshal.SizeOf)</value>
+  </data>
+  <data name="CSCSTR_SK_ALIAS" xml:space="preserve">
+    <value>using alias</value>
+  </data>
+  <data name="CSCSTR_SK_CLASS" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="CSCSTR_SK_EVENT" xml:space="preserve">
+    <value>event</value>
+  </data>
+  <data name="CSCSTR_SK_EXTERNALIAS" xml:space="preserve">
+    <value>extern alias</value>
+  </data>
+  <data name="CSCSTR_SK_FIELD" xml:space="preserve">
+    <value>field</value>
+  </data>
+  <data name="CSCSTR_SK_METHOD" xml:space="preserve">
+    <value>method</value>
+  </data>
+  <data name="CSCSTR_SK_NAMESPACE" xml:space="preserve">
+    <value>namespace</value>
+  </data>
+  <data name="CSCSTR_SK_PROPERTY" xml:space="preserve">
+    <value>property</value>
+  </data>
+  <data name="CSCSTR_SK_TYVAR" xml:space="preserve">
+    <value>type parameter</value>
+  </data>
+  <data name="CSCSTR_SK_UNKNOWN" xml:space="preserve">
+    <value>element</value>
+  </data>
+  <data name="CSCSTR_SK_VARIABLE" xml:space="preserve">
+    <value>variable</value>
+  </data>
+  <data name="CSCSTR_SourceMapFileBinary" xml:space="preserve">
+    <value>Sourcemap file '{0}' is a binary file instead of a text file</value>
+  </data>
+  <data name="CSCSTR_SpecialTypeAsBound" xml:space="preserve">
+    <value>Constraint cannot be special class '{0}'</value>
+  </data>
+  <data name="CSCSTR_StackallocInCatchFinally" xml:space="preserve">
+    <value>stackalloc may not be used in a catch or finally block</value>
+  </data>
+  <data name="CSCSTR_StackOverflow" xml:space="preserve">
+    <value>An expression is too long or complex to compile near '{0}'</value>
+  </data>
+  <data name="CSCSTR_StaticBaseClass" xml:space="preserve">
+    <value>'{1}': cannot derive from static class '{0}'</value>
+  </data>
+  <data name="CSCSTR_StaticClassInterfaceImpl" xml:space="preserve">
+    <value>'{0}': static classes cannot implement interfaces</value>
+  </data>
+  <data name="CSCSTR_StaticConstant" xml:space="preserve">
+    <value>The constant '{0}' cannot be marked static</value>
+  </data>
+  <data name="CSCSTR_StaticConstParam" xml:space="preserve">
+    <value>'{0}': a static constructor must be parameterless</value>
+  </data>
+  <data name="CSCSTR_StaticConstructorWithAccessModifiers" xml:space="preserve">
+    <value>'{0}': access modifiers are not allowed on static constructors</value>
+  </data>
+  <data name="CSCSTR_StaticConstructorWithExplicitConstructorCall" xml:space="preserve">
+    <value>'{0}': static constructor cannot have an explicit 'this' or 'base' constructor call</value>
+  </data>
+  <data name="CSCSTR_StaticDerivedFromNonObject" xml:space="preserve">
+    <value>Static class '{0}' cannot derive from type '{1}'. Static classes must derive from object.</value>
+  </data>
+  <data name="CSCSTR_StaticNotVirtual" xml:space="preserve">
+    <value>A static member '{0}' cannot be marked as override, virtual, or abstract</value>
+  </data>
+  <data name="CSCSTR_STRING4001" xml:space="preserve">
+    <value>Error occurred during a write</value>
+  </data>
+  <data name="CSCSTR_STRING4002" xml:space="preserve">
+    <value>File is read only</value>
+  </data>
+  <data name="CSCSTR_STRING4003" xml:space="preserve">
+    <value>An ill-formed name was given</value>
+  </data>
+  <data name="CSCSTR_STRING4004" xml:space="preserve">
+    <value>Data value was truncated</value>
+  </data>
+  <data name="CSCSTR_STRING4005" xml:space="preserve">
+    <value>Old version error</value>
+  </data>
+  <data name="CSCSTR_STRING4006" xml:space="preserve">
+    <value>A shared memory open failed to open at the originally assigned memory address</value>
+  </data>
+  <data name="CSCSTR_STRING4007" xml:space="preserve">
+    <value>Create of shared memory failed. A memory mapping of the same name already exists.</value>
+  </data>
+  <data name="CSCSTR_STRING4011" xml:space="preserve">
+    <value>There isn't metadata in the memory or stream</value>
+  </data>
+  <data name="CSCSTR_STRING4012" xml:space="preserve">
+    <value>Database is read only</value>
+  </data>
+  <data name="CSCSTR_STRING4013" xml:space="preserve">
+    <value>The importing scope is not compatible with the emitting scope</value>
+  </data>
+  <data name="CSCSTR_STRING4014" xml:space="preserve">
+    <value>File is corrupt</value>
+  </data>
+  <data name="CSCSTR_STRING4015" xml:space="preserve">
+    <value>Version of schema not found</value>
+  </data>
+  <data name="CSCSTR_STRING4016" xml:space="preserve">
+    <value>Cannot open a incrementally built scope for full update</value>
+  </data>
+  <data name="CSCSTR_StructLayoutCycle" xml:space="preserve">
+    <value>Struct member '{0}' of type '{1}' causes a cycle in the struct layout</value>
+  </data>
+  <data name="CSCSTR_StructOffsetOnBadField" xml:space="preserve">
+    <value>The FieldOffset attribute is not allowed on static or const fields</value>
+  </data>
+  <data name="CSCSTR_StructOffsetOnBadStruct" xml:space="preserve">
+    <value>The FieldOffset attribute can only be placed on members of types marked with the StructLayout(LayoutKind.Explicit)</value>
+  </data>
+  <data name="CSCSTR_StructsCantContainDefaultContructor" xml:space="preserve">
+    <value>Structs cannot contain explicit parameterless constructors</value>
+  </data>
+  <data name="CSCSTR_StructWithBaseConstructorCall" xml:space="preserve">
+    <value>'{0}': structs cannot call base class constructors</value>
+  </data>
+  <data name="CSCSTR_SwitchFallInto" xml:space="preserve">
+    <value>Control cannot fall through from one case label to another ('{0}')</value>
+  </data>
+  <data name="CSCSTR_SwitchFallThrough" xml:space="preserve">
+    <value>Control cannot fall through from one case label ('{0}') to another</value>
+  </data>
+  <data name="CSCSTR_SwitchNeedsNumber" xml:space="preserve">
+    <value>Command-line syntax error: Missing ':&lt;number&gt;' for '{0}' option</value>
+  </data>
+  <data name="CSCSTR_SWITCHNEEDSSTRING" xml:space="preserve">
+    <value>Command-line syntax error: Missing ':&lt;text&gt;' for '{0}' option</value>
+  </data>
+  <data name="CSCSTR_SyntaxError" xml:space="preserve">
+    <value>Syntax error, '{0}' expected</value>
+  </data>
+  <data name="CSCSTR_SystemVoid" xml:space="preserve">
+    <value>System.Void cannot be used from C# -- use typeof(void) to get the void type object.</value>
+  </data>
+  <data name="CSCSTR_ThisAssembly" xml:space="preserve">
+    <value>&lt;this assembly&gt;</value>
+  </data>
+  <data name="CSCSTR_ThisInBadContext" xml:space="preserve">
+    <value>Keyword 'this' is not available in the current context</value>
+  </data>
+  <data name="CSCSTR_ThisInStaticMeth" xml:space="preserve">
+    <value>Keyword 'this' is not valid in a static property, static method, or static field initializer</value>
+  </data>
+  <data name="CSCSTR_ThisModifierNotOnFirstParam" xml:space="preserve">
+    <value>Method '{0}' has a parameter modifier 'this' which is not on the first parameter</value>
+  </data>
+  <data name="CSCSTR_ThisOrBaseExpected" xml:space="preserve">
+    <value>Keyword 'this' or 'base' expected</value>
+  </data>
+  <data name="CSCSTR_ThisStructNotInAnonMeth" xml:space="preserve">
+    <value>Anonymous methods inside structs cannot access instance members of 'this'. Consider copying 'this' to a local variable outside the anonymous method and using the local instead.</value>
+  </data>
+  <data name="CSCSTR_TooManyCatches" xml:space="preserve">
+    <value>Try statement already has an empty catch block</value>
+  </data>
+  <data name="CSCSTR_TooManyCharsInConst" xml:space="preserve">
+    <value>Too many characters in character literal</value>
+  </data>
+  <data name="CSCSTR_TooManyLines" xml:space="preserve">
+    <value>Compiler limit exceeded: File cannot exceed {0} lines</value>
+  </data>
+  <data name="CSCSTR_TooManyLinesForDebugger" xml:space="preserve">
+    <value>Source file has exceeded the limit of 16,707,565 lines representable in the PDB, debug information will be incorrect</value>
+  </data>
+  <data name="CSCSTR_TooManyLocals" xml:space="preserve">
+    <value>Only 65535 locals are allowed</value>
+  </data>
+  <data name="CSCSTR_TypeArgsNotAllowed" xml:space="preserve">
+    <value>The {1} '{0}' cannot be used with type arguments</value>
+  </data>
+  <data name="CSCSTR_TypeArgsNotAllowedAmbig" xml:space="preserve">
+    <value>The {1} '{0}' is not a generic method. If you intended an expression list, use parentheses around the &lt; expression.</value>
+  </data>
+  <data name="CSCSTR_TypeExpected" xml:space="preserve">
+    <value>Type expected</value>
+  </data>
+  <data name="CSCSTR_TypeNameBuilderError" xml:space="preserve">
+    <value>Unexpected error building metadata name for type '{0}' -- '{1}'</value>
+  </data>
+  <data name="CSCSTR_TypeParameterSameAsOuterTypeParameter" xml:space="preserve">
+    <value>Type parameter '{0}' has the same name as the type parameter from outer type '{1}'</value>
+  </data>
+  <data name="CSCSTR_TypeParamMustBeIdentifier" xml:space="preserve">
+    <value>Type parameter declaration must be an identifier not a type</value>
+  </data>
+  <data name="CSCSTR_TypeVarCantBeNull" xml:space="preserve">
+    <value>Cannot convert null to type parameter '{0}' because it could be a value type. Consider using 'default({0})' instead.</value>
+  </data>
+  <data name="CSCSTR_TypeVariableSameAsParent" xml:space="preserve">
+    <value>Type parameter '{0}' has the same name as the containing type, or method</value>
+  </data>
+  <data name="CSCSTR_TyVarNotFoundInConstraint" xml:space="preserve">
+    <value>'{1}' does not define type parameter '{0}'</value>
+  </data>
+  <data name="CSCSTR_UnassignedInternalField" xml:space="preserve">
+    <value>Field '{0}' is never assigned to, and will always have its default value {1}</value>
+  </data>
+  <data name="CSCSTR_UnassignedThis" xml:space="preserve">
+    <value>Field '{0}' must be fully assigned before control leaves the constructor</value>
+  </data>
+  <data name="CSCSTR_UnboxNotLValue" xml:space="preserve">
+    <value>Cannot modify the result of an unboxing conversion</value>
+  </data>
+  <data name="CSCSTR_UnexpectedCharacter" xml:space="preserve">
+    <value>Unexpected character '{0}'</value>
+  </data>
+  <data name="CSCSTR_UnexpectedDirective" xml:space="preserve">
+    <value>Unexpected preprocessor directive</value>
+  </data>
+  <data name="CSCSTR_UnexpectedPredefTypeLoc" xml:space="preserve">
+    <value>Predefined type '{0}' was not found in '{1}' but was found in '{2}'</value>
+  </data>
+  <data name="CSCSTR_UnexpectedSemicolon" xml:space="preserve">
+    <value>Semicolon after method or accessor block is not valid</value>
+  </data>
+  <data name="CSCSTR_UnifyingInterfaceInstantiations" xml:space="preserve">
+    <value>'{0}' cannot implement both '{1}' and '{2}' because they may unify for some type parameter substitutions</value>
+  </data>
+  <data name="CSCSTR_UnifyReferenceBldRev" xml:space="preserve">
+    <value>Assuming assembly reference '{0}' matches '{1}', you may need to supply runtime policy</value>
+  </data>
+  <data name="CSCSTR_UnifyReferenceMajMin" xml:space="preserve">
+    <value>Assuming assembly reference '{0}' matches '{1}', you may need to supply runtime policy</value>
+  </data>
+  <data name="CSCSTR_UnimplementedAbstractMethod" xml:space="preserve">
+    <value>'{0}' does not implement inherited abstract member '{1}'</value>
+  </data>
+  <data name="CSCSTR_UnimplementedInterfaceAccessor" xml:space="preserve">
+    <value>'{0}' does not implement interface member '{1}'. '{2}' is not public.</value>
+  </data>
+  <data name="CSCSTR_UnimplementedInterfaceMember" xml:space="preserve">
+    <value>'{0}' does not implement interface member '{1}'</value>
+  </data>
+  <data name="CSCSTR_UnimplementedOp" xml:space="preserve">
+    <value>Operator '{0}' is not yet implemented</value>
+  </data>
+  <data name="CSCSTR_UnknownOption" xml:space="preserve">
+    <value>Unknown compiler option '{0}'</value>
+  </data>
+  <data name="CSCSTR_UnknownTestSwitch" xml:space="preserve">
+    <value>Unrecognized value '{0}' provided for '/test' option</value>
+  </data>
+  <data name="CSCSTR_UnmatchedParamTag" xml:space="preserve">
+    <value>XML comment on '{1}' has a param tag for '{0}', but there is no parameter by that name</value>
+  </data>
+  <data name="CSCSTR_UnmatchedTypeParamTag" xml:space="preserve">
+    <value>XML comment on '{1}' has a typeparam tag for '{0}', but there is no type parameter by that name</value>
+  </data>
+  <data name="CSCSTR_UnprocessedXMLComment" xml:space="preserve">
+    <value>XML comment is not placed on a valid language element</value>
+  </data>
+  <data name="CSCSTR_UnreachableCatch" xml:space="preserve">
+    <value>A previous catch clause already catches all exceptions of this or of a super type ('{0}')</value>
+  </data>
+  <data name="CSCSTR_UnreachableCode" xml:space="preserve">
+    <value>Unreachable code detected</value>
+  </data>
+  <data name="CSCSTR_UnreachableExpr" xml:space="preserve">
+    <value>Unreachable expression code detected</value>
+  </data>
+  <data name="CSCSTR_UnreachableGeneralCatch" xml:space="preserve">
+    <value>A previous catch clause already catches all exceptions. All non-exceptions thrown will be wrapped in a System.Runtime.CompilerServices.RuntimeWrappedException</value>
+  </data>
+  <data name="CSCSTR_UnreferencedEvent" xml:space="preserve">
+    <value>The event '{0}' is never used</value>
+  </data>
+  <data name="CSCSTR_UnreferencedField" xml:space="preserve">
+    <value>The private field '{0}' is never used</value>
+  </data>
+  <data name="CSCSTR_UnreferencedFieldAssg" xml:space="preserve">
+    <value>The private field '{0}' is assigned but its value is never used</value>
+  </data>
+  <data name="CSCSTR_UnreferencedLabel" xml:space="preserve">
+    <value>This label has not been referenced</value>
+  </data>
+  <data name="CSCSTR_UnreferencedVar" xml:space="preserve">
+    <value>The variable '{0}' is declared but never used</value>
+  </data>
+  <data name="CSCSTR_UnreferencedVarAssg" xml:space="preserve">
+    <value>The variable '{0}' is assigned but its value is never used</value>
+  </data>
+  <data name="CSCSTR_UnsafeIteratorArgType" xml:space="preserve">
+    <value>Iterators cannot have unsafe parameters or yield types</value>
+  </data>
+  <data name="CSCSTR_UnsafeNeeded" xml:space="preserve">
+    <value>Pointers and fixed size buffers may only be used in an unsafe context</value>
+  </data>
+  <data name="CSCSTR_UnterminatedStringLit" xml:space="preserve">
+    <value>Unterminated string literal</value>
+  </data>
+  <data name="CSCSTR_UseDefViolation" xml:space="preserve">
+    <value>Use of unassigned local variable '{0}'</value>
+  </data>
+  <data name="CSCSTR_UseDefViolationField" xml:space="preserve">
+    <value>Use of possibly unassigned field '{0}'</value>
+  </data>
+  <data name="CSCSTR_UseDefViolationOut" xml:space="preserve">
+    <value>Use of unassigned out parameter '{0}'</value>
+  </data>
+  <data name="CSCSTR_UseDefViolationThis" xml:space="preserve">
+    <value>The 'this' object cannot be used before all of its fields are assigned to</value>
+  </data>
+  <data name="CSCSTR_USENEWSWITCH" xml:space="preserve">
+    <value>Compiler option '{0}' is obsolete, please use '{1}' instead</value>
+  </data>
+  <data name="CSCSTR_UseSwitchInsteadOfAttribute" xml:space="preserve">
+    <value>Use command line option '/{0}' or appropriate project settings instead of '{1}'</value>
+  </data>
+  <data name="CSCSTR_UsingAfterElements" xml:space="preserve">
+    <value>A using clause must precede all other namespace elements except extern alias declarations</value>
+  </data>
+  <data name="CSCSTR_USINGLOCAL" xml:space="preserve">
+    <value>using variable</value>
+  </data>
+  <data name="CSCSTR_VacuousIntegralComp" xml:space="preserve">
+    <value>Comparison to integral constant is useless; the constant is outside the range of type '{0}'</value>
+  </data>
+  <data name="CSCSTR_ValConstraintNotSatisfied" xml:space="preserve">
+    <value>The type '{2}' must be a non-nullable value type in order to use it as parameter '{1}' in the generic type or method '{0}'</value>
+  </data>
+  <data name="CSCSTR_ValueCantBeNull" xml:space="preserve">
+    <value>Cannot convert null to '{0}' because it is a value type</value>
+  </data>
+  <data name="CSCSTR_ValueExpected" xml:space="preserve">
+    <value>Syntax error, value expected</value>
+  </data>
+  <data name="CSCSTR_VarargsIterator" xml:space="preserve">
+    <value>__arglist is not allowed in parameter list of iterators</value>
+  </data>
+  <data name="CSCSTR_VarargsLast" xml:space="preserve">
+    <value>An __arglist parameter must be the last parameter in a formal parameter list</value>
+  </data>
+  <data name="CSCSTR_VarDeclIsStaticClass" xml:space="preserve">
+    <value>Cannot declare variable of static type '{0}'</value>
+  </data>
+  <data name="CSCSTR_VariableNotDeclared" xml:space="preserve">
+    <value>Cannot use variable '{0}' before it is declared</value>
+  </data>
+  <data name="CSCSTR_VERSION_CONFLICT" xml:space="preserve">
+    <value>The following two files are marked as incompatible:\n\n\t{0}\n\t(Version {1})\n\n\t{2}\n\t(Version {3})\n\nThe compiler cannot be used in this configuration. This is usually caused by installing different flavors of VS and NDP, and not specifying the VS version for the /CompilerSourcePath and /NonNdpSourcePath options when running NdpSetup</value>
+  </data>
+  <data name="CSCSTR_VirtualPrivate" xml:space="preserve">
+    <value>'{0}': virtual or abstract members cannot be private</value>
+  </data>
+  <data name="CSCSTR_VoidError" xml:space="preserve">
+    <value>The operation in question is undefined on void pointers</value>
+  </data>
+  <data name="CSCSTR_VolatileAndReadonly" xml:space="preserve">
+    <value>'{0}': a field cannot be both volatile and readonly</value>
+  </data>
+  <data name="CSCSTR_VolatileByRef" xml:space="preserve">
+    <value>'{0}': a reference to a volatile field will not be treated as volatile</value>
+  </data>
+  <data name="CSCSTR_VolatileStruct" xml:space="preserve">
+    <value>'{0}': a volatile field cannot be of the type '{1}'</value>
+  </data>
+  <data name="CSCSTR_WarnAsError" xml:space="preserve">
+    <value>Warning as Error: {0}</value>
+  </data>
+  <data name="CSCSTR_WarningAsError" xml:space="preserve">
+    <value>Warning treated as error</value>
+  </data>
+  <data name="CSCSTR_WarningDirective" xml:space="preserve">
+    <value>#warning: '{0}'</value>
+  </data>
+  <data name="CSCSTR_WatsonSendNotOptedIn" xml:space="preserve">
+    <value>Cannot send error report automatically without authorization. Please visit '{0}' to authorize sending error report.</value>
+  </data>
+  <data name="CSCSTR_WATSON_APPNAME" xml:space="preserve">
+    <value>Microsoft (R) Visual C# 2005 Compiler</value>
+  </data>
+  <data name="CSCSTR_WATSON_ERROR_HEADER" xml:space="preserve">
+    <value>The Microsoft (R) Visual C# 2005 Compiler has encountered an internal error. We are sorry for the inconvenience.</value>
+  </data>
+  <data name="CSCSTR_WATSON_ERROR_MESSAGE" xml:space="preserve">
+    <value>No information has been lost. Please check the compiler output for possible ways to avoid this error.</value>
+  </data>
+  <data name="CSCSTR_WrongNestedThis" xml:space="preserve">
+    <value>Cannot access a nonstatic member of outer type '{0}' via nested type '{1}'</value>
+  </data>
+  <data name="CSCSTR_WrongSignature" xml:space="preserve">
+    <value>No overload for '{0}' has the correct parameter and return types</value>
+  </data>
+  <data name="CSCSTR_XMLBADINCLUDE" xml:space="preserve">
+    <value> Include tag is invalid </value>
+  </data>
+  <data name="CSCSTR_XMLFAILEDINCLUDE" xml:space="preserve">
+    <value> Failed to insert some or all of included XML </value>
+  </data>
+  <data name="CSCSTR_XMLIGNORED" xml:space="preserve">
+    <value>&lt;!-- Badly formed XML comment ignored for member "{0}" --&gt;</value>
+  </data>
+  <data name="CSCSTR_XMLIGNORED2" xml:space="preserve">
+    <value>&lt;error&gt;&lt;!-- Badly formed XML file "{0}" cannot be included --&gt;&lt;/error&gt;</value>
+  </data>
+  <data name="CSCSTR_XMLMISSINGINCLUDEFILE" xml:space="preserve">
+    <value>Missing file attribute</value>
+  </data>
+  <data name="CSCSTR_XMLMISSINGINCLUDEPATH" xml:space="preserve">
+    <value>Missing path attribute</value>
+  </data>
+  <data name="CSCSTR_XMLNOINCLUDE" xml:space="preserve">
+    <value> No matching elements were found for the following include tag </value>
+  </data>
+  <data name="CSCSTR_XMLParseError" xml:space="preserve">
+    <value>XML comment on '{1}' has badly formed XML -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_XMLParseIncludeError" xml:space="preserve">
+    <value>Badly formed XML in included comments file -- '{0}'</value>
+  </data>
+  <data name="CSCSTR_XMLParserNotFound" xml:space="preserve">
+    <value>XML parser could not be loaded for the following reason: '{1}'. The XML documentation file '{0}' will not be generated.</value>
+  </data>
+  <data name="CSCSTR_YieldInAnonMeth" xml:space="preserve">
+    <value>The yield statement cannot be used inside anonymous method blocks</value>
+  </data>
+  <data name="CSCSTR_DynamicOnTypeof" xml:space="preserve">
+    <value>The typeof operator cannot be used on the dynamic type.</value>
+  </data>
+</root>

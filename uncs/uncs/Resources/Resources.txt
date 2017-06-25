@@ -1,0 +1,1254 @@
+﻿ALSTR_AgnosticToMachineModule	Agnostic assembly cannot have a processor specific module '{0}'	
+ALSTR_AppNeedsMain	Entry point required for executable applications	
+ALSTR_AssemblyModuleImportError	Error importing module '{1}' of assembly '{0}' -- {2}	
+ALSTR_AutoResGen	Error generating resources for '{0}' -- {1}	
+ALSTR_BadMainFound	'{0}' cannot be the entry point because the signature or visibility is incorrect, or it is generic	
+ALSTR_BadOptionValue	'{1}' is not a valid setting for option '{0}'	
+ALSTR_BadOptionValueHR	Cannot set option '{0}' because '{1}'	
+ALSTR_BadSwitch	Unrecognized command-line option: '{0}'	
+ALSTR_BANNER1	Microsoft (R) Shared Source CLI Assembly Linker version 	
+ALSTR_BANNER1PART2	for Microsoft (R) Shared Source CLI version 	
+ALSTR_BANNER2	Copyright (C) Microsoft Corporation. All rights reserved.	
+ALSTR_BinaryFile	'{0}' is a binary file instead of a text file	
+ALSTR_BUGREPORTWARN	A file is being created with information needed to reproduce your compiler problem. This information includes: software versions, the pathnames and contents of source code files, referenced assemblies, and modules, compiler options, compiler output, and any additional information you provide in the following prompts.	
+ALSTR_CantAddAssembly	'{0}' is an assembly and cannot be added as a module	
+ALSTR_CantAddExes	'{0}': EXEs cannot be added modules	
+ALSTR_CantEmbedResource	Error embedding resource '{0}' -- {1}	
+ALSTR_CantOpenBinaryAsText	File '{0}' is an executable file and cannot be opened as a text file	
+ALSTR_CantOpenFileWrite	Can't open '{0}' for writing	
+ALSTR_CantReadIcon	Error reading icon '{0}' -- {1}	
+ALSTR_CantReadResource	Error reading embedded resource '{0}' -- {1}	
+ALSTR_CantRenameAssembly	Assembly '{0}' cannot be copied or renamed.	
+ALSTR_ComPlusInit	Unexpected common language runtime initialization error -- '{0}'	
+ALSTR_ConflictingMachineAssembly	Referenced assembly '{0}' targets a different processor	
+ALSTR_ConflictingMachineModule	Assembly and module '{0}' cannot target different processors	
+ALSTR_CryptoFailed	The cryptographic service is not installed properly or does not have a suitable key provider	
+ALSTR_CryptoFileFailed	Error reading key file '{0}' -- {1}	
+ALSTR_CryptoHashFailed	Cryptographic failure while creating hashes -- {0}	
+ALSTR_CryptoNoKeyContainer	The key container name '{0}' does not exist	
+ALSTR_DelaySignWithNoKey	Delay signing was requested, but no key was given	
+ALSTR_DuplicateCA	Assembly custom attribute '{0}' was specified multiple times with different values	
+ALSTR_DuplicateExportedType	Public type '{0}' is defined in multiple places in this assembly: '{1}' and '{2}'	
+ALSTR_DuplicateModule	Module '{0}' is already defined in this assembly. Each linked resource and module must have a unique filename.	
+ALSTR_DuplicateResponseFile	Response file '{0}' was already included	
+ALSTR_DuplicateTypeForwarders	Type '{0}' is forwarded to multiple assemblies: '{1}' and '{2}'	
+ALSTR_DupResourceIdent	Resource identifier '{0}' has already been used in this assembly	
+ALSTR_EmitCAFailed	Error emitting '{0}' attribute --'{1}'	
+ALSTR_ENTERCORRECT	Describe what you think should have happened (press Enter twice to finish):	
+ALSTR_ENTERDESC	Please describe the compiler problem (press Enter twice to finish):	
+ALSTR_ExeHasCulture	Executables cannot be satellite assemblies, Culture should always be empty	
+ALSTR_FeatureDeprecated	The feature you are using '{0}' is no longer supported; please use '{1}' instead	
+ALSTR_FileNameTooLong	Filename '{0}' is too long or invalid	
+ALSTR_FileTooBig	File '{0}' too big to open	
+ALSTR_FusionInit	Initialization of global assembly cache manager failed -- {0}	
+ALSTR_FusionInstallFailed	Failed to install assembly into cache -- {0}	
+ALSTR_H_ALGID	  /algid:<id>               Algorithm used to hash files (in hexadecimal)	
+ALSTR_H_BASEADDRESS	  /base[address]:<addr>     Base address for the library	
+ALSTR_H_BUGREPORT	  /bugreport:<filename>     Create a 'Bug Report' file	
+ALSTR_H_COMPANY	  /comp[any]:<text>         Company name	
+ALSTR_H_CONFIG	  /config[uration]:<text>   Configuration string	
+ALSTR_H_COPYRIGHT	  /copy[right]:<text>       Copyright message	
+ALSTR_H_DELAYSIGN	  /delay[sign][+|-]         Delay sign this assembly	
+ALSTR_H_DESCR	  /descr[iption]:<text>     Description	
+ALSTR_H_EMBED1	  /embed[resource]:<filename>[,<name>[,Private]]	
+ALSTR_H_EMBED2	                            embed the file as a resource in the assembly	
+ALSTR_H_EVIDENCE	  /e[vidence]:<filename>    Security evidence file to embed	
+ALSTR_H_FILEVER	  /fileversion:<version>    Optional Win32 version (overrides assembly version)	
+ALSTR_H_FLAGS	  /flags:<flags>            Assembly flags  (in hexadecimal)	
+ALSTR_H_FULLPATHS	  /fullpaths                Display files using fully-qualified filenames	
+ALSTR_H_HELP	  /? or /help               Display this usage message	
+ALSTR_H_KEYFILE	  /keyf[ile]:<filename>     File containing key to sign the assembly	
+ALSTR_H_KEYNAME	  /keyn[ame]:<text>         Key container name of key to sign assembly	
+ALSTR_H_LINK1	  /link[resource]:<filename>[,<name>[,<targetfile>[,Private]]]	
+ALSTR_H_LINK2	                            link the file as a resource to the assembly	
+ALSTR_H_LOCALE	  /c[ulture]:<text>         Supported culture	
+ALSTR_H_MAIN	  /main:<method>            Specifies the method name of the entry point	
+ALSTR_H_NOLOGO	  /nologo                   Suppress the startup banner and copyright message	
+ALSTR_H_OUT	  /out:<filename>           Output file name for the assembly manifest	
+ALSTR_H_PLATFORM	  /platform:<text>          Limit which platforms this code can run on; must be	
+ALSTR_H_PLATFORM2	                            one of x86, Itanium, x64, or anycpu (the default)	
+ALSTR_H_PRODUCT	  /prod[uct]:<text>         Product name	
+ALSTR_H_PRODVER	  /productv[ersion]:<text>  Product version	
+ALSTR_H_RESPONSE	  @<filename>               Read response file for more options	
+ALSTR_H_SOURCEFILE	  <filename>[,<targetfile>] add file to assembly	
+ALSTR_H_TARGET	  /t[arget]:lib[rary]       Create a library	
+ALSTR_H_TARGET2	  /t[arget]:exe             Create a console executable	
+ALSTR_H_TARGET3	  /t[arget]:win[exe]        Create a Windows executable	
+ALSTR_H_TEMPLATE	  /template:<filename>      Specifies an assembly to get default options from	
+ALSTR_H_TITLE	  /title:<text>             Title	
+ALSTR_H_TRADEMARK	  /trade[mark]:<text>       Trademark message	
+ALSTR_H_VERSION	  /v[ersion]:<version>      Version (use * to auto-generate remaining numbers)	
+ALSTR_H_WIN32ICON	  /win32icon:<filename>     Use this icon for the output	
+ALSTR_H_WIN32RES	  /win32res:<filename>      Specifies the Win32 resource file	
+ALSTR_HELP10	Usage: al [options] [sources]	
+ALSTR_HELP20	Options: ('/out' must be specified)	
+ALSTR_HELP30	Sources: (at least one source input is required)	
+ALSTR_IgnoringAssembly	Ignoring included assembly '{0}'	
+ALSTR_IgnoringDuplicateSource	Module '{0}' was specified multiple times; it will only be included once	
+ALSTR_IllegalOptionChar	Character '{0}' is not allowed on the command-line or in response files	
+ALSTR_InitError	Unexpected initialization error -- '{0}'	
+ALSTR_InputFileNameTooLong	File name '{0}' is too long or invalid	
+ALSTR_InternalError	Internal compiler error	
+ALSTR_InvalidFileDefInComType	ComType record '{0}' points to an invalid file record '{1}'	
+ALSTR_InvalidOSString	The operating system specified '{0}' is invalid	
+ALSTR_InvalidTime	Cannot auto-generate build and revision version numbers for dates previous to January 1, 2000	
+ALSTR_InvalidVersionFormat	The version '{1}' specified for the '{0}' is not in the normal 'major.minor.build.revision' format	
+ALSTR_InvalidVersionString	The version specified '{0}' is invalid	
+ALSTR_MetaDataError	Metadata failure while creating assembly -- {0}	
+ALSTR_MissingOptionArg	Compiler option '{0}' must be followed by an argument	
+ALSTR_ModuleImportError	Error importing file '{0}' -- {1}	
+ALSTR_ModuleNameDifferent	Module name '{1}' stored in '{0}' must match its filename	
+ALSTR_N_ALGID	hash algorithm	
+ALSTR_N_COMPANY	company	
+ALSTR_N_CONFIG	configuration	
+ALSTR_N_COPYRIGHT	copyright	
+ALSTR_N_DELAYSIGN	delay sign	
+ALSTR_N_DESCR	description	
+ALSTR_N_FILEVER	file version	
+ALSTR_N_FLAGS	assembly flags	
+ALSTR_N_FRIENDASSEM	System.Runtime.CompilerServices.InternalIsVisibleToAttribute	
+ALSTR_N_KEYFILE	key file	
+ALSTR_N_KEYNAME	key container name	
+ALSTR_N_LOCALE	culture	
+ALSTR_N_OS	operating system	
+ALSTR_N_PROC	processor	
+ALSTR_N_PRODUCT	product name	
+ALSTR_N_PRODVER	product version	
+ALSTR_N_SATELLITEVER	System.Resources.SatelliteContractVersionAttribute	
+ALSTR_N_TITLE	title	
+ALSTR_N_TRADEMARK	trademark	
+ALSTR_N_VERSION	version	
+ALSTR_NeedPrivateKey	Key file '{0}' is missing the private key needed for signing	
+ALSTR_NoFileSpec	Missing file specification for '{0}' command-line option	
+ALSTR_NoInputs	No valid input files were specified	
+ALSTR_NoMainFound	Unable to find the entry point method '{0}'	
+ALSTR_NoMainOnDLLs	Libraries cannot have an entry point	
+ALSTR_NoMemory	Out of memory	
+ALSTR_NoOutput	No target filename was specified	
+ALSTR_OpenResponseFile	Error opening response file '{0}' -- '{1}'	
+ALSTR_OPTDSC_ARGORITHMID	Specifies an algorithm to hash files in a multifile assembly	
+ALSTR_OPTDSC_COMPANY	Specifies a string for the Company field in the assembly.	
+ALSTR_OPTDSC_CONFIGURATION	Specifies a string for the Configuration field in the assembly.	
+ALSTR_OPTDSC_COPYRIGHT	Specifies a string for the Copyright field in the assembly.	
+ALSTR_OPTDSC_CULTURE	Specifies the culture string to associate with the assembly.	
+ALSTR_OPTDSC_DESCRIPTION	Specifies a string for the Description field in the assembly.	
+ALSTR_OPTDSC_EVIDENCE	Embeds file in the assembly with the resource name of Security.Evidence.	
+ALSTR_OPTDSC_FILEVERSION	Specifies a string for the File Version field in the assembly.	
+ALSTR_OPTDSC_FLAGS	Specifies a value for the Flags field in the assembly.	
+ALSTR_OPTDSC_PRODUCT	Specifies a string for the Product field in the assembly.	
+ALSTR_OPTDSC_PRODUCTVERSION	Specifies a string for the Product Version field in the assembly.	
+ALSTR_OPTDSC_TEMPLATE	Specifies the assembly from which to inherit assembly metadata	
+ALSTR_OPTDSC_TITLE	Specifies a string for the Title field in the assembly.	
+ALSTR_OPTDSC_TRADEMARK	Specifies a string for the Trademark field in the assembly.	
+ALSTR_OPTDSC_VERSION	Specifies version information for this assembly.	
+ALSTR_OPTGRP_OPTIONS	- OPTIONS -	
+ALSTR_OPTGRP_SOURCES	- SOURCES -	
+ALSTR_OptionConflicts	'{0}' : overriding previous setting	
+ALSTR_OPTSYN_ARGORITHMID	/algid:<algorithm ID>	
+ALSTR_OPTSYN_COMPANY	/comp[any]:<string>	
+ALSTR_OPTSYN_CONFIGURATION	/config[uration]:<string>	
+ALSTR_OPTSYN_COPYRIGHT	/copy[right]:<string>	
+ALSTR_OPTSYN_CULTURE	/c[ulture]:<string>	
+ALSTR_OPTSYN_DESCRIPTION	/descr[iption]:<string>	
+ALSTR_OPTSYN_EVIDENCE	/e[vidence]:<file>	
+ALSTR_OPTSYN_FILEVERSION	/fileversion:<string>	
+ALSTR_OPTSYN_FLAGS	/flags:<int>	
+ALSTR_OPTSYN_PRODUCT	/prod[uct]:<string>	
+ALSTR_OPTSYN_PRODUCTVERSION	/productv[ersion]:<string>	
+ALSTR_OPTSYN_TEMPLATE	/template:<file>	
+ALSTR_OPTSYN_TITLE	/title:<string>	
+ALSTR_OPTSYN_TRADEMARK	/trade[mark]:<string>	
+ALSTR_OPTSYN_VERSION	/v[ersion]:<string>	
+ALSTR_OutputFileExists	Cannot create short filename '{0}' when a long filename with the same short filename already exists	
+ALSTR_ParentNotAnAssembly	File '{0}' is not an assembly	
+ALSTR_RefHasCulture	Referenced assembly '{0}' is a localized satellite assembly	
+ALSTR_RefNotStrong	Referenced assembly '{0}' does not have a strong name	
+ALSTR_REPROBINFILE	### Binary file: '{0}'	
+ALSTR_REPROCOMMANDLINE	### ALink command line	
+ALSTR_REPROCORRECTBEHAVIOR	### User suggested correct behavior	
+ALSTR_REPRODESCRIPTION	### User description	
+ALSTR_REPRODIAGS	### ALink output	
+ALSTR_REPROLCID	### Console and Defect Report Code Page: {0}	
+ALSTR_REPROOS	### Operating System: {0} {1}.{2}.{3}   {4}	
+ALSTR_REPROSOURCEFILE	### Source file: '{0}'	
+ALSTR_REPROTITLE	### Assembly Linker Defect Report, created {0}	
+ALSTR_REPROURTVER	### .NET Common Language Runtime version: {0}	
+ALSTR_REPROVER	### ALink version: {0}	
+ALSTR_RequiredFileNotFound	Required file '{0}' could not be loaded	
+ALSTR_SameOutAndSource	Manifest filename '{0}' cannot be the same as any modules	
+ALSTR_SwitchNeedsString	Command-line syntax error: Missing ':<text>' for '{0}' option	
+ALSTR_TypeFwderMatchesDeclared	Public type '{0}' is defined in '{1}' and forwarded to '{2}'	
+ALSTR_UnknownError	Unknown error ({0})	
+CSCSTR_AbstractAndExtern	'{0}' cannot be both extern and abstract	
+CSCSTR_AbstractAndSealed	'{0}' cannot be both abstract and sealed	
+CSCSTR_AbstractAttributeClass	Cannot apply attribute class '{0}' because it is abstract	
+CSCSTR_AbstractBaseCall	Cannot call an abstract base member: '{0}'	
+CSCSTR_AbstractEventInitializer	'{0}': abstract event cannot have initializer	
+CSCSTR_AbstractField	The modifier 'abstract' is not valid on fields. Try using a property instead.	
+CSCSTR_AbstractHasBody	'{0}' cannot declare a body because it is marked abstract	
+CSCSTR_AbstractInConcreteClass	'{0}' is abstract but it is contained in nonabstract class '{1}'	
+CSCSTR_AbstractNotVirtual	The abstract method '{0}' cannot be marked virtual	
+CSCSTR_AbstractSealedStatic	'{0}': an abstract class cannot be sealed or static	
+CSCSTR_AccessModMissingAccessor	'{0}': accessibility modifiers on accessors may only be used if the property or indexer has both a get and a set accessor	
+CSCSTR_AccessorImplementingMethod	Accessor '{0}' cannot implement interface member '{1}' for type '{2}'. Use an explicit interface implementation.	
+CSCSTR_AddModuleAssembly	'{0}' cannot be added to this assembly because it already is an assembly; use '/R' option instead	
+CSCSTR_AddOrRemoveExpected	An add or remove accessor expected	
+CSCSTR_AddRemoveMustHaveBody	An add or remove accessor must have a body	
+CSCSTR_AddrOnReadOnlyLocal	Cannot take the address of a read-only local variable	
+CSCSTR_AK_CLASS	class	
+CSCSTR_AK_DELEGATE	delegate	
+CSCSTR_AK_ENUM	enum	
+CSCSTR_AK_INTERFACE	interface	
+CSCSTR_AK_STRUCT	struct	
+CSCSTR_AK_UNKNOWN	type	
+CSCSTR_AliasMissingFile	Invalid reference alias option: '{0}=' -- missing filename	
+CSCSTR_AliasNotFound	Alias '{0}' not found	
+CSCSTR_AliasQualAsExpression	The namespace alias qualifier '::' always resolves to a type or namespace so is illegal here. Consider using '.' instead.	
+CSCSTR_ALinkCloseFailed	Assembly signing failed; output may not be signed -- {0}	
+CSCSTR_ALinkFailed	Assembly generation failed -- {0}	
+CSCSTR_ALinkWarn	Assembly generation -- {0}	
+CSCSTR_AlwaysNull	The result of the expression is always 'null' of type '{0}'	
+CSCSTR_AmbigBinaryOps	Operator '{0}' is ambiguous on operands of type '{1}' and '{2}'	
+CSCSTR_AmbigCall	The call is ambiguous between the following methods or properties: '{0}' and '{1}'	
+CSCSTR_AmbigContext	'{0}' is an ambiguous reference between '{1}' and '{2}'	
+CSCSTR_AmbigLookupMeth	Ambiguity between method '{0}' and non-method '{1}'. Using method group.	
+CSCSTR_AmbigMember	Ambiguity between '{0}' and '{1}'	
+CSCSTR_AmbigousAttribute	'{0}' is ambiguous between '{1}' and '{2}'; use either '@{0}' or '{0}Attribute'	
+CSCSTR_AmbigOverride	The inherited members '{0}' and '{1}' have the same signature in type '{2}', so they cannot be overridden	
+CSCSTR_AmbigQM	Type of conditional expression cannot be determined because '{0}' and '{1}' implicitly convert to one another	
+CSCSTR_AmbigUDConv	Ambiguous user defined conversions '{0}' and '{1}' when converting from '{2}' to '{3}'	
+CSCSTR_AmbigUnaryOp	Operator '{0}' is ambiguous on an operand of type '{1}'	
+CSCSTR_AmbiguousXMLReference	Ambiguous reference in cref attribute: '{0}'. Assuming '{1}', but could have also matched other overloads including '{2}'.	
+CSCSTR_AnonDelegateCantUse	Cannot use ref or out parameter '{0}' inside an anonymous method block	
+CSCSTR_AnonMethGrpInForEach	Foreach cannot operate on a '{0}'. Did you intend to invoke the '{0}'?	
+CSCSTR_AnonMethNotAllowed	Expression cannot contain anonymous methods	
+CSCSTR_AnonMethod	anonymous method	
+CSCSTR_AnonMethToNonDel	Cannot convert {0} to type '{1}' because it is not a delegate type	
+CSCSTR_AnonymousReturnExpected	Anonymous method of type '{0}': not all code paths return a value	
+CSCSTR_ArgsInvalid	The __arglist construct is valid only within a variable argument method	
+CSCSTR_ArrayElementCantBeRefAny	Array elements cannot be of type '{0}'	
+CSCSTR_ArrayInitInBadPlace	Array initializers can only be used in a variable or field initializer. Try using a new expression instead.	
+CSCSTR_ArrayInitToNonArrayType	Can only use array initializer expressions to assign to array types. Try using a new expression instead.	
+CSCSTR_ArrayOfStaticClass	'{0}': array elements cannot be of static type	
+CSCSTR_ArraySizeInDeclaration	Array size cannot be specified in a variable declaration (try initializing with a 'new' expression)	
+CSCSTR_AsMustHaveReferenceType	The as operator must be used with a reference type ('{0}' is a value type)	
+CSCSTR_AssemblyMatchBadVersion	Assembly '{0}' uses '{1}' which has a higher version than referenced assembly '{2}'	
+CSCSTR_AssemblyNameOnNonModule	The /moduleassemblyname option may only be specified when building a target type of 'module'	
+CSCSTR_AssgLvalueExpected	The left-hand side of an assignment must be a variable, property or indexer	
+CSCSTR_AssgReadonly	A readonly field cannot be assigned to (except in a constructor or a variable initializer)	
+CSCSTR_AssgReadonly2	Members of readonly field '{0}' cannot be modified (except in a constructor or a variable initializer)	
+CSCSTR_AssgReadonlyLocal	Cannot assign to '{0}' because it is read-only	
+CSCSTR_AssgReadonlyLocal2	Cannot modify members of '{0}' because it is read-only	
+CSCSTR_AssgReadonlyLocal2Cause	Cannot modify members of '{0}' because it is a '{1}'	
+CSCSTR_AssgReadonlyLocalCause	Cannot assign to '{0}' because it is a '{1}'	
+CSCSTR_AssgReadonlyProp	Property or indexer '{0}' cannot be assigned to -- it is read only	
+CSCSTR_AssgReadonlyStatic	A static readonly field cannot be assigned to (except in a static constructor or a variable initializer)	
+CSCSTR_AssgReadonlyStatic2	Fields of static readonly field '{0}' cannot be assigned to (except in a static constructor or a variable initializer)	
+CSCSTR_AssignmentToLockOrDispose	Possibly incorrect assignment to local '{0}' which is the argument to a using or lock statement. The Dispose call or unlocking will happen on the original value of the local.	
+CSCSTR_AssignmentToSelf	Assignment made to same variable; did you mean to assign something else?	
+CSCSTR_AssumedMatchThis	Circular assembly reference '{0}' does not match the output assembly name '{1}'. Try adding a reference to '{0}' or changing the output assembly name to match.	
+CSCSTR_AsWithTypeVar	The type parameter '{0}' cannot be used with the 'as' operator because it does not have a class type constraint nor a 'class' constraint	
+CSCSTR_AttrArgWithTypeVars	'{0}': an attribute argument cannot use type parameters	
+CSCSTR_AttributeCantBeGeneric	'<' unexpected : attributes cannot be generic	
+CSCSTR_AttributeLocationOnBadDeclaration	'{0}' is not a valid attribute location for this declaration. Valid attribute locations for this declaration are '{1}'. All attributes in this block will be ignored.	
+CSCSTR_AttributeNotOnAccessor	Attribute '{0}' is not valid on property or event accessors. It is valid on '{1}' declarations only.	
+CSCSTR_AttributeOnBadSymbolType	Attribute '{0}' is not valid on this declaration type. It is valid on '{1}' declarations only.	
+CSCSTR_AttributeUsageOnNonAttributeClass	Attribute '{0}' is only valid on classes derived from System.Attribute	
+CSCSTR_AttrOnTypeArg	Attributes cannot be used on type arguments, only on type parameters	
+CSCSTR_AutoResGen	Error generating Win32 resource: {0}	
+CSCSTR_BadAccess	'{0}' is inaccessible due to its protection level	
+CSCSTR_BadArgCount	No overload for method '{0}' takes '{1}' arguments	
+CSCSTR_BadArgExtraRef	Argument '{0}' should not be passed with the '{1}' keyword	
+CSCSTR_BadArgRef	Argument '{0}' must be passed with the '{1}' keyword	
+CSCSTR_BadArgType	Argument '{0}': cannot convert from '{1}' to '{2}'	
+CSCSTR_BadArgTypes	The best overloaded method match for '{0}' has some invalid arguments	
+CSCSTR_BadArgumentToAttribute	The argument to the '{0}' attribute must be a valid identifier	
+CSCSTR_BadArity	Using the generic {1} '{0}' requires '{2}' type arguments	
+CSCSTR_BadArraySyntax	Array type specifier, [], must appear before parameter name	
+CSCSTR_BadAttributeParam	An attribute argument must be a constant expression, typeof expression or array creation expression	
+CSCSTR_BADBASENUMBER	Invalid image base number '{0}'	
+CSCSTR_BadBaseType	Invalid base type	
+CSCSTR_BadBinaryOperatorSignature	One of the parameters of a binary operator must be the containing type	
+CSCSTR_BadBinaryOps	Operator '{0}' cannot be applied to operands of type '{1}' and '{2}'	
+CSCSTR_BadBinOpArgs	Overloaded binary operator '{0}' takes two parameters	
+CSCSTR_BadBoolOp	In order to be applicable as a short circuit operator a user-defined logical operator ('{0}') must have the same return type as the type of its 2 parameters	
+CSCSTR_BadBoundType	'{0}' is not a valid constraint. A type used as a constraint must be an interface, a non-sealed class or a type parameter.	
+CSCSTR_BadCastInFixed	The right hand side of a fixed statement assignment may not be a cast expression	
+CSCSTR_BadCoClassSig	The managed coclass wrapper class signature '{0}' for interface '{1}' is not a valid class name signature	
+CSCSTR_BADCODEPAGE	Code page '{0}' is invalid or not installed	
+CSCSTR_BadCompatMode	Invalid option '{0}' for /langversion; must be ISO-1 or Default	
+CSCSTR_BadConstraintType	Invalid constraint type. A type used as a constraint must be an interface, a non-sealed class or a type parameter.	
+CSCSTR_BadConstType	The type '{0}' cannot be declared const	
+CSCSTR_BadDebugType	Invalid option '{0}' for /debug; must be full or pdbonly	
+CSCSTR_BadDelArgCount	Delegate '{0}' does not take '{1}' arguments	
+CSCSTR_BadDelArgTypes	Delegate '{0}' has some invalid arguments	
+CSCSTR_BadDelegateConstructor	The delegate '{0}' does not have a valid constructor	
+CSCSTR_BadDelegateLeave	Control cannot leave the body of an anonymous method	
+CSCSTR_BadDestructorName	Name of destructor must match name of class	
+CSCSTR_BadDirectivePlacement	Preprocessor directives must appear as the first non-whitespace character on a line	
+CSCSTR_BadEmbeddedStmt	Embedded statement cannot be a declaration or labeled statement	
+CSCSTR_BadEmptyThrow	A throw statement with no arguments is not allowed outside of a catch clause	
+CSCSTR_BadEmptyThrowInFinally	A throw statement with no arguments is not allowed inside of a finally clause nested inside of the innermost catch clause	
+CSCSTR_BadEventUsage	The event '{0}' can only appear on the left hand side of += or -= (except when used from within the type '{1}')	
+CSCSTR_BadEventUsageNoField	The event '{0}' can only appear on the left hand side of += or -=	
+CSCSTR_BadExceptionType	The type caught or thrown must be derived from System.Exception	
+CSCSTR_BadExternAlias	The extern alias '{0}' was not specified in a /reference option	
+CSCSTR_BadExternIdentifier	Invalid extern alias for '/reference'; '{0}' is not a valid identifier	
+CSCSTR_BadFileAlignment	Invalid file section alignment number '{0}'	
+CSCSTR_BadFinallyLeave	Control cannot leave the body of a finally clause	
+CSCSTR_BadFixedInitType	The type of locals declared in a fixed statement must be a pointer type	
+CSCSTR_BadForeachDecl	Type and identifier are both required in a foreach statement	
+CSCSTR_BadGetEnumerator	foreach requires that the return type '{0}' of '{1}' must have a suitable public MoveNext method and public Current property	
+CSCSTR_BadIncDecRetType	The return type for ++ or -- operator must be the containing type or derived from the containing type	
+CSCSTR_BadIncDecsignature	The parameter type for ++ or -- operator must be the containing type	
+CSCSTR_BadIndexCount	Wrong number of indices inside [], expected '{0}'	
+CSCSTR_BadIndexerNameAttr	The '{0}' attribute is valid only on an indexer that is not an explicit interface member declaration	
+CSCSTR_BadIndexLHS	Cannot apply indexing with [] to an expression of type '{0}'	
+CSCSTR_BadIteratorArgType	Iterators cannot have ref or out parameters	
+CSCSTR_BadIteratorReturn	The body of '{0}' cannot be an iterator block because '{1}' is not an iterator interface type	
+CSCSTR_BadMemberFlag	The modifier '{0}' is not valid for this item	
+CSCSTR_BadMemberProtection	More than one protection modifier	
+CSCSTR_BadModifierForPartialMethod	A partial method cannot have access modifiers or the virtual, abstract, override, new, sealed, or extern modifiers.	
+CSCSTR_BadModifierLocation	Member modifier '{0}' must precede the member type and name	
+CSCSTR_BadModifiersOnNamespace	A namespace declaration cannot have modifiers or attributes	
+CSCSTR_BadNamedAttributeArgument	'{0}' is not a valid named attribute argument. Named attribute arguments must be fields which are not readonly, static, or const, or read-write properties which are public and not static.	
+CSCSTR_BadNamedAttributeArgumentType	'{0}' is not a valid named attribute argument because it is not a valid attribute parameter type	
+CSCSTR_BadNewExpr	A new expression requires () or [] after type	
+CSCSTR_BadOperatorSyntax	Declaration is not valid; use '{0} operator <dest-type> (...' instead	
+CSCSTR_BadOperatorSyntax2	Declaration is not valid; use '<type> operator {0} (...' instead	
+CSCSTR_BadParamExtraRef	Parameter '{0}' should not be declared with the '{1}' keyword	
+CSCSTR_BadParamRef	Parameter '{0}' must be declared with the '{1}' keyword	
+CSCSTR_BadParamType	Parameter '{0}' is declared as type '{1}' but should be '{2}'	
+CSCSTR_BadPDBFormat	PDB file '{0}' has an incorrect or out-of-date format. Delete it and rebuild.	
+CSCSTR_BadPlatformType	Invalid option '{0}' for /platform; must be anycpu, x86, Itanium or x64	
+CSCSTR_BadProtectedAccess	Cannot access protected member '{0}' via a qualifier of type '{1}'; the qualifier must be of type '{2}' (or derived from it)	
+CSCSTR_BadRefCompareLeft	Possible unintended reference comparison; to get a value comparison, cast the left hand side to type '{0}'	
+CSCSTR_BadRefCompareRight	Possible unintended reference comparison; to get a value comparison, cast the right hand side to type '{0}'	
+CSCSTR_BadResourceVis	Invalid option '{0}'; Resource visibility must be either 'public' or 'private'	
+CSCSTR_BadRestoreNumber	Cannot restore warning 'CS{0}' because it was disabled globally	
+CSCSTR_BadRetType	'{1} {0}' has the wrong return type	
+CSCSTR_BADSECONDTARGET	Only the first set of input files can build a target other than 'module'	
+CSCSTR_BadShiftOperatorSignature	Overloaded shift operator must have the type of the first operand be the containing type, and the type of the second operand must be int	
+CSCSTR_BadSKknown	'{0}' is a '{1}' but is used like a '{2}'	
+CSCSTR_BadSKunknown	'{0}' is a '{1}', which is not valid in the given context	
+CSCSTR_BadStackAllocExpr	A stackalloc expression requires [] after type	
+CSCSTR_BADSWITCH	Unrecognized option: '{0}'	
+CSCSTR_BadTokenInType	Expected class, delegate, enum, interface, or struct	
+CSCSTR_BadTypeArgument	The type '{0}' may not be used as a type argument	
+CSCSTR_BadTypeReference	'{0}': cannot reference a type through an expression; try '{1}' instead	
+CSCSTR_BadUnaryOp	Operator '{0}' cannot be applied to operand of type '{1}'	
+CSCSTR_BadUnaryOperatorSignature	The parameter of a unary operator must be the containing type	
+CSCSTR_BadUnOpArgs	Overloaded unary operator '{0}' takes one parameter	
+CSCSTR_BadUsingNamespace	A using namespace directive can only be applied to namespaces; '{0}' is a type not a namespace	
+CSCSTR_BadVarargs	A method with vararg cannot be generic, be in a generic type, or have a params parameter	
+CSCSTR_BadVarDecl	Expected ; or = (cannot specify constructor arguments in declaration)	
+CSCSTR_BadVisBaseClass	Inconsistent accessibility: base class '{1}' is less accessible than class '{0}'	
+CSCSTR_BadVisBaseInterface	Inconsistent accessibility: base interface '{1}' is less accessible than interface '{0}'	
+CSCSTR_BadVisBound	Inconsistent accessibility: constraint type '{1}' is less accessible than '{0}'	
+CSCSTR_BadVisDelegateParam	Inconsistent accessibility: parameter type '{1}' is less accessible than delegate '{0}'	
+CSCSTR_BadVisDelegateReturn	Inconsistent accessibility: return type '{1}' is less accessible than delegate '{0}'	
+CSCSTR_BadVisFieldType	Inconsistent accessibility: field type '{1}' is less accessible than field '{0}'	
+CSCSTR_BadVisIndexerParam	Inconsistent accessibility: parameter type '{1}' is less accessible than indexer '{0}'	
+CSCSTR_BadVisIndexerReturn	Inconsistent accessibility: indexer return type '{1}' is less accessible than indexer '{0}'	
+CSCSTR_BadVisOpParam	Inconsistent accessibility: parameter type '{1}' is less accessible than operator '{0}'	
+CSCSTR_BadVisOpReturn	Inconsistent accessibility: return type '{1}' is less accessible than operator '{0}'	
+CSCSTR_BadVisParamType	Inconsistent accessibility: parameter type '{1}' is less accessible than method '{0}'	
+CSCSTR_BadVisPropertyType	Inconsistent accessibility: property type '{1}' is less accessible than property '{0}'	
+CSCSTR_BadVisReturnType	Inconsistent accessibility: return type '{1}' is less accessible than method '{0}'	
+CSCSTR_BadWarningLevel	Warning level must be in the range 0-4	
+CSCSTR_BadWarningNumber	'{0}' is not a valid warning number	
+CSCSTR_BadWatsonMode	Invalid option '{0}' for /errorreport; must be prompt, send, queue, or none	
+CSCSTR_BadWin32Res	'{0}' is not a valid Win32 resource file	
+CSCSTR_BadXMLRef	XML comment on '{1}' has cref attribute '{0}' that could not be resolved	
+CSCSTR_BadXMLRefParamType	Invalid type for parameter '{0}' in XML comment cref attribute: '{1}'	
+CSCSTR_BadXMLRefReturnType	Invalid return type in XML comment cref attribute	
+CSCSTR_BadXMLRefSyntax	XML comment on '{1}' has syntactically incorrect cref attribute '{0}'	
+CSCSTR_BadXMLRefTypeVar	XML comment on '{1}' has cref attribute '{0}' that refers to a type parameter	
+CSCSTR_BadYieldInCatch	Cannot yield a value in the body of a catch clause	
+CSCSTR_BadYieldInFinally	Cannot yield in the body of a finally clause	
+CSCSTR_BadYieldInTryOfCatch	Cannot yield a value in the body of a try block with a catch clause	
+CSCSTR_BANNER1	Microsoft (R) Shared Source CLI C# Compiler version 	
+CSCSTR_BANNER1PART2	for Microsoft (R) Shared Source CLI version 	
+CSCSTR_BANNER2	Copyright (C) Microsoft Corporation. All rights reserved.	
+CSCSTR_BaseClassMustBeFirst	Base class '{0}' must come before any interfaces	
+CSCSTR_BaseConstraintConflict	Type parameter '{0}' inherits conflicting constraints '{1}' and '{2}'	
+CSCSTR_BaseIllegal	Use of keyword 'base' is not valid in this context	
+CSCSTR_BaseInBadContext	Keyword 'base' is not available in the current context	
+CSCSTR_BaseInStaticMeth	Keyword 'base' is not available in a static method	
+CSCSTR_BINARYFILE	'{0}' is a binary file instead of a text file	
+CSCSTR_BindToBogus	'{0}' is not supported by the language	
+CSCSTR_BindToBogusProp1	Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor method '{1}'	
+CSCSTR_BindToBogusProp2	Property, indexer, or event '{0}' is not supported by the language; try directly calling accessor methods '{1}' or '{2}'	
+CSCSTR_BitwiseOrSignExtend	Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first	
+CSCSTR_BogusExplicitImpl	'{0}' cannot implement '{1}' because it is not supported by the language	
+CSCSTR_BogusType	'{0}' is a type not supported by the language	
+CSCSTR_BUGREPORTWARN	A file is being created with information needed to reproduce your compiler problem. This information includes software versions, the pathnames and contents of source code files, referenced assemblies and modules, compiler options, compiler output, and any additional information you provide in the following prompts. This file will not include the contents of any keyfiles.	
+CSCSTR_ByRefNonAgileField	Passing '{0}' as ref or out or taking its address may cause a runtime exception because it is a field of a marshal-by-reference class	
+CSCSTR_CallingBaseFinalizeDeprecated	Do not directly call your base class Finalize method. It is called automatically from your destructor.	
+CSCSTR_CallingFinalizeDepracated	Destructors and object.Finalize cannot be called directly. Consider calling IDisposable.Dispose if available.	
+CSCSTR_CallOnNonAgileField	Accessing a member on '{0}' may cause a runtime exception because it is a field of a marshal-by-reference class	
+CSCSTR_CannotAssignToImplicitType	Cannot assign '{0}' to an implicitly typed local	
+CSCSTR_CannotConvertToExprTree	A lambda expression must have an expression body to be converted to an expression tree.	
+CSCSTR_CantCallSpecialMethod	'{0}': cannot explicitly call operator or accessor	
+CSCSTR_CantChangeAccessOnOverride	'{0}': cannot change access modifiers when overriding '{1}' inherited member '{2}'	
+CSCSTR_CantChangeReturnTypeOnOverride	'{0}': return type must be '{2}' to match overridden member '{1}'	
+CSCSTR_CantChangeTypeOnOverride	'{0}': type must be '{2}' to match overridden member '{1}'	
+CSCSTR_CantConvAnonMethNoParams	Cannot convert anonymous method block without a parameter list to delegate type '{0}' because it has one or more out parameters	
+CSCSTR_CantConvAnonMethParams	Cannot convert anonymous method block to delegate type '{0}' because the specified block's parameter types do not match the delegate parameter types	
+CSCSTR_CantConvAnonMethReturns	Cannot convert {0} to delegate type '{1}' because some of the return types in the block are not implicitly convertible to the delegate return type	
+CSCSTR_CantDeriveFromSealedType	'{0}': cannot derive from sealed type '{1}'	
+CSCSTR_CantGetCORSystemDir	Cannot determine common language runtime directory -- '{0}'	
+CSCSTR_CantHaveWin32ResAndIcon	Conflicting options specified: Win32 resource file; Win32 icon	
+CSCSTR_CantImportBase	The base class or interface '{1}' in assembly '{2}' referenced by type '{0}' could not be resolved	
+CSCSTR_CantIncludeDirectory	Invalid reference option: '{0}' -- cannot reference directories	
+CSCSTR_CantInferMethTypeArgs	The type arguments for method '{0}' cannot be inferred from the usage. Try specifying the type arguments explicitly.	
+CSCSTR_CantMakeTempFile	Cannot create temporary file '{1}' -- {0}	
+CSCSTR_CANTOPENFILEWRITE	Cannot open '{0}' for writing	
+CSCSTR_CantOpenWin32Res	Error reading Win32 resource file '{0}' -- '{1}'	
+CSCSTR_CantOverrideBogusMethod	'{0}': cannot override '{1}' because it is not supported by the language	
+CSCSTR_CantOverrideNonEvent	'{0}': cannot override; '{1}' is not an event	
+CSCSTR_CantOverrideNonFunction	'{0}': cannot override because '{1}' is not a function	
+CSCSTR_CantOverrideNonProperty	'{0}': cannot override because '{1}' is not a property	
+CSCSTR_CantOverrideNonVirtual	'{0}': cannot override inherited member '{1}' because it is not marked virtual, abstract, or override	
+CSCSTR_CantOverrideSealed	'{0}': cannot override inherited member '{1}' because it is sealed	
+CSCSTR_CantReadResource	Error reading resource file '{0}' -- '{1}'	
+CSCSTR_CantRefResource	Cannot link resource file '{0}' when building a module	
+CSCSTR_CantUseRequiredAttribute	The Required attribute is not permitted on C# types	
+CSCSTR_CheckedOverflow	The operation overflows at compile time in checked mode	
+CSCSTR_CHILD	child	
+CSCSTR_CircConstValue	The evaluation of the constant value for '{0}' involves a circular definition	
+CSCSTR_CircularBase	Circular base class dependency involving '{0}' and '{1}'	
+CSCSTR_CircularConstraint	Circular constraint dependency involving '{0}' and '{1}'	
+CSCSTR_ClassBoundNotFirst	The class type constraint '{0}' must come before any other constraints	
+CSCSTR_ClassDoesntImplementInterface	'{0}': containing type does not implement interface '{1}'	
+CSCSTR_ClassNameTooLong	The name of type '{0}' is too long	
+CSCSTR_ClassTypeExpected	An object, string, or class type expected	
+CSCSTR_CLB_ERROR_FIRST	Error occurred during a read	
+CSCSTR_CloseParenExpected	) expected	
+CSCSTR_CloseUnimplementedInterfaceMember	'{0}' does not implement interface member '{1}'. '{2}' is either static, not public, or has the wrong return type.	
+CSCSTR_CLS_ArrayArgumentToAttribute	Arrays as attribute arguments is not CLS-compliant	
+CSCSTR_CLS_AssemblyNotCLS	'{0}' cannot be marked as CLS-compliant because the assembly does not have a CLSCompliant attribute	
+CSCSTR_CLS_AssemblyNotCLS2	'{0}' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute	
+CSCSTR_CLS_BadArgType	Argument type '{0}' is not CLS-compliant	
+CSCSTR_CLS_BadAttributeType	'{0}' has no accessible constructors which use only CLS-compliant types	
+CSCSTR_CLS_BadBase	'{0}': base type '{1}' is not CLS-compliant	
+CSCSTR_CLS_BadFieldPropType	Type of '{0}' is not CLS-compliant	
+CSCSTR_CLS_BadIdentifier	Identifier '{0}' is not CLS-compliant	
+CSCSTR_CLS_BadIdentifierCase	Identifier '{0}' differing only in case is not CLS-compliant	
+CSCSTR_CLS_BadInterface	'{0}' is not CLS-compliant because base interface '{1}' is not CLS-compliant	
+CSCSTR_CLS_BadInterfacemember	'{0}': CLS-compliant interfaces must have only CLS-compliant members	
+CSCSTR_CLS_BadReturnType	Return type of '{0}' is not CLS-compliant	
+CSCSTR_CLS_BadTypeVar	Constraint type '{0}' is not CLS-compliant	
+CSCSTR_CLS_BadUnicode	Mixed and decomposed Unicode characters are not CLS-compliant	
+CSCSTR_CLS_IllegalTrueInFalse	'{0}' cannot be marked as CLS-compliant because it is a member of non CLS-compliant type '{1}'	
+CSCSTR_CLS_MeaninglessOnParam	CLSCompliant attribute has no meaning when applied to parameters. Try putting it on the method instead.	
+CSCSTR_CLS_MeaninglessOnPrivateType	CLS compliance checking will not be performed on '{0}' because it is not visible from outside this assembly.	
+CSCSTR_CLS_MeaninglessOnReturn	CLSCompliant attribute has no meaning when applied to return types. Try putting it on the method instead.	
+CSCSTR_CLS_ModuleMissingCLS	Added modules must be marked with the CLSCompliant attribute to match the assembly	
+CSCSTR_CLS_NoAbstractMembers	'{0}': only CLS-compliant members can be abstract	
+CSCSTR_CLS_NotOnModules	You must specify the CLSCompliant attribute on the assembly, not the module, to enable CLS compliance checking	
+CSCSTR_CLS_NotOnModules2	You cannot specify the CLSCompliant attribute on a module that differs from the CLSCompliant attribute on the assembly	
+CSCSTR_CLS_NoVarArgs	Methods with variable arguments are not CLS-compliant	
+CSCSTR_CLS_OverloadRefOut	Overloaded method '{0}' differing only in ref or out, or in array rank, is not CLS-compliant	
+CSCSTR_CLS_OverloadUnnamed	Overloaded method '{0}' differing only by unnamed array types is not CLS-compliant	
+CSCSTR_CLS_VolatileField	CLS-compliant field '{0}' cannot be volatile	
+CSCSTR_CmdOptionConflictsSource	Option '{0}' overrides attribute '{1}' given in a source file or added module	
+CSCSTR_CmpAlwaysFalse	Comparing with null of type '{0}' always produces 'false'	
+CSCSTR_CoClassWithoutComImport	'{0}' interface marked with 'CoClassAttribute' not marked with 'ComImportAttribute'	
+CSCSTR_ColColWithTypeAlias	Cannot use alias '{0}' with '::' since the alias references a type. Use '.' instead.	
+CSCSTR_CollectInitRequiresIEnumerable	Collection initializer requires its type '{0}' to implement System.Collections.IEnumerable	
+CSCSTR_Collection	collection	
+CSCSTR_ComImportWithBase	'{0}': a class with the ComImport attribute cannot specify a base class	
+CSCSTR_ComImportWithImpl	Since '{1}' has the ComImport attribute, '{0}' must be extern or abstract	
+CSCSTR_ComImportWithoutUuidAttribute	The Guid attribute must be specified with the ComImport attribute	
+CSCSTR_ComImportWithUserCtor	A class with the ComImport attribute cannot have a user-defined constructor	
+CSCSTR_ComparisonToSelf	Comparison made to same variable; did you mean to compare something else?	
+CSCSTR_CompileCancelled	Compilation cancelled by user	
+CSCSTR_ComPlusInit	Unexpected common language runtime initialization error -- '{0}'	
+CSCSTR_ConcreteMissingBody	'{0}' must declare a body because it is not marked abstract or extern	
+CSCSTR_ConditionalMustReturnVoid	The Conditional attribute is not valid on '{0}' because its return type is not void	
+CSCSTR_ConditionalOnInterfaceMethod	The Conditional attribute is not valid on interface members	
+CSCSTR_ConditionalOnNonAttributeClass	Attribute '{0}' is only valid on methods or attribute classes	
+CSCSTR_ConditionalOnOverride	The Conditional attribute is not valid on '{0}' because it is an override method	
+CSCSTR_ConditionalOnSpecialMethod	The Conditional attribute is not valid on '{0}' because it is a constructor, destructor, operator, or explicit interface implementation	
+CSCSTR_ConditionalWithOutParam	Conditional member '{0}' cannot have an out parameter	
+CSCSTR_ConflictAliasAndMember	Namespace '{1}' contains a definition conflicting with alias '{0}'	
+CSCSTR_ConflictingChecksum	Different checksum values given for '{0}'	
+CSCSTR_ConstantExpected	A constant value is expected	
+CSCSTR_ConstOutOfRange	Constant value '{0}' cannot be converted to a '{1}'	
+CSCSTR_ConstOutOfRangeChecked	Constant value '{0}' cannot be converted to a '{1}' (use 'unchecked' syntax to override)	
+CSCSTR_ConstraintIsStaticClass	'{0}': static classes cannot be used as constraints	
+CSCSTR_ConstraintOnlyAllowedOnGenericDecl	Constraints are not allowed on non-generic declarations	
+CSCSTR_ConstructorInStaticClass	Static classes cannot have instance constructors	
+CSCSTR_ConstValueRequired	A const field requires a value to be provided	
+CSCSTR_ConversionNotInvolvingContainedType	User-defined conversion must convert to or from the enclosing type	
+CSCSTR_ConversionWithBase	'{0}': user-defined conversion to/from base class	
+CSCSTR_ConversionWithDerived	'{0}': user-defined conversion to/from derived class	
+CSCSTR_ConversionWithInterface	'{0}': user-defined conversion to/from interface	
+CSCSTR_ConvertToStaticClass	Cannot convert to static type '{0}'	
+CSCSTR_ConWithValCon	Type parameter '{1}' has the 'struct' constraint so '{1}' cannot be used as a constraint for '{0}'	
+CSCSTR_CryptoFailed	Cryptographic failure while signing assembly '{1}' -- '{0}'	
+CSCSTR_CryptoNotFound	Appropriate cryptographic service not found	
+CSCSTR_CStyleArray	Syntax error, bad array declarator. To declare a managed array the rank specifier precedes the variable's identifier. To declare a fixed size buffer field, use the fixed keyword before the field type.	
+CSCSTR_CustomAttributeError	Error emitting '{1}' attribute -- '{0}'	
+CSCSTR_CycleInInterfaceInheritance	Inherited interface '{1}' causes a cycle in the interface hierarchy of '{0}'	
+CSCSTR_CycleInTypeForwarder	The type forwarder for type '{0}' in assembly '{1}' causes a cycle	
+CSCSTR_DEBUG_CONFLICT	The {0} compiler cannot be used with a {1} IDE. This is usually caused by installing different flavors of VS and NDP, and not specifying the VS flavor for the /CompilerSourcePath and /NonNdpSourcePath options when running NdpSetup.	
+CSCSTR_DebugEmitFailure	Unexpected error writing debug information to file '{1}' -- '{0}'	
+CSCSTR_DebugInit	Unexpected debug information initialization error -- '{0}'	
+CSCSTR_DebugInitFile	Unexpected error creating debug information file '{0}' -- '{1}'	
+CSCSTR_DecConstError	Evaluation of the decimal constant expression failed with error: '{0}'	
+CSCSTR_DefaultMemberOnIndexedType	Cannot specify the DefaultMember attribute on a type containing an indexer	
+CSCSTR_DefaultValueBadParamType	The DefaultValue attribute is not applicable on parameters of type '{0}'	
+CSCSTR_DefaultValueBadValueType	Argument of type '{0}' is not applicable for the DefaultValue attribute	
+CSCSTR_DefaultValueTypeMustMatch	The type of the argument to the DefaultValue attribute must match the parameter type	
+CSCSTR_DefineIdentifierRequired	Invalid value for '/define'; '{0}' is not a valid identifier	
+CSCSTR_DelegateNewMethBind	Delegate '{0}' bound to '{1}' instead of '{2}' because of new language rules	
+CSCSTR_DelegateOnConditional	Cannot create delegate with '{0}' because it has a Conditional attribute	
+CSCSTR_DelegateOnNullable	Cannot bind delegate to '{0}' because it is a member of 'System.Nullable<T>'	
+CSCSTR_DeleteAutoResFailed	Unable to delete temporary file '{0}' used for default Win32 resource -- {1}	
+CSCSTR_DeprecatedSymbol	'{0}' is obsolete	
+CSCSTR_DeprecatedSymbolStr	'{0}' is obsolete: '{1}'	
+CSCSTR_DeriveFromEnumOrValueType	'{0}' cannot derive from special class '{1}'	
+CSCSTR_DerivingFromATyVar	Cannot derive from '{0}' because it is a type parameter	
+CSCSTR_DestructorInStaticClass	Static classes cannot contain destructors	
+CSCSTR_DllImportOnInvalidMethod	The DllImport attribute must be specified on a method marked 'static' and 'extern'	
+CSCSTR_DocFileGen	Error generating XML documentation file '{0}' ('{1}')	
+CSCSTR_DoNotUseFixedBufferAttr	Do not use 'System.Runtime.CompilerServices.FixedBuffer' attribute. Use the 'fixed' field modifier instead.	
+CSCSTR_DontUseInvoke	Invoke cannot be called directly on a delegate	
+CSCSTR_DotOnDefault	Expression will always cause a System.NullReferenceException because the default value of '{0}' is null	
+CSCSTR_DottedTypeNameNotFoundInAgg	The type name '{0}' does not exist in the type '{1}'	
+CSCSTR_DottedTypeNameNotFoundInNS	The type or namespace name '{0}' does not exist in the namespace '{1}' (are you missing an assembly reference?)	
+CSCSTR_DuplicateAccessor	Property accessor already defined	
+CSCSTR_DuplicateAlias	The using alias '{0}' appeared previously in this namespace	
+CSCSTR_DuplicateAttribute	Duplicate '{0}' attribute	
+CSCSTR_DuplicateBound	Duplicate constraint '{0}' for type parameter '{1}'	
+CSCSTR_DuplicateCaseLabel	The label '{0}' already occurs in this switch statement	
+CSCSTR_DuplicateConstraintClause	A constraint clause has already been specified for type parameter '{0}'. All of the constraints for a type parameter must be specified in a single where clause.	
+CSCSTR_DuplicateConversionInClass	Duplicate user-defined conversion in type '{0}'	
+CSCSTR_DuplicateImport	An assembly with the same identity '{0}' has already been imported. Try removing one of the duplicate references.	
+CSCSTR_DuplicateImportSimple	An assembly with the same simple name '{0} has already been imported. Try removing one of the references or sign them to enable side-by-side.	
+CSCSTR_DuplicateInterfaceInBaseList	'{0}' is already listed in interface list	
+CSCSTR_DuplicateLabel	The label '{0}' is a duplicate	
+CSCSTR_DuplicateModifier	Duplicate '{0}' modifier	
+CSCSTR_DuplicateNamedAttributeArgument	'{0}' duplicate named attribute argument	
+CSCSTR_DuplicateNameInClass	The type '{1}' already contains a definition for '{0}'	
+CSCSTR_DuplicateNameInNS	The namespace '{1}' already contains a definition for '{0}'	
+CSCSTR_DuplicateParamName	The parameter name '{0}' is a duplicate	
+CSCSTR_DuplicateParamTag	XML comment on '{1}' has a duplicate param tag for '{0}'	
+CSCSTR_DuplicatePropertyAccessMods	Cannot specify accessibility modifiers for both accessors of the property or indexer '{0}'	
+CSCSTR_DUPLICATERESPONSEFILE	Response file '{0}' included multiple times	
+CSCSTR_DuplicateTypeParameter	Duplicate type parameter '{0}'	
+CSCSTR_DuplicateTypeParamTag	XML comment on '{1}' has a duplicate typeparam tag for '{0}'	
+CSCSTR_DuplicateUsing	The using directive for '{0}' appeared previously in this namespace	
+CSCSTR_EmptyCharConst	Empty character literal	
+CSCSTR_EmptyFileName	Filename specified for preprocessor directive is empty	
+CSCSTR_EmptySwitch	Empty switch block	
+CSCSTR_EmptyYield	Expression expected after yield return	
+CSCSTR_EndifDirectiveExpected	#endif directive expected	
+CSCSTR_EndOfPPLineExpected	Single-line comment or end-of-line expected	
+CSCSTR_EndRegionDirectiveExpected	#endregion directive expected	
+CSCSTR_ENTERCORRECT	Describe what you think should have happened (press Enter twice to finish):	
+CSCSTR_ENTERDESC	Please describe the compiler problem (press Enter twice to finish):	
+CSCSTR_EnumeratorOverflow	'{0}': the enumerator value is too large to fit in its type	
+CSCSTR_EOFExpected	Type or namespace definition, or end-of-file expected	
+CSCSTR_EqualityOpWithoutEquals	'{0}' defines operator == or operator != but does not override Object.Equals(object o)	
+CSCSTR_EqualityOpWithoutGetHashCode	'{0}' defines operator == or operator != but does not override Object.GetHashCode()	
+CSCSTR_EqualsWithoutGetHashCode	'{0}' overrides Object.Equals(object o) but does not override Object.GetHashCode()	
+CSCSTR_ErrorDirective	#error: '{0}'	
+CSCSTR_ErrorOverride	{0}. See also error CS{1}.	
+CSCSTR_ERRORSYM	<error>	
+CSCSTR_EventNeedsBothAccessors	'{0}': event property must have both add and remove accessors	
+CSCSTR_EventNotDelegate	'{0}': event must be of a delegate type	
+CSCSTR_EventPropertyInInterface	An event in an interface cannot have add or remove accessors	
+CSCSTR_ExpectContextualKeyword	Expected contextual keyword '{0}'	
+CSCSTR_ExpectedDotOrParen	( or . expected	
+CSCSTR_ExpectedEndTry	Expected catch or finally	
+CSCSTR_ExpectedVerbatimLiteral	Keyword, identifier, or string expected after verbatim specifier: @	
+CSCSTR_ExplicitEventFieldImpl	An explicit interface implementation of an event must use property syntax	
+CSCSTR_ExplicitImplParams	'{0}' should not have a params parameter since '{1}' does not	
+CSCSTR_ExplicitInterfaceImplementationInNonClassOrStruct	'{0}': explicit interface declaration can only be declared in a class or struct	
+CSCSTR_ExplicitInterfaceImplementationNotInterface	'{0}' in explicit interface declaration is not an interface	
+CSCSTR_ExplicitMethodImplAccessor	'{0}' explicit method implementation cannot implement '{1}' because it is an accessor	
+CSCSTR_ExplicitParamArray	Do not use 'System.ParamArrayAttribute'. Use the 'params' keyword instead.	
+CSCSTR_ExplicitPropertyAddingAccessor	'{0}' adds an accessor not found in interface member '{1}'	
+CSCSTR_ExplicitPropertyMissingAccessor	Explicit interface implementation '{0}' is missing accessor '{1}'	
+CSCSTR_ExprTreeContainsAssignment	An expression tree may not contain an assignment operator.	
+CSCSTR_ExtensionMethodInImproperClass	Extension methods must be defined in a non generic static class	
+CSCSTR_ExtensionMethodInNestedClass	Extension Methods must be defined on top level static classes, '{0}' is a nested class	
+CSCSTR_ExternAfterElements	An extern alias declaration must precede all other namespace elements	
+CSCSTR_ExternHasBody	'{0}' cannot be extern and declare a body	
+CSCSTR_ExternMethodNoImplementation	Method, operator, or accessor '{0}' is marked external and has no attributes on it. Consider adding a DllImport attribute to specify the external implementation.	
+CSCSTR_FailedInclude	Unable to include XML fragment '{1}' of file '{0}' -- {2}	
+CSCSTR_FeatureAnonDelegates	anonymous methods	
+CSCSTR_FeatureDefault	default operator	
+CSCSTR_FeatureDeprecated	The feature '{0}' is deprecated. Please use '{1}' instead'.	
+CSCSTR_FeatureExternAlias	extern alias	
+CSCSTR_FeatureFixedBuffer	fixed size buffers	
+CSCSTR_FeatureGenerics	generics	
+CSCSTR_FeatureGlobalNamespace	namespace alias qualifier	
+CSCSTR_FeatureIterators	iterators	
+CSCSTR_FeatureModuleAttrLoc	module as an attribute target specifier	
+CSCSTR_FeatureNullable	nullable types	
+CSCSTR_FeatureNYI	The feature you are attempting to use, '{0}', has not been implemented. Please refrain from using it until a later time.	
+CSCSTR_FeatureNYI2	The feature you are attempting to use, '{0}', may not be fully implemented by the compiler and/or runtime. Proceed at your own risk.	
+CSCSTR_FeaturePartialTypes	partial types	
+CSCSTR_FeaturePragma	#pragma	
+CSCSTR_FeaturePropertyAccessorMods	access modifiers on properties	
+CSCSTR_FeatureStaticClasses	static classes	
+CSCSTR_FeatureSwitchOnBool	switch on boolean type	
+CSCSTR_FieldCantBeRefAny	Field or property cannot be of type '{0}'	
+CSCSTR_FieldCantHaveVoidType	Field cannot have void type	
+CSCSTR_FieldInitializerInStruct	'{0}': cannot have instance field initializers in structs	
+CSCSTR_FieldInitRefNonstatic	A field initializer cannot reference the nonstatic field, method, or property '{0}'	
+CSCSTR_FILEALREADYINCLUDED	Source file '{0}' specified multiple times	
+CSCSTR_FileNameTooLong	Invalid filename specified for preprocessor directive. Filename is too long or not a valid filename.	
+CSCSTR_FILENOTFOUND	Source file '{0}' could not be found	
+CSCSTR_FinalizeMethod	Introducing a 'Finalize' method can interfere with destructor invocation. Did you intend to declare a destructor?	
+CSCSTR_FixedBufferNotFixed	You cannot use fixed size buffers contained in unfixed expressions. Try using the fixed statement.	
+CSCSTR_FixedDimsRequired	A fixed size buffer field must have the array size specifier after the field name	
+CSCSTR_FIXEDLOCAL	fixed variable	
+CSCSTR_FixedMustInit	You must provide an initializer in a fixed or using statement declaration	
+CSCSTR_FixedNeeded	You can only take the address of an unfixed expression inside of a fixed statement initializer	
+CSCSTR_FixedNeedsLvalue	Fixed size buffers can only be accessed through locals or fields	
+CSCSTR_FixedNotInStruct	Fixed size buffer fields may only be members of structs	
+CSCSTR_FixedNotNeeded	You cannot use the fixed statement to take the address of an already fixed expression	
+CSCSTR_FixedOverflow	Fixed size buffer of length '{0}' and type '{1}' is too big	
+CSCSTR_FloatOverflow	Floating-point constant is outside the range of type '{0}'	
+CSCSTR_FOREACHLOCAL	foreach iteration variable	
+CSCSTR_ForEachMissingMember	foreach statement cannot operate on variables of type '{0}' because '{1}' does not contain a public definition for '{2}'	
+CSCSTR_ForwardedTypeInThisAssembly	Type '{0}' is defined in this assembly, but a type forwarder is specified for it	
+CSCSTR_ForwardedTypeIsNested	Cannot forward type '{0}' because it is a nested type of '{1}'	
+CSCSTR_FriendAssemblyBadArgs	Friend assembly reference '{0}' is invalid. InternalsVisibleTo declarations cannot have a version, culture, public key token, or processor architecture specified.	
+CSCSTR_FriendAssemblySNReq	Friend assembly reference '{0}' is invalid. Strong-name signed assemblies must specify a public key in their InternalsVisibleTo declarations.	
+CSCSTR_FriendRefNotEqualToThis	Friend access was granted to '{0}', but the output assembly is named '{1}'. Try adding a reference to '{0}' or changing the output assembly name to match.	
+CSCSTR_FwdedGeneric	Cannot forward generic type, '{0}'	
+CSCSTR_GenericArgIsStaticClass	'{0}': static types cannot be used as generic arguments	
+CSCSTR_GenericConstraintNotSatisfied	The type '{3}' must be convertible to '{1}' in order to use it as parameter '{2}' in the generic type or method '{0}'	
+CSCSTR_GenericDerivingFromAttribute	A generic type cannot derive from '{0}' because it is an attribute class	
+CSCSTR_GetOrSetExpected	A get or set accessor expected	
+CSCSTR_GlobalAliasDefn	Defining an alias named 'global' is ill-advised since 'global::' always references the global namespace and not an alias	
+CSCSTR_GlobalExternAlias	You cannot redefine the global extern alias	
+CSCSTR_GlobalNamespace	<global namespace>	
+CSCSTR_GlobalSingleTypeNameNotFound	The type or namespace name '{0}' could not be found in the global namespace (are you missing an assembly reference?)	
+CSCSTR_GotoCaseShouldConvert	The 'goto case' value is not implicitly convertible to type '{0}'	
+CSCSTR_HasNoTypeVars	The non-generic {1} '{0}' cannot be used with type arguments	
+CSCSTR_HELP10	Visual C# 2005 Compiler Options	
+CSCSTR_HidingAbstractMethod	'{0}' hides inherited abstract member '{1}'	
+CSCSTR_ICE_Culprit	Internal Compiler Error (0x{0} at address {2}): likely culprit is '{1}'.\n\nAn internal error has occurred in the compiler. To work around this problem, try simplifying or changing the program near the locations listed below. Locations at the top of the list are closer to the point at which the internal error occurred. Errors such as this can be reported to Microsoft by using the /errorreport option.\n 	
+CSCSTR_ICE_File	Internal Compiler Error: stage '{0}'	
+CSCSTR_ICE_Lexer	Internal Compiler Error: stage 'LEX'	
+CSCSTR_ICE_Node	Internal Compiler Error: stage '{0}'	
+CSCSTR_ICE_Parser	Internal Compiler Error: stage 'PARSE'	
+CSCSTR_ICE_Stage	Internal Compiler Error: stage '{0}'	
+CSCSTR_ICE_Symbol	Internal Compiler Error: stage '{1}' symbol '{0}'	
+CSCSTR_IdentifierExpected	Identifier expected	
+CSCSTR_IdentifierExpectedKW	Identifier expected, '{1}' is a keyword	
+CSCSTR_IdentifierTooLong	Identifier too long	
+CSCSTR_IdentityConversion	User-defined operator cannot take an object of the enclosing type and convert to an object of the enclosing type	
+CSCSTR_IllegalArglist	An __arglist expression may only appear inside of a call or new expression	
+CSCSTR_IllegalEscape	Unrecognized escape sequence	
+CSCSTR_IllegalFixedType	Fixed size buffer type must be one of the following: bool, byte, short, int, long, char, sbyte, ushort, uint, ulong, float or double	
+CSCSTR_IllegalInnerUnsafe	Unsafe code may not appear in iterators	
+CSCSTR_IllegalOptionChar	Character '{0}' is not allowed on the command-line or in response files	
+CSCSTR_IllegalParams	params is not valid in this context	
+CSCSTR_IllegalPPChecksum	Invalid #pragma checksum syntax; should be #pragma checksum "filename" "{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}" "XXXX..."	
+CSCSTR_IllegalPPWarning	Expected disable or restore	
+CSCSTR_IllegalPragma	Unrecognized #pragma directive	
+CSCSTR_IllegalRefParam	ref and out are not valid in this context	
+CSCSTR_IllegalStatement	Only assignment, call, increment, decrement, and new object expressions can be used as a statement	
+CSCSTR_IllegalUnsafe	Unsafe code may only appear if compiling with /unsafe	
+CSCSTR_IllegalVarArgs	__arglist is not valid in this context	
+CSCSTR_ImplBadConstraints	The constraints for type parameter '{0}' of method '{1}' must match the constraints for type parameter '{2}' of interface method '{3}'. Consider using an explicit interface implementation instead.	
+CSCSTR_ImplicitTypeMultipleDeclarators	Implicitly typed locals cannot have multiple declarators	
+CSCSTR_ImplicitTypeNotInitialized	Implicitly typed locals must be initialized	
+CSCSTR_ImportBadBase	The base class or interface of '{0}' could not be resolved or is invalid	
+CSCSTR_ImportedCircularBase	Imported type '{0}' is invalid. It contains a circular base class dependency.	
+CSCSTR_ImportNonAssembly	Referenced file '{0}' is not an assembly; use '/addmodule' option instead	
+CSCSTR_InaccessibleGetter	The property or indexer '{0}' cannot be used in this context because the get accessor is inaccessible	
+CSCSTR_InaccessibleSetter	The property or indexer '{0}' cannot be used in this context because the set accessor is inaccessible	
+CSCSTR_InAttrOnOutParam	An out parameter cannot have the In attribute	
+CSCSTR_InconsistantIndexerNames	Two indexers have different names; the IndexerName attribute must be used with the same name on every indexer within a type	
+CSCSTR_InconsistentLambdaParameters	Inconsistent lambda parameter usage; all parameter types must either be explicit or implicit	
+CSCSTR_IncorrectBooleanAssg	Assignment in conditional expression is always constant; did you mean to use == instead of = ?	
+CSCSTR_IncrSwitchObsolete	The /incremental option is no longer supported	
+CSCSTR_IndexerCantHaveVoidType	Indexers cannot have void type	
+CSCSTR_IndexerInStaticClass	'{0}': cannot declare indexers in a static class	
+CSCSTR_IndexerNeedsParam	Indexers must have at least one parameter	
+CSCSTR_InExpected	'in' expected	
+CSCSTR_INITERROR	Compiler initialization failed unexpectedly -- '{0}'	
+CSCSTR_InputFileNameTooLong	File name '{0}' is too long or invalid	
+CSCSTR_InstanceMemberInStaticClass	'{0}': cannot declare instance members in a static class	
+CSCSTR_InstantiatingStaticClass	Cannot create an instance of the static class '{0}'	
+CSCSTR_IntDivByZero	Division by constant zero	
+CSCSTR_IntegralTypeExpected	Type byte, sbyte, short, ushort, int, uint, long, or ulong expected	
+CSCSTR_IntegralTypeValueExpected	A value of an integral type expected	
+CSCSTR_InterfaceEventInitializer	'{0}': event in interface cannot have initializer	
+CSCSTR_InterfaceImplementedByConditional	Conditional member '{0}' cannot implement interface member '{1}' in type '{2}'	
+CSCSTR_InterfaceMemberHasBody	'{0}': interface members cannot have a definition	
+CSCSTR_InterfaceMemberNotFound	'{0}' in explicit interface declaration is not a member of interface	
+CSCSTR_InterfacesCannotContainTypes	'{0}': interfaces cannot declare types	
+CSCSTR_InterfacesCantContainConstructors	Interfaces cannot contain constructors	
+CSCSTR_InterfacesCantContainFields	Interfaces cannot contain fields	
+CSCSTR_InterfacesCantContainOperators	Interfaces cannot contain operators	
+CSCSTR_InternalError	Internal compiler error ({0})	
+CSCSTR_InternalVirtual	Other languages may permit the internal virtual member '{0}' to be overridden	
+CSCSTR_IntOverflow	Integral constant is too large	
+CSCSTR_InvalidAddrOp	Cannot take the address of the given expression	
+CSCSTR_InvalidAnonTypeMemberDeclarator	Invalid anonymous type member declarator. Anonymous type members must be declared with a member assignment, simple name or member access	
+CSCSTR_InvalidArray	Invalid rank specifier: expected ',' or ']'	
+CSCSTR_InvalidAssemblyName	Assembly reference '{0}' is invalid and cannot be resolved	
+CSCSTR_InvalidAttributeArgument	Invalid value for argument to '{0}' attribute	
+CSCSTR_InvalidAttributeLocation	'{0}' is not a recognized attribute location. All attributes in this block will be ignored.	
+CSCSTR_InvalidDefaultCharSetValue	Value specified for the argument to 'System.Runtime.InteropServices.DefaultCharSetAttribute' is not valid	
+CSCSTR_InvalidExprTerm	Invalid expression term '{0}'	
+CSCSTR_InvalidFixedArraySize	Fixed size buffers must have a length greater than zero	
+CSCSTR_InvalidFwdType	Invalid type specified as an argument for TypeForwardedTo attribute	
+CSCSTR_InvalidGenericEnum	Enums cannot have type parameters	
+CSCSTR_InvalidGotoCase	A goto case is only valid inside a switch statement	
+CSCSTR_InvalidInclude	Invalid XML include element -- {0}	
+CSCSTR_InvalidInitializerDeclarator	Invalid initializer member declarator	
+CSCSTR_InvalidLineNumber	The line number specified for #line directive is missing or invalid	
+CSCSTR_InvalidMainSig	'{0}' has the wrong signature to be an entry point	
+CSCSTR_InvalidMemberDecl	Invalid token '{0}' in class, struct, or interface member declaration	
+CSCSTR_InvalidNamedArgument	Invalid value for named attribute argument '{0}'	
+CSCSTR_InvalidNumber	Invalid number	
+CSCSTR_InvalidPreprocExpr	Invalid preprocessor expression	
+CSCSTR_InvalidPropertyAccessMod	The accessibility modifier of the '{0}' accessor must be more restrictive than the property or indexer '{1}'	
+CSCSTR_InvalidQM	Type of conditional expression cannot be determined because there is no implicit conversion between '{0}' and '{1}'	
+CSCSTR_InvalidSearchPathDir	Invalid search path '{0}' specified in '{1}' -- '{2}'	
+CSCSTR_InvalidSourceMap	Sourcemap file is invalid; there was an error on line {0}	
+CSCSTR_INVALIDTARGET	Invalid target type for /target: must specify 'exe', 'winexe', 'library', or 'module'	
+CSCSTR_IsAlwaysFalse	The given expression is never of the provided ('{0}') type	
+CSCSTR_IsAlwaysTrue	The given expression is always of the provided ('{0}') type	
+CSCSTR_LabelNotFound	No such label '{0}' within the scope of the goto statement	
+CSCSTR_LabelShadow	The label '{0}' shadows another label by the same name in a contained scope	
+CSCSTR_LambdaExpression	lambda expression	
+CSCSTR_LbraceExpected	{ expected	
+CSCSTR_LIB_ENV	LIB environment variable	
+CSCSTR_LIB_OPTION	/LIB option	
+CSCSTR_LineTooLong	Compiler limit exceeded: Line cannot exceed {0} characters	
+CSCSTR_LinkDemandOnOverride	'{0}' has a link demand, but overrides or implements '{1}' which does not have a link demand. A security hole may exist.	
+CSCSTR_LiteralDoubleCast	Literal of type double cannot be implicitly converted to type '{1}'; use an '{0}' suffix to create a literal of this type	
+CSCSTR_LocalCantBeFixedAndHoisted	Local '{0}' or its members cannot have their address taken and be used inside an anonymous method block	
+CSCSTR_LocalDuplicate	A local variable named '{0}' is already defined in this scope	
+CSCSTR_LocalIllegallyOverrides	A local variable named '{0}' cannot be declared in this scope because it would give a different meaning to '{0}', which is already used in a '{1}' scope to denote something else	
+CSCSTR_LocalSameNameAsTypeParam	'{0}': a parameter or local variable cannot have the same name as a method type parameter	
+CSCSTR_LockNeedsReference	'{0}' is not a reference type as required by the lock statement	
+CSCSTR_LookupInTypeVariable	Cannot do member lookup in '{0}' because it is a type parameter	
+CSCSTR_LowercaseEllSuffix	The 'l' suffix is easily confused with the digit '1' -- use 'L' for clarity	
+CSCSTR_MainCantBeGeneric	'{0}': an entry point cannot be generic or in a generic type	
+CSCSTR_MainClassIsImport	Cannot use '{0}' for Main method because it is imported	
+CSCSTR_MainClassNotClass	'{0}' specified for Main method must be a valid class or struct	
+CSCSTR_MainClassNotFound	Could not find '{0}' specified for Main method	
+CSCSTR_MainClassWrongFile	Cannot use '{0}' for Main method because it is in a different output file	
+CSCSTR_MalformedMetadata	Input file '{0}' contains invalid metadata.	
+CSCSTR_ManagedAddr	Cannot take the address of, get the size of, or declare a pointer to a managed type ('{0}')	
+CSCSTR_MemberAbstractSealed	'{0}' cannot be both abstract and sealed	
+CSCSTR_MemberAlreadyExists	Type '{1}' already defines a member called '{0}' with the same parameter types	
+CSCSTR_MemberNameSameAsType	'{0}': member names cannot be the same as their enclosing type	
+CSCSTR_MemberNeedsType	Class, struct, or interface method must have a return type	
+CSCSTR_MetadataCantOpenFile	Metadata file '{1}' could not be opened -- '{0}'	
+CSCSTR_MetadataEmitFailure	Unexpected error writing metadata to file '{1}' -- '{0}'	
+CSCSTR_MetadataImportFailure	Unexpected error reading metadata from file '{1}' -- '{0}'	
+CSCSTR_MethDelegateMismatch	No overload for '{0}' matches delegate '{1}'	
+CSCSTR_MethGrpToNonDel	Cannot convert method group '{0}' to non-delegate type '{1}'. Did you intend to invoke the method?	
+CSCSTR_MethodArgCantBeRefAny	Method or delegate parameter cannot be of type '{0}'	
+CSCSTR_MethodGroup	method group	
+CSCSTR_MethodImplementingAccessor	Method '{0}' cannot implement interface accessor '{1}' for type '{2}'. Use an explicit interface implementation.	
+CSCSTR_MethodNameExpected	Method name expected	
+CSCSTR_MethodReturnCantBeRefAny	Method or delegate cannot return type '{0}'	
+CSCSTR_MissingArraySize	Array creation must have array size or array initializer	
+CSCSTR_MissingCoClass	The managed coclass wrapper class '{0}' for interface '{1}' cannot be found (are you missing an assembly reference?)	
+CSCSTR_MissingComTypeOrMarshaller	'{0}': System.Interop.UnmanagedType.CustomMarshaller requires named arguments ComType and Marshal	
+CSCSTR_MissingOptionArg	Compiler option '{0}' must be followed by an argument	
+CSCSTR_MissingParamTag	Parameter '{0}' has no matching param tag in the XML comment for '{1}' (but other parameters do)	
+CSCSTR_MissingPartial	Missing partial modifier on declaration of type '{0}'; another partial declaration of this type exists	
+CSCSTR_MissingPPFile	Filename, single-line comment or end-of-line expected	
+CSCSTR_MissingPredefinedMember	Missing compiler required member '{0}.{1}'	
+CSCSTR_MissingStructOffset	'{0}': instance field types marked with StructLayout(LayoutKind.Explicit) must have a FieldOffset attribute	
+CSCSTR_MissingTypeInAssembly	Reference to type '{0}' claims it is defined in '{1}', but it could not be found	
+CSCSTR_MissingTypeInSource	Reference to type '{0}' claims it is defined in this assembly, but it is not defined in source or any added modules	
+CSCSTR_MissingTypeNested	Reference to type '{0}' claims it is nested within '{1}', but it could not be found	
+CSCSTR_MissingTypeParamTag	Type parameter '{0}' has no matching typeparam tag in the XML comment on '{1}' (but other type parameters do)	
+CSCSTR_MissingXMLComment	Missing XML comment for publicly visible type or member '{0}'	
+CSCSTR_ModuleNotAdded	Added module '{1}' references module '{0}' which was not added	
+CSCSTR_ModuleNotScoped	Added module '{0}' has unresolved reference to type '{1}'	
+CSCSTR_MultipleEntryPoints	Program '{1}' has more than one entry point defined: '{0}'	
+CSCSTR_MultipleIEnumOfT	foreach statement cannot operate on variables of type '{0}' because it implements multiple instantiations of '{1}', try casting to a specific interface instantiation	
+CSCSTR_MultiplePartialMethodImplementation	A partial method may not have multiple implementing declarations.	
+CSCSTR_MultiplePredefTypes	The predefined type '{0}' is defined in multiple assemblies in the global alias; using definition from '{1}'	
+CSCSTR_MultiTypeInDeclaration	Cannot use more than one type in a for, using, fixed, or declaration statement	
+CSCSTR_MustHaveOpTF	The type ('{0}') must contain declarations of operator true and operator false	
+CSCSTR_NameAttributeOnOverride	Cannot set the IndexerName attribute on an indexer marked override	
+CSCSTR_NamedArgumentExpected	Named attribute argument expected	
+CSCSTR_NameIllegallyOverrides	'{1}' conflicts with the declaration '{0}'	
+CSCSTR_NameNotInContext	The name '{0}' does not exist in the current context	
+CSCSTR_NamespaceUnexpected	A namespace does not directly contain members such as fields or methods	
+CSCSTR_NegativeArrayIndex	Indexing an array with a negative index (array indices always start at zero)	
+CSCSTR_NegativeArraySize	Cannot create an array with a negative size	
+CSCSTR_NegativeStackAllocSize	Cannot use a negative size with stackalloc	
+CSCSTR_NewBoundMustBeLast	The new() constraint must be the last constraint specified	
+CSCSTR_NewBoundWithVal	The 'new()' constraint cannot be used with the 'struct' constraint	
+CSCSTR_NewConstraintNotSatisfied	The type '{2}' must have a public parameterless constructor in order to use it as parameter '{1}' in the generic type or method '{0}'	
+CSCSTR_NewlineInConst	Newline in constant	
+CSCSTR_NewNotRequired	The member '{0}' does not hide an inherited member. The new keyword is not required.	
+CSCSTR_NewOrOverrideExpected	'{0}' hides inherited member '{1}'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.	
+CSCSTR_NewRequired	'{0}' hides inherited member '{1}'. Use the new keyword if hiding was intended.	
+CSCSTR_NewTyvarWithArgs	'{0}': cannot provide arguments when creating an instance of a variable type	
+CSCSTR_NewVirtualInSealed	'{0}' is a new virtual member in sealed class '{1}'	
+CSCSTR_NoAccessibleMember	'{0}' does not contain a definition for '{1}', or it is not accessible	
+CSCSTR_NoBaseClass	A base class is required for a 'base' reference	
+CSCSTR_NoBestTypeForArray	No best type found for implicitly typed array	
+CSCSTR_NoBreakOrCont	No enclosing loop out of which to break or continue	
+CSCSTR_NoConfigNotOnCommandLine	Ignoring /noconfig option because it was specified in a response file	
+CSCSTR_NoConstructors	The type '{0}' has no constructors defined	
+CSCSTR_NoConvToIDisp	'{0}': type used in a using statement must be implicitly convertible to 'System.IDisposable'	
+CSCSTR_NoDebugSwitchSourceMap	Must emit debug info with /sourcemap. Are you missing '/debug'?	
+CSCSTR_NoDefaultArgs	Default parameter specifiers are not permitted	
+CSCSTR_NoEntryPoint	Program '{0}' does not contain a static 'Main' method suitable for an entry point	
+CSCSTR_NoExplicitBuiltinConv	Cannot convert type '{0}' to '{1}' via a built-in conversion	
+CSCSTR_NoExplicitConv	Cannot convert type '{0}' to '{1}'	
+CSCSTR_NOFILESPEC	Missing file specification for '{0}' option	
+CSCSTR_NoGetToOverride	'{0}': cannot override because '{1}' does not have an overridable get accessor	
+CSCSTR_NoImplicitConv	Cannot implicitly convert type '{0}' to '{1}'	
+CSCSTR_NoImplicitConvCast	Cannot implicitly convert type '{0}' to '{1}'. An explicit conversion exists (are you missing a cast?)	
+CSCSTR_NoInvoke	The delegate '{0}' is missing the Invoke method	
+CSCSTR_NoMainInClass	'{0}' does not have a suitable static Main method	
+CSCSTR_NOMAINONDLL	Cannot specify /main if building a module or library	
+CSCSTR_NoMemory	Out of memory	
+CSCSTR_NoMetadataFile	Metadata file '{0}' could not be found	
+CSCSTR_NoModifiersOnAccessor	Modifiers cannot be placed on event accessor declarations	
+CSCSTR_NoMultipleInheritance	Class '{0}' cannot have multiple base classes: '{1}' and '{2}'	
+CSCSTR_NoNamespacePrivate	Namespace elements cannot be explicitly declared as private, protected, or protected internal	
+CSCSTR_NonECMAFeature	Feature '{0}' cannot be used because it is not part of the standardized ISO C# language specification	
+CSCSTR_NonECMAFeatureOK	Feature '{0}' is not part of the standardized ISO C# language specification, and may not be accepted by other compilers	
+CSCSTR_NoNewAbstract	Cannot create an instance of the abstract class or interface '{0}'	
+CSCSTR_NoNewOnNamespaceElement	Keyword new not allowed on namespace elements	
+CSCSTR_NoNewTyvar	Cannot create an instance of the variable type '{0}' because it does not have the new() constraint	
+CSCSTR_NonInterfaceInInterfaceList	Type '{0}' in interface list is not an interface	
+CSCSTR_NonObsoleteOverridingObsolete	Member '{0}' overrides obsolete member '{1}'. Add the Obsolete attribute to '{0}'.	
+CSCSTR_NonStaticExtensionMethod	Extension methods must be static	
+CSCSTR_NonVirtualCallFromClosure	Access to member '{0}' through a 'base' keyword from an anonymous method or iterator results in unverifiable code. Consider moving the access into a helper method on the containing type.	
+CSCSTR_NORESPONSEFILE	Error opening response file '{0}' -- '{1}'	
+CSCSTR_NoSetToOverride	'{0}': cannot override because '{1}' does not have an overridable set accessor	
+CSCSTR_NoSourceFile	Source file '{0}' could not be opened ('{1}')	
+CSCSTR_NoSourceMapFile	Unable to open source map file '{0}'	
+CSCSTR_NOSOURCES	No inputs specified	
+CSCSTR_NoSourcesInLastInputSet	Options '/out' and '/target' must appear before source file names	
+CSCSTR_NoStdLib	Standard library file '{0}' could not be found	
+CSCSTR_NoSuchMember	'{0}' does not contain a definition for '{1}'	
+CSCSTR_NotAnAttributeClass	'{0}' is not an attribute class	
+CSCSTR_NotConstantExpression	The expression being assigned to '{0}' must be constant	
+CSCSTR_NotNullConstRefField	'{0}' is of type '{1}.' A const of reference type other than string can only be initialized with null	
+CSCSTR_NoTypeDef	The type '{0}' is defined in an assembly that is not referenced. You must add a reference to assembly '{1}'.	
+CSCSTR_NoVoidHere	Keyword 'void' cannot be used in this context	
+CSCSTR_NoVoidParameter	Invalid parameter type 'void'	
+CSCSTR_NubExprIsConstBool	The result of the expression is always '{0}' since a value of type '{1}' is never equal to 'null' of type '{2}'	
+CSCSTR_NULL	<null>	
+CSCSTR_NullNotValid	Use of null is not valid in this context	
+CSCSTR_ObjectCallingBaseConstructor	'{0}' has no base class and cannot call a base constructor	
+CSCSTR_ObjectCantHaveBases	The class System.Object cannot have a base class or implement an interface	
+CSCSTR_ObjectProhibited	Static member '{0}' cannot be accessed with an instance reference; qualify it with a type name instead	
+CSCSTR_ObjectRequired	An object reference is required for the nonstatic field, method, or property '{0}'	
+CSCSTR_OD_ALIAS	Reference metadata from the specified assembly file using the given alias	
+CSCSTR_OD_ARG_ADDR	<address>	
+CSCSTR_OD_ARG_ALIAS	<alias>=<file>	
+CSCSTR_OD_ARG_DEBUGTYPE	{full|pdbonly}	
+CSCSTR_OD_ARG_FILE	<file>	
+CSCSTR_OD_ARG_FILELIST	<file list>	
+CSCSTR_OD_ARG_NUMBER	<n>	
+CSCSTR_OD_ARG_RESINFO	<resinfo>	
+CSCSTR_OD_ARG_STRING	<string>	
+CSCSTR_OD_ARG_SYMLIST	<symbol list>	
+CSCSTR_OD_ARG_TYPE	<type>	
+CSCSTR_OD_ARG_WARNLIST	<warn list>	
+CSCSTR_OD_ARG_WILDCARD	<wildcard>	
+CSCSTR_OD_BUG	Create a 'Bug Report' file.	
+CSCSTR_OD_EMITDEBUGINFO	Emit debugging information	
+CSCSTR_OD_INCBUILD	Enable incremental compilation	
+CSCSTR_OD_MODULEASSEMBLY	Name of the assembly which this module will be a part of.	
+CSCSTR_OD_NOCODEGEN	Only check code for errors; do not emit executable	
+CSCSTR_OD_TIMING	Output mini-profile (timings of important code sections)	
+CSCSTR_OD_WATSONMODE	Specify how to handle internal compiler errors: prompt, send, queue, or none. The default is queue.	
+CSCSTR_OneAliasPerRefernce	A /reference option that declares an extern alias can only have one filename. To specify multiple aliases or filenames, use multiple /reference options.	
+CSCSTR_OnlyClassesCanContainDestructors	Only class types can contain destructors	
+CSCSTR_OnlyValidOnCustomMarshaller	'{0}': argument only valid for marshal of type System.Interop.UnmanagedType.CustomMarshaller	
+CSCSTR_OpenEndedComment	End-of-file found, '*/' expected	
+CSCSTR_OperatorCantReturnVoid	User-defined operators cannot return void	
+CSCSTR_OperatorInStaticClass	'{0}': static classes cannot contain user-defined operators	
+CSCSTR_OperatorNeedsMatch	The operator '{0}' requires a matching operator '{1}' to also be defined	
+CSCSTR_OperatorsMustBeStatic	User-defined operator '{0}' must be declared static and public	
+CSCSTR_OPT_NOTIMPLEMENTED	Option {0} is not implemented.	
+CSCSTR_OPTDSC_ADDMODULE	Link the specified modules into this assembly	
+CSCSTR_OPTDSC_ALIGN	Specify the alignment used for output file sections	
+CSCSTR_OPTDSC_ANALYZER	Run the analyzers from this assembly.	
+CSCSTR_OPTDSC_APPCONFIGR	Specifies the location of app.config at assembly binding time.	
+CSCSTR_OPTDSC_BASEADDRESS	Base address for the library to be built	
+CSCSTR_OPTDSC_BUGREPORT	Specifies the file which the debug information should be placed.	
+CSCSTR_OPTDSC_CHECKED	Generate overflow checks	
+CSCSTR_OPTDSC_CHECKSUMALGORITHM	Specify the algorithm for calculating the source file checksum stored in PDB.	
+CSCSTR_OPTDSC_CODEPAGE	Specify the codepage to use when opening source files	
+CSCSTR_OPTDSC_COMPATIBILITY	Specify language version mode: ISO-1 or Default	
+CSCSTR_OPTDSC_DEBUG	Specifies whether the debugging information should be placed in the program.	
+CSCSTR_OPTDSC_DEBUGTYPE	Specify debugging type ('full' is default, and enables attaching a debugger to a running program)	
+CSCSTR_OPTDSC_DEFINECCSYMBOLS	Define conditional compilation symbol(s)	
+CSCSTR_OPTDSC_DELAYSIGN	Delay-sign the assembly using only the public portion of the strong name key	
+CSCSTR_OPTDSC_EMBEDRESOURCE	Embed the specified resource	
+CSCSTR_OPTDSC_ERRORREPORT	Specifies how to handle internal compiler errors.	
+CSCSTR_OPTDSC_FULLPATH	Compiler generates fully qualified paths	
+CSCSTR_OPTDSC_HELP	Display this usage message	
+CSCSTR_OPTDSC_HIGHENTROPYVA	Specifies that high entropy ASLR is supported.	
+CSCSTR_OPTDSC_KEYCONTAINER	Specify a strong name key container	
+CSCSTR_OPTDSC_KEYFILE	Specify a strong name key file	
+CSCSTR_OPTDSC_LIBPATH	Specify additional directories to search in for references	
+CSCSTR_OPTDSC_LINK	Makes COM type information in specified assemblies.	
+CSCSTR_OPTDSC_LINKRESOURCE	Link the specified resource to this assembly	
+CSCSTR_OPTDSC_MAIN	Specify the type that contains the entry point (ignore all other possible entry points)	
+CSCSTR_OPTDSC_MODULEASSEMBLYNAME	Specifies an assembly whose non-public types a .netmodule can access.	
+CSCSTR_OPTDSC_MODULENAME	Specify the name of the source module.	
+CSCSTR_OPTDSC_NOCONFIG	Do not auto include CSC.RSP file	
+CSCSTR_OPTDSC_NOLOGO	Suppress compiler copyright message	
+CSCSTR_OPTDSC_NOSTDLIB	Do not reference standard library (mscorlib.dll)	
+CSCSTR_OPTDSC_NOWARNLIST	Disable specific warning messages	
+CSCSTR_OPTDSC_NOWIN32MANIFEST	Instructs the compiler not to embed an application manifest in the executable file.	
+CSCSTR_OPTDSC_OPTIMIZATIONS	Enable optimizations	
+CSCSTR_OPTDSC_OUTPUTFILENAME	Specify output file name (default: base name of file with main class or first file)	
+CSCSTR_OPTDSC_PARALLEL	Specifies whether to use concurrent build .	
+CSCSTR_OPTDSC_PDBFILENAME	Specify debug information file name (default: output file name with .pdb extension)	
+CSCSTR_OPTDSC_PLATFORM	Limit which platforms this code can run on: x86, Itanium, x64, or anycpu. The default is anycpu.	
+CSCSTR_OPTDSC_PREFERREDUILANG	Specifies the language to be used for compiler output.	
+CSCSTR_OPTDSC_RECURSE	Include all files in the current directory and subdirectories according to the wildcard specifications	
+CSCSTR_OPTDSC_REFERENCE	Reference metadata from the specified assembly files	
+CSCSTR_OPTDSC_RESPONSEFILE	Read response file for more options	
+CSCSTR_OPTDSC_RULESET	Specify a ruleset file.	
+CSCSTR_OPTDSC_SUBSYSTEMVERSION	Specifies the minimum version of the subsystem that the executable file can use.	
+CSCSTR_OPTDSC_TARGET	Specifies the format of the output file .	
+CSCSTR_OPTDSC_TARGET_DLL	Build a library	
+CSCSTR_OPTDSC_TARGET_EXE	Build a console executable (default)	
+CSCSTR_OPTDSC_TARGET_MODULE	Build a module that can be added to another assembly	
+CSCSTR_OPTDSC_TARGET_WINEXE	Build a Windows executable	
+CSCSTR_OPTDSC_UNSAFE	Allow 'unsafe' code	
+CSCSTR_OPTDSC_UTF8OUTPUT	Output compiler messages in UTF-8 encoding	
+CSCSTR_OPTDSC_WARNASERRORLIST	Report specific warnings as errors	
+CSCSTR_OPTDSC_WARNINGLEVEL	Set warning level (0-4)	
+CSCSTR_OPTDSC_WARNINGSAREERRORS	Report all warnings as errors	
+CSCSTR_OPTDSC_WIN32ICON	Use this icon for the output	
+CSCSTR_OPTDSC_WIN32MANIFEST	Specifies a custom win32 manifest file.	
+CSCSTR_OPTDSC_WIN32RESOURCE	Specify a Win32 resource file (.res)	
+CSCSTR_OPTDSC_XML_DOCFILE	XML Documentation file to generate	
+CSCSTR_OpTFRetType	The return type of operator True or False must be bool	
+CSCSTR_OPTGRP_ADVANCED	- ADVANCED -	
+CSCSTR_OPTGRP_ASSEMBLIES	- .NET FRAMEWORK ASSEMBLIES -	
+CSCSTR_OPTGRP_CODEGENERATION	- CODE GENERATION -	
+CSCSTR_OPTGRP_DEBUGGING	- DEBUGGING / ERROR CHECKING -	
+CSCSTR_OPTGRP_ERRORS	- ERRORS AND WARNINGS -	
+CSCSTR_OPTGRP_HELP	- HELP -	
+CSCSTR_OPTGRP_INPUT	- INPUT FILES -	
+CSCSTR_OPTGRP_LANGUAGE	- LANGUAGE -	
+CSCSTR_OPTGRP_MISC	- MISCELLANEOUS -	
+CSCSTR_OPTGRP_OBSOLETE	- OBSOLETE -	
+CSCSTR_OPTGRP_OPTIMIZATION	- OPTIMIZATION -	
+CSCSTR_OPTGRP_OUTPUT	- OUTPUT FILES -	
+CSCSTR_OPTGRP_PROPRCESSOR	- PROPRCESSOR -	
+CSCSTR_OPTGRP_RESOURCES	- RESOURCES -	
+CSCSTR_OPTSYN_ADDITIONALFILE	/additionalfile	
+CSCSTR_OPTSYN_ADDMODULE	/addmodule:<file>[;<file2>...]	
+CSCSTR_OPTSYN_ANALYZER	/analyzer	
+CSCSTR_OPTSYN_APPCONFIG	/appconfig:<file>	
+CSCSTR_OPTSYN_BASEADDRESS	/base[address]:<address>	
+CSCSTR_OPTSYN_BUGREPORT	/bugreport:<file>	
+CSCSTR_OPTSYN_CHECKED	/checked[+|-]	
+CSCSTR_OPTSYN_CHECKSUMALGORITHM	/checksumalgorithm:<algorithm ID>	
+CSCSTR_OPTSYN_CODEPAGE	/codepage:<codepage ID>	
+CSCSTR_OPTSYN_DEBUG	/debug[+|-]	
+CSCSTR_OPTSYN_DEBUGTYPE	/debug:{full|pdbonly}	
+CSCSTR_OPTSYN_DEFINECCSYMBOLS	/define:<string>[,<string2>...]	
+CSCSTR_OPTSYN_DELAYSIGN	/delay[sign][+|-]	
+CSCSTR_OPTSYN_EMBEDRESOURCE	/resource:<file>[,<name>[,<accessibility>]]	
+CSCSTR_OPTSYN_ERRORREPORT	/errorreport:{none|prompt|queue|send}	
+CSCSTR_OPTSYN_FILEALIGN	/filealign:<size>	
+CSCSTR_OPTSYN_FULLPATHS	/fullpaths	
+CSCSTR_OPTSYN_HELP	/help or /?	
+CSCSTR_OPTSYN_HIGHENTROPYVA	/highentropyva[+|-]	
+CSCSTR_OPTSYN_KEYCONTAINER	/keycontainer:<name> or /keyn[ame]:<name>	
+CSCSTR_OPTSYN_KEYFILE	/keyf[ile]:<file>	
+CSCSTR_OPTSYN_LANGVERSION	/langversion:<string>	
+CSCSTR_OPTSYN_LIBPATH	/lib:<dir>[,<dir2>...]	
+CSCSTR_OPTSYN_LINK	/lib:<file>,[<file2>...]	
+CSCSTR_OPTSYN_LINKRESOURCE	/linkresource:<file>[,<name>[,<accessibility>]]	
+CSCSTR_OPTSYN_MAIN	/main:<class>.<method>	
+CSCSTR_OPTSYN_MODULEASSEMBLYNAME	/moduleassemblyname:<name>	
+CSCSTR_OPTSYN_MODULENAME	/modulename:<name>	
+CSCSTR_OPTSYN_NOCONFIG	/noconfig	
+CSCSTR_OPTSYN_NOLOGO	/nologo	
+CSCSTR_OPTSYN_NOSTDLIB	/nostdlib[+|-]	
+CSCSTR_OPTSYN_NOWARNLIST	/nowarn:<number>[,<number2>...]	
+CSCSTR_OPTSYN_NOWIN32MANIFEST	/nowin32manifest	
+CSCSTR_OPTSYN_OPTIMIZE	/optimize[+|-]	
+CSCSTR_OPTSYN_OUTPUTFILENAME	/out:<file>	
+CSCSTR_OPTSYN_PARALLEL	/parallel[+|-]	
+CSCSTR_OPTSYN_PDBFILENAME	/pdb:<file>	
+CSCSTR_OPTSYN_PLATFORM	/platform:<string>	
+CSCSTR_OPTSYN_PREFERREDUILANG	/preferreduilang:<language name>	
+CSCSTR_OPTSYN_RECURSE	/recurse:[dir\]file	
+CSCSTR_OPTSYN_REFERENCE	/reference:[<alias>=]<file>	
+CSCSTR_OPTSYN_RESPONSEFILE	@<response file>	
+CSCSTR_OPTSYN_RULESET	/ruleset:<file>	
+CSCSTR_OPTSYN_SUBSYSTEMVERSION	/subsystemversion:<major>.<minor>	
+CSCSTR_OPTSYN_TARGET	/t[arget]:<string>	
+CSCSTR_OPTSYN_UNSAFE	/unsafe	
+CSCSTR_OPTSYN_UTF8OUTPUT	/utf8output	
+CSCSTR_OPTSYN_WARNASERRORLIST	/warnaserror:<number>[,<number2>...]	
+CSCSTR_OPTSYN_WARNINGLEVEL	/warn:<level>	
+CSCSTR_OPTSYN_WARNINGSASERRORS	/warnaserror[+|-]	
+CSCSTR_OPTSYN_WIN32ICON	/win32icon:<file>	
+CSCSTR_OPTSYN_WIN32MANIFEST	/win32manifest:<file>	
+CSCSTR_OPTSYN_WIN32RESOURCE	/win32res:<file>	
+CSCSTR_OPTSYN_XMLDOCFILE	/doc:<file>	
+CSCSTR_OutAttrOnRefParam	'{0}' cannot specify only Out attribute on a ref parameter. Use both In and Out attributes, or neither.	
+CSCSTR_OutputFileExists	Cannot create short filename '{0}' when a long filename with the same short filename already exists	
+CSCSTR_OutputFileNameTooLong	Output filename is too long or invalid	
+CSCSTR_OutputNeedsInput	Output '{0}' does not have any source files	
+CSCSTR_OutputNeedsName	Outputs without source must have the /out option specified	
+CSCSTR_OutputWriteFailed	Could not write to output file '{1}' -- '{0}'	
+CSCSTR_OverloadRefOut	'{0}' cannot define overloaded methods that differ only on ref and out	
+CSCSTR_OverrideFinalizeDeprecated	Do not override object.Finalize. Instead, provide a destructor.	
+CSCSTR_OverrideNotExpected	'{0}': no suitable method found to override	
+CSCSTR_OverrideNotNew	A member '{0}' marked as override cannot be marked as new or virtual	
+CSCSTR_OverrideWithConstraints	Constraints for override and explicit interface implementation methods are inherited from the base method, so they cannot be specified directly	
+CSCSTR_OvlBinaryOperatorExpected	Overloadable binary operator expected	
+CSCSTR_OvlOperatorExpected	Overloadable operator expected	
+CSCSTR_OvlUnaryOperatorExpected	Overloadable unary operator expected	
+CSCSTR_ParameterIsStaticClass	'{0}': static types cannot be used as parameters	
+CSCSTR_ParamsCantBeRefOut	The params parameter cannot be declared as ref or out	
+CSCSTR_ParamsLast	A params parameter must be the last parameter in a formal parameter list	
+CSCSTR_ParamsMustBeArray	The params parameter must be a single dimensional array	
+CSCSTR_ParamUnassigned	The out parameter '{0}' must be assigned to before control leaves the current method	
+CSCSTR_PARENT	parent or current	
+CSCSTR_PartialMethodHasOutParameter	A partial method cannot have out parameters.	
+CSCSTR_PartialMisplaced	The partial modifier can only appear immediately before 'class', 'struct', 'interface' or 'void'	
+CSCSTR_PartialModifierConflict	Partial declarations of '{0}' have conflicting accessibility modifiers	
+CSCSTR_PartialMultipleBases	Partial declarations of '{0}' must not specify different base classes	
+CSCSTR_PartialTypeKindConflict	Partial declarations of '{0}' must be all classes, all structs, or all interfaces	
+CSCSTR_PartialWrongConstraints	Partial declarations of '{0}' have inconsistent constraints for type parameter '{1}'	
+CSCSTR_PartialWrongTypeParams	Partial declarations of '{0}' must have the same type parameter names in the same order	
+CSCSTR_PatternBadSignature	'{0}' does not implement the '{1}' pattern. '{2}' has the wrong signature.	
+CSCSTR_PatternIsAmbiguous	'{0}' does not implement the '{1}' pattern. '{2}' is ambiguous with '{3}'.	
+CSCSTR_PatternStaticOrInaccessible	'{0}' does not implement the '{1}' pattern. '{2}' is either static or not public.	
+CSCSTR_PointerInAsOrIs	Neither "is" nor "as" are valid on pointer types	
+CSCSTR_PossibleBadNegCast	To cast a negative value, you must enclose the value in parentheses	
+CSCSTR_PossibleMistakenNullStatement	Possible mistaken empty statement	
+CSCSTR_PPDefFollowsToken	Cannot define/undefine preprocessor symbols after first token in file	
+CSCSTR_PPDirectiveExpected	Preprocessor directive expected	
+CSCSTR_PredefinedTypeBadType	Predefined type '{0}' is declared incorrectly	
+CSCSTR_PredefinedTypeNotFound	Predefined type '{0}' is not defined or imported	
+CSCSTR_PrivateAbstractAccessor	'{0}': abstract properties cannot have private accessors	
+CSCSTR_PropertyAccessModInInterface	'{0}': accessibility modifiers may not be used on accessors in an interface	
+CSCSTR_PropertyAccessorHasNoBody	'{0}' must declare a body because it is not marked abstract or extern. Automatically implemented properties must define both get and set accessors.	
+CSCSTR_PropertyCantHaveVoidType	'{0}': property or indexer cannot have void type	
+CSCSTR_PropertyLacksGet	The property or indexer '{0}' cannot be used in this context because it lacks the get accessor	
+CSCSTR_PropertyWithNoAccessors	'{0}': property or indexer must have at least one accessor	
+CSCSTR_ProtectedInSealed	'{0}': new protected member declared in sealed class	
+CSCSTR_ProtectedInStatic	'{0}': static classes cannot contain protected members	
+CSCSTR_ProtectedInStruct	'{0}': new protected member declared in struct	
+CSCSTR_PtrExpected	The * or -> operator must be applied to a pointer	
+CSCSTR_PtrIndexSingle	A pointer must be indexed by only one value	
+CSCSTR_QueryBodyHasNoSelectOrGroup	A query body must end with a select clause or a group clause	
+CSCSTR_QueryPatternNotImplemented	Could not find an implementation of the query pattern for source type '{0}'. '{1}' not found	
+CSCSTR_QueryTypeInferenceFailed	The type of one of the expressions in the 'clause' clause is incorrect. Type inference failed in the call to '{0}'	
+CSCSTR_RbraceExpected	} expected	
+CSCSTR_RecursiveConstructorCall	Constructor '{0}' cannot call itself	
+CSCSTR_RefConstraintNotSatisfied	The type '{2}' must be a reference type in order to use it as parameter '{1}' in the generic type or method '{0}'	
+CSCSTR_RefLvalueExpected	A ref or out argument must be an assignable variable	
+CSCSTR_RefProperty	A property or indexer may not be passed as an out or ref parameter	
+CSCSTR_RefReadonly	A readonly field cannot be passed ref or out (except in a constructor)	
+CSCSTR_RefReadonly2	Members of readonly field '{0}' cannot be passed ref or out (except in a constructor)	
+CSCSTR_RefReadonlyLocal	Cannot pass '{0}' as a ref or out argument because it is read-only	
+CSCSTR_RefReadonlyLocal2	Cannot pass fields of '{0}' as a ref or out argument because it is read-only	
+CSCSTR_RefReadonlyLocal2Cause	Cannot pass fields of '{0}' as a ref or out argument because it is a '{1}'	
+CSCSTR_RefReadonlyLocalCause	Cannot pass '{0}' as a ref or out argument because it is a '{1}'	
+CSCSTR_RefReadonlyStatic	A static readonly field cannot be passed ref or out (except in a static constructor)	
+CSCSTR_RefReadonlyStatic2	Fields of static readonly field '{0}' cannot be passed ref or out (except in a static constructor)	
+CSCSTR_RefValBoundMustBeFirst	The 'class' or 'struct' constraint must come before any other constraints	
+CSCSTR_RefValBoundWithClass	'{0}': cannot specify both a constraint class and the 'class' or 'struct' constraint	
+CSCSTR_RELATEDERROR	(Location of symbol related to previous error)	
+CSCSTR_RELATEDWARNING	(Location of symbol related to previous warning)	
+CSCSTR_REPROBINFILE	### Binary file: '{0}'	
+CSCSTR_REPROCOMMANDLINE	### Compiler command line	
+CSCSTR_REPROCORRECTBEHAVIOR	### User suggested correct behavior	
+CSCSTR_REPRODESCRIPTION	### User description	
+CSCSTR_REPRODIAGS	### Compiler output	
+CSCSTR_REPROLCID	### Console and Defect Report Code Page: {0}	
+CSCSTR_REPROOS	### Operating System: {0} {1}.{2}.{3}   {4}	
+CSCSTR_REPROSOURCEFILE	### Source file: '{0}'	
+CSCSTR_REPROTITLE	### Visual C# 2005 Compiler Defect Report, created {0}	
+CSCSTR_REPROURTVER	### .NET common language runtime version: {0}	
+CSCSTR_REPROVER	### Compiler version: {0}	
+CSCSTR_RequiredFileNotFound	Required file '{0}' could not be found	
+CSCSTR_ReservedEnumerator	The enumerator name '{0}' is reserved and cannot be used	
+CSCSTR_ReservedIdentifier2	'{0}' is a reserved identifier and cannot be used when ISO language version mode is used	
+CSCSTR_RESINFO_DESCRIPTION	Where the resinfo format is <file>[,<string name>[,public|private]]	
+CSCSTR_ResourceNotUnique	Resource identifier '{0}' has already been used in this assembly	
+CSCSTR_RetNoObjectRequired	Since '{0}' returns void, a return keyword must not be followed by an object expression	
+CSCSTR_RetObjectRequired	An object of a type convertible to '{0}' is required	
+CSCSTR_ReturnExpected	'{0}': not all code paths return a value	
+CSCSTR_ReturnInIterator	Cannot return a value from an iterator. Use the yield return statement to return a value, or yield break to end the iteration.	
+CSCSTR_ReturnNotLValue	Cannot modify the return value of '{0}' because it is not a variable	
+CSCSTR_ReturnTypeIsStaticClass	'{0}': static types cannot be used as return types	
+CSCSTR_SameFullNameAggAgg	The type '{1}' exists in both '{0}' and '{2}'	
+CSCSTR_SameFullNameNsAgg	The namespace '{1}' in '{0}' conflicts with the type '{3}' in '{2}'	
+CSCSTR_SameFullNameThisAggAgg	The type '{1}' in '{0}' conflicts with the imported type '{3}' in '{2}'. Using the one in '{0}'.	
+CSCSTR_SameFullNameThisAggNs	The type '{1}' in '{0}' conflicts with the imported namespace '{3}' in '{2}'. Using the type.	
+CSCSTR_SameFullNameThisAggThisAgg	Ambiguity between {0} '{1}' and {2} '{3}'	
+CSCSTR_SameFullNameThisAggThisNs	The type '{1}' in '{0}' conflicts with the namespace '{3}' in '{2}'.	
+CSCSTR_SameFullNameThisNsAgg	The namespace '{1}' in '{0}' conflicts with the imported type '{3}' in '{2}'. Using the namespace.	
+CSCSTR_SealedNonOverride	'{0}' cannot be sealed because it is not an override	
+CSCSTR_SealedStaticClass	'{0}': a class cannot be both static and sealed	
+CSCSTR_SemicolonExpected	; expected	
+CSCSTR_SemiOrLBraceExpected	{ or ; expected	
+CSCSTR_SequentialOnPartialClass	There is no defined ordering between fields in multiple declarations of partial class or struct '{0}'. To specify an ordering, all instance fields must be in the same declaration.	
+CSCSTR_SHORTFORM	Short form	
+CSCSTR_SingleTypeNameNotFound	The type or namespace name '{0}' could not be found (are you missing a using directive or an assembly reference?)	
+CSCSTR_SizeofUnsafe	'{0}' does not have a predefined size, therefore sizeof can only be used in an unsafe context (consider using System.Runtime.InteropServices.Marshal.SizeOf)	
+CSCSTR_SK_ALIAS	using alias	
+CSCSTR_SK_CLASS	type	
+CSCSTR_SK_EVENT	event	
+CSCSTR_SK_EXTERNALIAS	extern alias	
+CSCSTR_SK_FIELD	field	
+CSCSTR_SK_METHOD	method	
+CSCSTR_SK_NAMESPACE	namespace	
+CSCSTR_SK_PROPERTY	property	
+CSCSTR_SK_TYVAR	type parameter	
+CSCSTR_SK_UNKNOWN	element	
+CSCSTR_SK_VARIABLE	variable	
+CSCSTR_SourceMapFileBinary	Sourcemap file '{0}' is a binary file instead of a text file	
+CSCSTR_SpecialTypeAsBound	Constraint cannot be special class '{0}'	
+CSCSTR_StackallocInCatchFinally	stackalloc may not be used in a catch or finally block	
+CSCSTR_StackOverflow	An expression is too long or complex to compile near '{0}'	
+CSCSTR_StaticBaseClass	'{1}': cannot derive from static class '{0}'	
+CSCSTR_StaticClassInterfaceImpl	'{0}': static classes cannot implement interfaces	
+CSCSTR_StaticConstant	The constant '{0}' cannot be marked static	
+CSCSTR_StaticConstParam	'{0}': a static constructor must be parameterless	
+CSCSTR_StaticConstructorWithAccessModifiers	'{0}': access modifiers are not allowed on static constructors	
+CSCSTR_StaticConstructorWithExplicitConstructorCall	'{0}': static constructor cannot have an explicit 'this' or 'base' constructor call	
+CSCSTR_StaticDerivedFromNonObject	Static class '{0}' cannot derive from type '{1}'. Static classes must derive from object.	
+CSCSTR_StaticNotVirtual	A static member '{0}' cannot be marked as override, virtual, or abstract	
+CSCSTR_STRING4001	Error occurred during a write	
+CSCSTR_STRING4002	File is read only	
+CSCSTR_STRING4003	An ill-formed name was given	
+CSCSTR_STRING4004	Data value was truncated	
+CSCSTR_STRING4005	Old version error	
+CSCSTR_STRING4006	A shared memory open failed to open at the originally assigned memory address	
+CSCSTR_STRING4007	Create of shared memory failed. A memory mapping of the same name already exists.	
+CSCSTR_STRING4011	There isn't metadata in the memory or stream	
+CSCSTR_STRING4012	Database is read only	
+CSCSTR_STRING4013	The importing scope is not compatible with the emitting scope	
+CSCSTR_STRING4014	File is corrupt	
+CSCSTR_STRING4015	Version of schema not found	
+CSCSTR_STRING4016	Cannot open a incrementally built scope for full update	
+CSCSTR_StructLayoutCycle	Struct member '{0}' of type '{1}' causes a cycle in the struct layout	
+CSCSTR_StructOffsetOnBadField	The FieldOffset attribute is not allowed on static or const fields	
+CSCSTR_StructOffsetOnBadStruct	The FieldOffset attribute can only be placed on members of types marked with the StructLayout(LayoutKind.Explicit)	
+CSCSTR_StructsCantContainDefaultContructor	Structs cannot contain explicit parameterless constructors	
+CSCSTR_StructWithBaseConstructorCall	'{0}': structs cannot call base class constructors	
+CSCSTR_SwitchFallInto	Control cannot fall through from one case label to another ('{0}')	
+CSCSTR_SwitchFallThrough	Control cannot fall through from one case label ('{0}') to another	
+CSCSTR_SwitchNeedsNumber	Command-line syntax error: Missing ':<number>' for '{0}' option	
+CSCSTR_SWITCHNEEDSSTRING	Command-line syntax error: Missing ':<text>' for '{0}' option	
+CSCSTR_SyntaxError	Syntax error, '{0}' expected	
+CSCSTR_SystemVoid	System.Void cannot be used from C# -- use typeof(void) to get the void type object.	
+CSCSTR_ThisAssembly	<this assembly>	
+CSCSTR_ThisInBadContext	Keyword 'this' is not available in the current context	
+CSCSTR_ThisInStaticMeth	Keyword 'this' is not valid in a static property, static method, or static field initializer	
+CSCSTR_ThisModifierNotOnFirstParam	Method '{0}' has a parameter modifier 'this' which is not on the first parameter	
+CSCSTR_ThisOrBaseExpected	Keyword 'this' or 'base' expected	
+CSCSTR_ThisStructNotInAnonMeth	Anonymous methods inside structs cannot access instance members of 'this'. Consider copying 'this' to a local variable outside the anonymous method and using the local instead.	
+CSCSTR_TooManyCatches	Try statement already has an empty catch block	
+CSCSTR_TooManyCharsInConst	Too many characters in character literal	
+CSCSTR_TooManyLines	Compiler limit exceeded: File cannot exceed {0} lines	
+CSCSTR_TooManyLinesForDebugger	Source file has exceeded the limit of 16,707,565 lines representable in the PDB, debug information will be incorrect	
+CSCSTR_TooManyLocals	Only 65535 locals are allowed	
+CSCSTR_TypeArgsNotAllowed	The {1} '{0}' cannot be used with type arguments	
+CSCSTR_TypeArgsNotAllowedAmbig	The {1} '{0}' is not a generic method. If you intended an expression list, use parentheses around the < expression.	
+CSCSTR_TypeExpected	Type expected	
+CSCSTR_TypeNameBuilderError	Unexpected error building metadata name for type '{0}' -- '{1}'	
+CSCSTR_TypeParameterSameAsOuterTypeParameter	Type parameter '{0}' has the same name as the type parameter from outer type '{1}'	
+CSCSTR_TypeParamMustBeIdentifier	Type parameter declaration must be an identifier not a type	
+CSCSTR_TypeVarCantBeNull	Cannot convert null to type parameter '{0}' because it could be a value type. Consider using 'default({0})' instead.	
+CSCSTR_TypeVariableSameAsParent	Type parameter '{0}' has the same name as the containing type, or method	
+CSCSTR_TyVarNotFoundInConstraint	'{1}' does not define type parameter '{0}'	
+CSCSTR_UnassignedInternalField	Field '{0}' is never assigned to, and will always have its default value {1}	
+CSCSTR_UnassignedThis	Field '{0}' must be fully assigned before control leaves the constructor	
+CSCSTR_UnboxNotLValue	Cannot modify the result of an unboxing conversion	
+CSCSTR_UnexpectedCharacter	Unexpected character '{0}'	
+CSCSTR_UnexpectedDirective	Unexpected preprocessor directive	
+CSCSTR_UnexpectedPredefTypeLoc	Predefined type '{0}' was not found in '{1}' but was found in '{2}'	
+CSCSTR_UnexpectedSemicolon	Semicolon after method or accessor block is not valid	
+CSCSTR_UnifyingInterfaceInstantiations	'{0}' cannot implement both '{1}' and '{2}' because they may unify for some type parameter substitutions	
+CSCSTR_UnifyReferenceBldRev	Assuming assembly reference '{0}' matches '{1}', you may need to supply runtime policy	
+CSCSTR_UnifyReferenceMajMin	Assuming assembly reference '{0}' matches '{1}', you may need to supply runtime policy	
+CSCSTR_UnimplementedAbstractMethod	'{0}' does not implement inherited abstract member '{1}'	
+CSCSTR_UnimplementedInterfaceAccessor	'{0}' does not implement interface member '{1}'. '{2}' is not public.	
+CSCSTR_UnimplementedInterfaceMember	'{0}' does not implement interface member '{1}'	
+CSCSTR_UnimplementedOp	Operator '{0}' is not yet implemented	
+CSCSTR_UnknownOption	Unknown compiler option '{0}'	
+CSCSTR_UnknownTestSwitch	Unrecognized value '{0}' provided for '/test' option	
+CSCSTR_UnmatchedParamTag	XML comment on '{1}' has a param tag for '{0}', but there is no parameter by that name	
+CSCSTR_UnmatchedTypeParamTag	XML comment on '{1}' has a typeparam tag for '{0}', but there is no type parameter by that name	
+CSCSTR_UnprocessedXMLComment	XML comment is not placed on a valid language element	
+CSCSTR_UnreachableCatch	A previous catch clause already catches all exceptions of this or of a super type ('{0}')	
+CSCSTR_UnreachableCode	Unreachable code detected	
+CSCSTR_UnreachableExpr	Unreachable expression code detected	
+CSCSTR_UnreachableGeneralCatch	A previous catch clause already catches all exceptions. All non-exceptions thrown will be wrapped in a System.Runtime.CompilerServices.RuntimeWrappedException	
+CSCSTR_UnreferencedEvent	The event '{0}' is never used	
+CSCSTR_UnreferencedField	The private field '{0}' is never used	
+CSCSTR_UnreferencedFieldAssg	The private field '{0}' is assigned but its value is never used	
+CSCSTR_UnreferencedLabel	This label has not been referenced	
+CSCSTR_UnreferencedVar	The variable '{0}' is declared but never used	
+CSCSTR_UnreferencedVarAssg	The variable '{0}' is assigned but its value is never used	
+CSCSTR_UnsafeIteratorArgType	Iterators cannot have unsafe parameters or yield types	
+CSCSTR_UnsafeNeeded	Pointers and fixed size buffers may only be used in an unsafe context	
+CSCSTR_UnterminatedStringLit	Unterminated string literal	
+CSCSTR_UseDefViolation	Use of unassigned local variable '{0}'	
+CSCSTR_UseDefViolationField	Use of possibly unassigned field '{0}'	
+CSCSTR_UseDefViolationOut	Use of unassigned out parameter '{0}'	
+CSCSTR_UseDefViolationThis	The 'this' object cannot be used before all of its fields are assigned to	
+CSCSTR_USENEWSWITCH	Compiler option '{0}' is obsolete, please use '{1}' instead	
+CSCSTR_UseSwitchInsteadOfAttribute	Use command line option '/{0}' or appropriate project settings instead of '{1}'	
+CSCSTR_UsingAfterElements	A using clause must precede all other namespace elements except extern alias declarations	
+CSCSTR_USINGLOCAL	using variable	
+CSCSTR_VacuousIntegralComp	Comparison to integral constant is useless; the constant is outside the range of type '{0}'	
+CSCSTR_ValConstraintNotSatisfied	The type '{2}' must be a non-nullable value type in order to use it as parameter '{1}' in the generic type or method '{0}'	
+CSCSTR_ValueCantBeNull	Cannot convert null to '{0}' because it is a value type	
+CSCSTR_ValueExpected	Syntax error, value expected	
+CSCSTR_VarargsIterator	__arglist is not allowed in parameter list of iterators	
+CSCSTR_VarargsLast	An __arglist parameter must be the last parameter in a formal parameter list	
+CSCSTR_VarDeclIsStaticClass	Cannot declare variable of static type '{0}'	
+CSCSTR_VariableNotDeclared	Cannot use variable '{0}' before it is declared	
+CSCSTR_VERSION_CONFLICT	The following two files are marked as incompatible:\n\n\t{0}\n\t(Version {1})\n\n\t{2}\n\t(Version {3})\n\nThe compiler cannot be used in this configuration. This is usually caused by installing different flavors of VS and NDP, and not specifying the VS version for the /CompilerSourcePath and /NonNdpSourcePath options when running NdpSetup	
+CSCSTR_VirtualPrivate	'{0}': virtual or abstract members cannot be private	
+CSCSTR_VoidError	The operation in question is undefined on void pointers	
+CSCSTR_VolatileAndReadonly	'{0}': a field cannot be both volatile and readonly	
+CSCSTR_VolatileByRef	'{0}': a reference to a volatile field will not be treated as volatile	
+CSCSTR_VolatileStruct	'{0}': a volatile field cannot be of the type '{1}'	
+CSCSTR_WarnAsError	Warning as Error: {0}	
+CSCSTR_WarningAsError	Warning treated as error	
+CSCSTR_WarningDirective	#warning: '{0}'	
+CSCSTR_WATSON_APPNAME	Microsoft (R) Visual C# 2005 Compiler	
+CSCSTR_WATSON_ERROR_HEADER	The Microsoft (R) Visual C# 2005 Compiler has encountered an internal error. We are sorry for the inconvenience.	
+CSCSTR_WATSON_ERROR_MESSAGE	No information has been lost. Please check the compiler output for possible ways to avoid this error.	
+CSCSTR_WatsonSendNotOptedIn	Cannot send error report automatically without authorization. Please visit '{0}' to authorize sending error report.	
+CSCSTR_WrongNestedThis	Cannot access a nonstatic member of outer type '{0}' via nested type '{1}'	
+CSCSTR_WrongSignature	No overload for '{0}' has the correct parameter and return types	
+CSCSTR_XMLBADINCLUDE	 Include tag is invalid 	
+CSCSTR_XMLFAILEDINCLUDE	 Failed to insert some or all of included XML 	
+CSCSTR_XMLIGNORED	<!-- Badly formed XML comment ignored for member "{0}" -->	
+CSCSTR_XMLIGNORED2	<error><!-- Badly formed XML file "{0}" cannot be included --></error>	
+CSCSTR_XMLMISSINGINCLUDEFILE	Missing file attribute	
+CSCSTR_XMLMISSINGINCLUDEPATH	Missing path attribute	
+CSCSTR_XMLNOINCLUDE	 No matching elements were found for the following include tag 	
+CSCSTR_XMLParseError	XML comment on '{1}' has badly formed XML -- '{0}'	
+CSCSTR_XMLParseIncludeError	Badly formed XML in included comments file -- '{0}'	
+CSCSTR_XMLParserNotFound	XML parser could not be loaded for the following reason: '{1}'. The XML documentation file '{0}' will not be generated.	
+CSCSTR_YieldInAnonMeth	The yield statement cannot be used inside anonymous method blocks	
