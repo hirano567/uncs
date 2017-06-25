@@ -10,30 +10,30 @@ I am implementing the C# 4 extensions to this project now.
 When I implemented the expression trees, I was tempted to try to extend the compiler to use the expression trees of .NET Framework 4 and have started this project to implement some experimental extensions.
 
 This compiler can translate several statement lambdas to the expression trees. For example, it can compile the code below:
-using System;
-using System.Linq.Expressions;
-
-namespace ExpressionTree
-{
-    class Program
+    using System;
+    using System.Linq.Expressions;
+    
+    namespace ExpressionTree
     {
-        static void Main(string[] args)
+        class Program
         {
-            Expression<Func<int, int>> et = i =>
+            static void Main(string[] args)
             {
-                int x = 0;
-                for (; i > 0; --i)
+                Expression<Func<int, int>> et = i =>
                 {
-                    x += i;
-                }
-                return x;
-            };
-            Func<int, int> fn = et.Compile();
-
-            Console.WriteLine("{0}", fn(10));
+                    int x = 0;
+                    for (; i > 0; --i)
+                    {
+                        x += i;
+                    }
+                    return x;
+                };
+                Func<int, int> fn = et.Compile();
+    
+                Console.WriteLine("{0}", fn(10));
+            }
         }
     }
-}
 
 But, its translation is inadequate and its error processing is very poor. I would like to correct these problems and also to fix the bugs. If you have any advices, tell me please.
 
