@@ -1,12 +1,12 @@
 # uncs
 Unofficial C# Compiler for personal experimentations
 
-A C# compiler for personal experimentations. It is derived from sscli 2.0.
+A C# compiler for personal experimentations. It is derived from sscli 2.0.  
 This is extended to use the expression trees of .NET Framework 4.
 
 I rewrote the C# compiler of sscli 2.0 in C# for understanding from a few years ago,
-and I implemented C# 3.0 extensions. It is published as "Elementary C# Compiler" in CodePlex.
-I am implementing the C# 4 extensions to this project now.
+and I implemented C# 3.0 extensions. It is published as "Elementary C# Compiler" in CodePlex.  
+I am implementing the C# 4 extensions to this project now.  
 When I implemented the expression trees, I was tempted to try to extend the compiler to use the expression trees of .NET Framework 4 and have started this project to implement some experimental extensions.
 
 This compiler can translate several statement lambdas to the expression trees. For example, it can compile the code below:
