@@ -37,4 +37,6 @@ This compiler can translate several statement lambdas to the expression trees. F
 
 But, its translation is inadequate and its error processing is very poor. I would like to correct these problems and also to fix the bugs. If you have any advices, tell me please.
 
+Besides above, I think whether enumeration types can be extended.
+
 This project is developed on .NET Framework 4.6.1 with Visual Studio 2015 Community.
